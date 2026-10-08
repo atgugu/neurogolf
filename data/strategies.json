@@ -1,0 +1,4056 @@
+{
+ "046": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "490B (36%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1211
+ },
+ "069": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1138
+ },
+ "213": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "248B (40%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 3/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 608
+ },
+ "035": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 38/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 633
+ },
+ "165": {
+  "primary": [
+   "CROP-NATIVE (certified)",
+   "~620B of planes exceed the source-certified bound M=20; Slice\u2192compute at native size\u2192Pad"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [
+   "900B bool[30, 30] from Greater"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 167/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2312
+ },
+ "297": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 592
+ },
+ "107": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (2082) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1791
+ },
+ "096": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": [
+   "LUT-REFINE",
+   "8\u00d7Gather \u2014 fewer/smaller tables, index arithmetic"
+  ],
+  "kill_targets": [
+   "900B uint8[30, 30] from Pad"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 60/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2328
+ },
+ "378": {
+  "primary": [
+   "CROP-NATIVE (certified)",
+   "~918B of planes exceed the source-certified bound M=12; Slice\u2192compute at native size\u2192Pad"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [
+   "900B bool[1, 1, 30, 30] from Equal"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 57/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1597
+ },
+ "009": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1200B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 60% of cost (1778) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [
+   "1200B float32[1, 3, 10, 10] from Einsum"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2563
+ },
+ "110": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "780B (80%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 44/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1350
+ },
+ "340": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "656B (35%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "4\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 28/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1657
+ },
+ "398": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (1388) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 58/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1194
+ },
+ "390": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (1037) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 135/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 986
+ },
+ "086": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "676B (42%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 7/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1515
+ },
+ "387": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "808B (82%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 40% of cost (655) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1403
+ },
+ "091": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "288B (88%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 79% of cost (1219) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1469
+ },
+ "265": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (1104) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 17/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 950
+ },
+ "284": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "920B (96%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "7\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1144
+ },
+ "154": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (1188) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 85/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1022
+ },
+ "370": {
+  "primary": [
+   "CROP-NATIVE (certified)",
+   "~889B of planes exceed the source-certified bound M=20; Slice\u2192compute at native size\u2192Pad"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "8\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [
+   "900B bool[30, 30] from Pad"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 93/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2581
+ },
+ "255": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "2688B (65%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "5\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 133/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3753
+ },
+ "343": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 1/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 230
+ },
+ "185": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "528B (72%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 776
+ },
+ "368": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "400B (47%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 770
+ },
+ "239": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 52/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 444
+ },
+ "148": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "408B (58%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 33/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 792
+ },
+ "015": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (432) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 371
+ },
+ "004": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "128B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 88% of cost (896) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 881
+ },
+ "214": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 186
+ },
+ "071": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "376B (48%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 128/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 709
+ },
+ "088": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "596B (70%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "5\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 794
+ },
+ "137": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "384B (42%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "5\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 35/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 850
+ },
+ "383": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "608B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 48/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 649
+ },
+ "085": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "600B (98%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 783
+ },
+ "354": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (562) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 534
+ },
+ "094": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "400B (82%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 588
+ },
+ "250": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "192B (43%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 47% of cost (386) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 710
+ },
+ "346": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (540) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 464
+ },
+ "345": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (511) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 439
+ },
+ "246": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "64B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 84% of cost (333) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 377
+ },
+ "030": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "116B (76%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 77% of cost (522) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 580
+ },
+ "109": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "68B (70%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 86% of cost (663) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 660
+ },
+ "381": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (350) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 301
+ },
+ "190": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "296B (60%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 654
+ },
+ "301": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (474) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 407
+ },
+ "036": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "228B (46%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 543
+ },
+ "156": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (460) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 395
+ },
+ "233": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "14310B (47%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "LUT-REFINE",
+   "10\u00d7Gather \u2014 fewer/smaller tables, index arithmetic"
+  ],
+  "kill_targets": [
+   "3600B float32[1, 1, 30, 30] from Conv",
+   "3240B float16[5, 324] from Where",
+   "3136B float32[1, 1, 28, 28] from Conv",
+   "1620B bool[5, 324] from Equal"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 23/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 26868
+ },
+ "366": {
+  "primary": [
+   "LUT-REFINE",
+   "45\u00d7Gather \u2014 fewer/smaller tables, index arithmetic"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "3600B float32[1, 1, 30, 30] from Conv",
+   "1020B int32[255] from Cast",
+   "900B uint8[1, 1, 30, 30] from Pad",
+   "900B uint8[1, 1, 30, 30] from Cast"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 130/251 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 23873
+ },
+ "286": {
+  "primary": [
+   "COMPRESSED SCHEDULE",
+   "2941 bitwise nodes \u2014 fewer propagation rounds / packed state; NEVER more unroll"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "8\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [
+   "2500B float32[1, 1, 25, 25] from Conv",
+   "900B uint8[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 205/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 19902
+ },
+ "018": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "7414B (36%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "LUT-REFINE",
+   "46\u00d7Gather \u2014 fewer/smaller tables, index arithmetic"
+  ],
+  "kill_targets": [
+   "2304B float32[1, 1, 24, 24] from Conv",
+   "1152B float16[576] from Where",
+   "900B uint8[30, 30] from Pad"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 194/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 18030
+ },
+ "285": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "7602B (45%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "LUT-REFINE",
+   "12\u00d7Gather \u2014 fewer/smaller tables, index arithmetic"
+  ],
+  "kill_targets": [
+   "3600B float32[1, 1, 30, 30] from Conv",
+   "1800B float16[900] from Cast",
+   "900B uint8[900] from ScatterElements",
+   "900B uint8[900] from Reshape"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 1/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 14622
+ },
+ "133": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "5592B (40%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "4\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [
+   "3600B float32[1, 1, 30, 30] from Conv",
+   "900B uint8[900] from Reshape",
+   "900B uint8[30, 30] from QLinearMatMul",
+   "900B uint8[1, 1, 30, 30] from Max"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 12005
+ },
+ "101": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "6104B (54%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "LUT-REFINE",
+   "27\u00d7Gather \u2014 fewer/smaller tables, index arithmetic"
+  ],
+  "kill_targets": [
+   "1360B float32[1, 1, 17, 20] from Slice",
+   "900B bool[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 124/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 10041
+ },
+ "187": {
+  "primary": [
+   "COMPRESSED SCHEDULE",
+   "57 bitwise nodes \u2014 fewer propagation rounds / packed state; NEVER more unroll"
+  ],
+  "secondary": [
+   "LUT-REFINE",
+   "20\u00d7Gather \u2014 fewer/smaller tables, index arithmetic"
+  ],
+  "kill_targets": [
+   "1200B uint32[1, 10, 30, 1] from Concat"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 8/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 9560
+ },
+ "367": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "2800B uint8[1, 7, 20, 20] from QLinearConv",
+   "1600B float32[1, 1, 20, 20] from Slice",
+   "900B bool[1, 1, 30, 30] from Pad",
+   "800B uint8[1, 2, 20, 20] from Concat"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 9256
+ },
+ "002": {
+  "primary": [
+   "COMPRESSED SCHEDULE",
+   "78 bitwise nodes \u2014 fewer propagation rounds / packed state; NEVER more unroll"
+  ],
+  "secondary": [
+   "LUT-REFINE",
+   "18\u00d7Gather \u2014 fewer/smaller tables, index arithmetic"
+  ],
+  "kill_targets": [
+   "900B bool[30, 30] from Pad"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 7762
+ },
+ "138": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "2400B float32[1, 1, 25, 24] from Conv",
+   "900B uint8[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 27/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 8696
+ },
+ "118": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "2700B float32[1, 1, 25, 27] from Slice",
+   "900B bool[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 132/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 7487
+ },
+ "243": {
+  "primary": [
+   "COMPRESSED SCHEDULE",
+   "1201 bitwise nodes \u2014 fewer propagation rounds / packed state; NEVER more unroll"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "900B bool[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 6991
+ },
+ "023": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "990B uint8[1, 10, 9, 11] from Concat"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 211/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 6234
+ },
+ "025": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "5228B (92%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "5\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 10/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 4974
+ },
+ "182": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "2496B (44%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "1296B float32[1, 1, 18, 18] from Slice",
+   "900B float32[1, 1, 15, 15] from Slice",
+   "900B bool[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 4861
+ },
+ "066": {
+  "primary": [
+   "LUT-REFINE",
+   "9\u00d7Gather \u2014 fewer/smaller tables, index arithmetic"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "1600B float32[1, 1, 20, 20] from Conv",
+   "900B bool[1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 90/243 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 4522
+ },
+ "279": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "1024B float32[1, 1, 16, 16] from Slice",
+   "900B bool[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 4355
+ },
+ "328": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1476B (39%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "900B uint8[1, 30, 30] from Pad",
+   "864B int64[1, 18, 6, 1] from Div"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 4024
+ },
+ "029": {
+  "primary": [
+   "TERMINAL-RENDERER FIX",
+   "the final GridSample's input is 3600B but the output tensor is FREE \u2014 restructure so the LAST op does the full expansion (Equal-vs-arange / Gather / ConvTranspose) from a tiny state"
+  ],
+  "secondary": [
+   "PLANE-KILL + u8 RELOWER",
+   "4268B (98%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "kill_targets": [
+   "3600B float16[1, 30, 30, 2] from Where"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 34/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3871
+ },
+ "319": {
+  "primary": [
+   "COMPRESSED SCHEDULE",
+   "28 bitwise nodes \u2014 fewer propagation rounds / packed state; NEVER more unroll"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "7\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 103/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3627
+ },
+ "005": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "900B uint8[1, 1, 30, 30] from Pad",
+   "900B float32[1, 1, 15, 15] from Conv"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 34/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3577
+ },
+ "379": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1358B (41%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "5\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 76/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3571
+ },
+ "196": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "900B float32[1, 1, 15, 15] from Slice",
+   "900B bool[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3529
+ },
+ "157": {
+  "primary": [
+   "LUT-REFINE",
+   "29\u00d7Gather \u2014 fewer/smaller tables, index arithmetic"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 172/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3476
+ },
+ "208": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1684B (44%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [
+   "1156B float32[1, 1, 17, 17] from Slice",
+   "900B bool[1, 1, 30, 30] from Less"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3333
+ },
+ "131": {
+  "primary": [
+   "TERMINAL-RENDERER FIX",
+   "the final ScatterND's input is 1600B but the output tensor is FREE \u2014 restructure so the LAST op does the full expansion (Equal-vs-arange / Gather / ConvTranspose) from a tiny state"
+  ],
+  "secondary": [
+   "CROP-NATIVE (certified)",
+   "~1196B of planes exceed the source-certified bound M=18; Slice\u2192compute at native size\u2192Pad"
+  ],
+  "kill_targets": [
+   "1600B int64[1, 50, 4] from Cast"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 18/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2792
+ },
+ "278": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1296B (37%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "1296B float32[1, 1, 18, 18] from Conv",
+   "900B bool[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3101
+ },
+ "382": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1162B (43%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 102/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3034
+ },
+ "089": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "900B uint8[1, 1, 30, 30] from QLinearConv"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3027
+ },
+ "162": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1296B (39%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "1296B float32[1, 1, 18, 18] from Conv",
+   "900B bool[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 3011
+ },
+ "192": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "1200B uint32[10, 1, 30] from Gather"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 39/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2829
+ },
+ "361": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1106B (38%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 175/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2800
+ },
+ "280": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1368B (58%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "6\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2711
+ },
+ "044": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 18/251 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2593
+ },
+ "201": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 91/102 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2445
+ },
+ "117": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "488B (57%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 69% of cost (1941) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 35/221 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2409
+ },
+ "277": {
+  "primary": [
+   "MORPHOLOGY ROUND-CAP",
+   "7\u00d7MaxPool/0\u00d7Conv iteration chain \u2014 cap rounds via certified diameter (M=10), or one big-kernel dilation where unconstrained"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2360
+ },
+ "125": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2275
+ },
+ "222": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1224B (48%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 81/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2273
+ },
+ "014": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "612B (36%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [
+   "900B uint8[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 4/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2187
+ },
+ "251": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2407
+ },
+ "092": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1412B (60%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "5\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2125
+ },
+ "090": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "968B (46%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2105
+ },
+ "359": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "6\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1571
+ },
+ "008": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1104B (48%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "1024B float32[1, 1, 16, 16] from Conv"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 60/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 2000
+ },
+ "234": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1064B (49%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "7\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1927
+ },
+ "102": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1905
+ },
+ "358": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "876B (44%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "4\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 63/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1871
+ },
+ "268": {
+  "primary": [
+   "CROP-NATIVE (certified)",
+   "~800B of planes exceed the source-certified bound M=10; Slice\u2192compute at native size\u2192Pad"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [
+   "900B bool[1, 1, 30, 30] from Pad"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 88/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1584
+ },
+ "363": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "832B (45%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 12/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1841
+ },
+ "174": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1823
+ },
+ "365": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1797
+ },
+ "205": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1664B (81%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "7\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 78/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1779
+ },
+ "396": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1725
+ },
+ "264": {
+  "primary": [
+   "INIT-PACK",
+   "params are 75% of cost (1484) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "8\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1692
+ },
+ "330": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1590
+ },
+ "062": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "568B (37%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "LUT-REFINE",
+   "10\u00d7Gather \u2014 fewer/smaller tables, index arithmetic"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 35/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1588
+ },
+ "397": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 59/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1510
+ },
+ "333": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 27/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1507
+ },
+ "170": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1056B (66%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1459
+ },
+ "198": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "28B (93%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 98% of cost (1662) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 153/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1456
+ },
+ "177": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (651) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 1/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 560
+ },
+ "377": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "830B (68%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1442
+ },
+ "224": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "752B (65%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1401
+ },
+ "168": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "536B (38%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1322
+ },
+ "270": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "912B (77%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1318
+ },
+ "238": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "7\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 81/214 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1297
+ },
+ "105": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1140B (90%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1262
+ },
+ "169": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1256
+ },
+ "112": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [
+   "900B bool[30, 30] from Pad"
+  ],
+  "hodel": "Hodel PARTIAL: diverges on 2/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1238
+ },
+ "374": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1235
+ },
+ "184": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "1200B (95%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 144/165 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1186
+ },
+ "245": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "4\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1116
+ },
+ "042": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 922
+ },
+ "308": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "558B (52%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "5\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 9/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1023
+ },
+ "055": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "752B (75%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 1015
+ },
+ "302": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (1140) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 981
+ },
+ "124": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 81/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 820
+ },
+ "206": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "792B (79%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "5\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 951
+ },
+ "341": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "616B (78%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 46/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 938
+ },
+ "175": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "360B (70%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 52% of cost (543) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 905
+ },
+ "037": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (1032) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 888
+ },
+ "335": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "512B (54%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "5\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 869
+ },
+ "132": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (1000) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 860
+ },
+ "160": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "400B (44%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 859
+ },
+ "013": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "8\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 857
+ },
+ "281": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "7\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 856
+ },
+ "351": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "908B (96%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [
+   "900B float32[1, 9, 5, 5] from Slice"
+  ],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 856
+ },
+ "388": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 10/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 723
+ },
+ "336": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "400B (50%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 829
+ },
+ "228": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "624B (70%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 804
+ },
+ "019": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 787
+ },
+ "193": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (910) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 1/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 783
+ },
+ "097": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (910) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 783
+ },
+ "120": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (910) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 783
+ },
+ "012": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "304B (37%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 774
+ },
+ "260": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "396B (56%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 755
+ },
+ "325": {
+  "primary": [
+   "INIT-PACK",
+   "params are 96% of cost (838) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "5\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 753
+ },
+ "369": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "400B (50%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 750
+ },
+ "047": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "312B (37%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 741
+ },
+ "063": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "724B (92%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 2/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 737
+ },
+ "134": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "464B (67%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "6\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 87/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 734
+ },
+ "392": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "314B (54%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 705
+ },
+ "122": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (803) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 691
+ },
+ "027": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "356B (69%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 8/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 679
+ },
+ "061": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "296B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 62% of cost (483) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 45/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 670
+ },
+ "079": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "368B (54%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 652
+ },
+ "136": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 638
+ },
+ "237": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "108B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 85% of cost (617) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 624
+ },
+ "269": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "414B (61%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 609
+ },
+ "048": {
+  "primary": [
+   "COMPRESSED SCHEDULE",
+   "342 bitwise nodes \u2014 fewer propagation rounds / packed state; NEVER more unroll"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 6/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 593
+ },
+ "020": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "476B (76%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 584
+ },
+ "189": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "24B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 96% of cost (621) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 18/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 555
+ },
+ "305": {
+  "primary": [
+   "INIT-PACK",
+   "params are 53% of cost (340) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 12/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 547
+ },
+ "400": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "180B (41%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "8\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 545
+ },
+ "288": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "448B (78%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 541
+ },
+ "159": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "272B (86%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 44% of cost (275) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 536
+ },
+ "218": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "340B (61%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 51/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 532
+ },
+ "289": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "64B (92%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 89% of cost (545) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 528
+ },
+ "310": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "212B (92%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 61% of cost (363) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 510
+ },
+ "031": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "96B (42%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "6\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 504
+ },
+ "259": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "372B (70%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 503
+ },
+ "273": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (580) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 499
+ },
+ "153": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "216B (43%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 67/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 498
+ },
+ "119": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "236B (96%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 57% of cost (320) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 1/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 486
+ },
+ "051": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "246B (89%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 51% of cost (287) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 484
+ },
+ "075": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (559) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 481
+ },
+ "057": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "264B (59%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 479
+ },
+ "183": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (555) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 36/221 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 477
+ },
+ "226": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 0/69 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 376
+ },
+ "283": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "400B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 464
+ },
+ "065": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "4\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 36/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 454
+ },
+ "275": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "20B (95%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 96% of cost (504) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 451
+ },
+ "178": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "212B (45%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 449
+ },
+ "394": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "408B (94%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 6/226 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 446
+ },
+ "294": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (516) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 444
+ },
+ "099": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (504) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 433
+ },
+ "200": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "360B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 432
+ },
+ "331": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "400B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 430
+ },
+ "384": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "252B (58%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 414
+ },
+ "271": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "244B (67%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 411
+ },
+ "081": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "196B (50%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 399
+ },
+ "247": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 396
+ },
+ "352": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (460) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 395
+ },
+ "244": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "28B (62%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 90% of cost (407) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 389
+ },
+ "123": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "12B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 97% of cost (437) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 58/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 386
+ },
+ "356": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (448) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 385
+ },
+ "282": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "196B (48%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 383
+ },
+ "232": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (444) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 44/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 382
+ },
+ "143": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "128B (79%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 63% of cost (277) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 377
+ },
+ "220": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "132B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 70% of cost (305) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 376
+ },
+ "022": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (436) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 375
+ },
+ "263": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "120B (38%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 375
+ },
+ "327": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (426) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 366
+ },
+ "242": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "332B (91%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 363
+ },
+ "106": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (421) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 362
+ },
+ "342": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "216B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 48% of cost (202) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 359
+ },
+ "344": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (412) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 115/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 354
+ },
+ "212": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (412) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 354
+ },
+ "041": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (410) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 352
+ },
+ "050": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (325) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 279
+ },
+ "017": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "80B (80%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 71% of cost (244) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 49/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 326
+ },
+ "295": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (342) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 294
+ },
+ "199": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (400) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 29/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 344
+ },
+ "221": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "40B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 91% of cost (384) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 77/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 364
+ },
+ "115": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "240B (81%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 39/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 331
+ },
+ "126": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (358) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 308
+ },
+ "034": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (390) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 335
+ },
+ "348": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (358) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 308
+ },
+ "093": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "24B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 90% of cost (213) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 203
+ },
+ "323": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (328) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 12/169 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 282
+ },
+ "068": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "88B (89%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 72% of cost (251) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 300
+ },
+ "194": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (180) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 154
+ },
+ "316": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 11/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 314
+ },
+ "195": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 67/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 290
+ },
+ "197": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (90) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 77
+ },
+ "121": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "84B (40%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 237
+ },
+ "146": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 185
+ },
+ "203": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 185
+ },
+ "256": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "28B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 88% of cost (211) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 205
+ },
+ "249": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 177
+ },
+ "357": {
+  "primary": [
+   "INIT-PACK",
+   "params are 41% of cost (102) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 5/9 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 215
+ },
+ "231": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 144
+ },
+ "376": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 138
+ },
+ "240": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (324) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 278
+ },
+ "151": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (198) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 170
+ },
+ "248": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 5/9 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 129
+ },
+ "059": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "76B (89%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 70% of cost (201) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 246
+ },
+ "329": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "16B (80%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 88% of cost (184) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 179
+ },
+ "253": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (246) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 211
+ },
+ "021": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "40B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 73% of cost (107) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 126
+ },
+ "274": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "52B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 70
+ },
+ "320": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (108) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 92
+ },
+ "300": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "160B (56%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "3\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 313
+ },
+ "147": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (210) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 180
+ },
+ "371": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (142) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 122
+ },
+ "039": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "52B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 82% of cost (245) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 255
+ },
+ "171": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (133) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 114
+ },
+ "043": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (58) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 49
+ },
+ "225": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (363) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 312
+ },
+ "139": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (166) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 142
+ },
+ "304": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (300) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 258
+ },
+ "254": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "88B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 65% of cost (166) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 218
+ },
+ "114": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (251) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 216
+ },
+ "267": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "36B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 78% of cost (125) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 138
+ },
+ "303": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (54) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 46
+ },
+ "188": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "48B (90%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 53% of cost (60) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 12/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 97
+ },
+ "322": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (74) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 63
+ },
+ "033": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (268) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 230
+ },
+ "141": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "16B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 90% of cost (142) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 135
+ },
+ "161": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "160B (84%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 10/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 236
+ },
+ "098": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (270) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 232
+ },
+ "127": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "120B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 64% of cost (210) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 284
+ },
+ "070": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "32B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 82% of cost (148) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 154
+ },
+ "032": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (300) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 258
+ },
+ "181": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "200B (99%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 45% of cost (167) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 316
+ },
+ "010": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "48B (52%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 64% of cost (163) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 218
+ },
+ "049": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "94B (45%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 76/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 240
+ },
+ "360": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (284) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 244
+ },
+ "011": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (254) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 218
+ },
+ "111": {
+  "primary": [
+   "EINSUM-COMPRESS",
+   "4\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 238
+ },
+ "108": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (150) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 129
+ },
+ "306": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (220) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 37/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 189
+ },
+ "290": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "266B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 243
+ },
+ "355": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "244B (92%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "2\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 2/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 235
+ },
+ "211": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (102) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 87
+ },
+ "353": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "144B (81%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "EINSUM-COMPRESS",
+   "4\u00d7Einsum \u2014 merge contractions, shrink operand tables"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 204
+ },
+ "315": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (168) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 144
+ },
+ "215": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (100) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 127/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 86
+ },
+ "038": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "148B (90%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 183
+ },
+ "058": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "24B (92%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 84% of cost (138) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 141
+ },
+ "386": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "48B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 67
+ },
+ "083": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (118) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 101
+ },
+ "180": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (114) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 98
+ },
+ "095": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (178) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 153
+ },
+ "026": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "60B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 78
+ },
+ "217": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (200) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 172
+ },
+ "261": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (200) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 137/261 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 172
+ },
+ "372": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (200) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 172
+ },
+ "001": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (190) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 163
+ },
+ "082": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (190) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 163
+ },
+ "287": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (154) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 132
+ },
+ "100": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "44B (46%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 97
+ },
+ "072": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "120B (80%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 154
+ },
+ "229": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "80B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 56% of cost (100) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 157/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 154
+ },
+ "321": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (180) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 154
+ },
+ "266": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "60B (57%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 125
+ },
+ "313": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (174) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 28/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 149
+ },
+ "375": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (94) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 80
+ },
+ "176": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (88) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 75
+ },
+ "391": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "40B (39%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 106
+ },
+ "395": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "36B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 45% of cost (30) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 56
+ },
+ "258": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (150) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 129
+ },
+ "272": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (148) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 127
+ },
+ "317": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (98) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 84
+ },
+ "135": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 123
+ },
+ "347": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "108B (92%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 123
+ },
+ "339": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (88) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 75
+ },
+ "003": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "48B (41%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 119
+ },
+ "155": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 118
+ },
+ "149": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "36B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 74% of cost (100) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 117
+ },
+ "150": {
+  "primary": [
+   "REBUILD-FROM-RULE",
+   "no dominant structural weakness \u2014 rebuild from the rule with a terminal renderer and u8 working set"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 116
+ },
+ "060": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (111) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 95
+ },
+ "235": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "12B (36%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 70% of cost (76) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 93
+ },
+ "236": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "64B (80%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 94
+ },
+ "362": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (104) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 89
+ },
+ "104": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (100) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 86
+ },
+ "393": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "40B (38%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 100
+ },
+ "207": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (114) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 98
+ },
+ "257": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (114) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 98
+ },
+ "186": {
+  "primary": [
+   "INIT-PACK",
+   "params are 45% of cost (33) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 62
+ },
+ "227": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "64B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 80
+ },
+ "314": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (100) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel PARTIAL: diverges on 1/262 arc-gen draws \u2014 the pack renders the failing examples; decode the variant first",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 86
+ },
+ "318": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "64B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 81
+ },
+ "202": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "16B (76%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 94% of cost (353) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 321
+ },
+ "163": {
+  "primary": [
+   "INIT-PACK",
+   "params are 100% of cost (310) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "secondary": null,
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 266
+ },
+ "084": {
+  "primary": [
+   "PLANE-KILL + u8 RELOWER",
+   "16B (100%) sits in fp32/f16/i64 tensors \u2014 value-exact relower to uint8/bool, compose in u8"
+  ],
+  "secondary": [
+   "INIT-PACK",
+   "params are 94% of cost (233) \u2014 pack tables into int64 (64 bits/unit), factorize/dedupe initializers"
+  ],
+  "kill_targets": [],
+  "hodel": "Hodel TRUE-RULE: the rule is exactly right \u2014 implement it CHEAPLY (never transcribe DSL\u2192ONNX op-by-op; that channel scored \u2212339)",
+  "fleet": "0 past attempts, 0 DONE",
+  "target_cost": 214
+ }
+}

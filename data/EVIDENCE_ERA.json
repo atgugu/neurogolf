@@ -1,0 +1,7 @@
+{
+  "era": "fixed-scorer-v1",
+  "cutoff_utc": "2026-07-10T11:17:26Z",
+  "clean_ledger": "results/LEDGER.csv",
+  "clean_lessons": "results/LESSONS.md",
+  "reason": "SCORER_SHAS was refreshed after the Kaggle-faithful scorer fix; older strategy evidence is forensic-only."
+}

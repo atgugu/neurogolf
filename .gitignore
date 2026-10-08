@@ -1,0 +1,16 @@
+# runtime state (regenerated every wave)
+results/
+packs/
+claims/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# logs / locks / scratch
+*.log
+*.lock
+*.pid
+*.tmp

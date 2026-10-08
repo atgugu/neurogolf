@@ -1,0 +1,5 @@
+# Pricing-authority SHA256 baselines. Fail closed if any file changes mid-wave.
+neurogolf_utils.py 68a02edc96104c2889f3ab60197d3381e2e9b6bc19d6ec6db44f9ba7ec5cdbbe
+scoring_v2.py 799e6bf0668305044f8d9dcc09c96662c4f6dcf0751f40a23b60989de95e66b4
+runner/ngolf.py 565cf3be59e94c585166ff4cb60e1be2559b2156af2d8c31c6767e6423bb1386
+runner/fast_verify.py 537e9e733bde860914a645409f92f98d79c3e1b1e99f6ec422248db86270ffaf

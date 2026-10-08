@@ -1,0 +1,8 @@
+# Minimal install to run the tests and the standalone pricing demo (tools/price.py).
+# onnxruntime==1.24.4 reproduces the Kaggle score exactly (memory is read from that
+# runtime's profiler); pricing runs on any recent onnxruntime, params are exact regardless.
+# Full correctness gating and real prompt packs additionally need NEUROGOLF_CLEAN
+# (the neurogolf_clean checkout: scorer grids, ARC-GEN generators, gates) — see docs/SETUP.md.
+numpy==1.26.4
+onnx==1.21.0
+onnxruntime==1.24.4

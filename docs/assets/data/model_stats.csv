@@ -1,0 +1,12 @@
+model,attempts,wins,points
+gpt-5.5/xhigh,1753,304,80.013
+gpt-5.6-sol/xhigh,164,51,11.850
+gpt-5.6-sol/high,115,16,3.940
+gpt-5.6-sol/medium,38,2,0.490
+gpt-5.6-terra/medium,37,2,0.210
+gpt-5.6-terra/high,36,2,0.320
+gpt-5.6-terra/xhigh,35,7,0.960
+gpt-5.6-luna/medium,13,0,0.000
+gpt-5/xhigh,8,0,0.000
+gpt-5.6-terra/max,2,0,0.000
+gpt-5/high,1,0,0.000

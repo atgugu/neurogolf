@@ -1,0 +1,5923 @@
+{
+ "004": [
+  {
+   "donor": "task122",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.303,
+   "mechanism": "object-copy/move",
+   "shared_sub": [
+    "horizontal-shift"
+   ]
+  },
+  {
+   "donor": "task128",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.683,
+   "donor_pts": 20.087,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "358": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "237": [
+  {
+   "donor": "task232",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.846,
+   "donor_pts": 18.46,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": [
+    "horizontal-ray"
+   ]
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "388": [
+  {
+   "donor": "task306",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.296,
+   "mechanism": "tiling/fractal",
+   "shared_sub": [
+    "quadrant-replication"
+   ]
+  },
+  {
+   "donor": "task001",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.823,
+   "donor_pts": 19.562,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task376",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.906,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  }
+ ],
+ "102": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "366": [
+  {
+   "donor": "task395",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.97,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task347",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.037,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task321",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.296,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  }
+ ],
+ "286": [
+  {
+   "donor": "task176",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.925,
+   "mechanism": "flood-fill",
+   "shared_sub": []
+  },
+  {
+   "donor": "task041",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.449,
+   "mechanism": "flood-fill",
+   "shared_sub": []
+  },
+  {
+   "donor": "task282",
+   "tax_score": 0.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.9,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "seed-expansion"
+   ]
+  }
+ ],
+ "110": [
+  {
+   "donor": "task395",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.97,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task347",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.037,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task321",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.296,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  }
+ ],
+ "163": [
+  {
+   "donor": "task011",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.866,
+   "donor_pts": 19.238,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "182": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "278": [
+  {
+   "donor": "task352",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "3x3-neighborhood"
+   ]
+  },
+  {
+   "donor": "task068",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.565,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "3x3-neighborhood"
+   ]
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "162": [
+  {
+   "donor": "task352",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "3x3-neighborhood"
+   ]
+  },
+  {
+   "donor": "task068",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.565,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "3x3-neighborhood"
+   ]
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "251": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "192": [
+  {
+   "donor": "task048",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.686,
+   "donor_pts": 18.312,
+   "mechanism": "connected-components",
+   "shared_sub": []
+  },
+  {
+   "donor": "task393",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.03,
+   "mechanism": "connected-components",
+   "shared_sub": []
+  },
+  {
+   "donor": "task291",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.81,
+   "mechanism": "connected-components",
+   "shared_sub": []
+  }
+ ],
+ "014": [
+  {
+   "donor": "task031",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.325,
+   "donor_pts": 18.543,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "bounding-box"
+   ]
+  },
+  {
+   "donor": "task300",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "bounding-box"
+   ]
+  },
+  {
+   "donor": "task290",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.128,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "bounding-box"
+   ]
+  }
+ ],
+ "265": [
+  {
+   "donor": "task303",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.317,
+   "donor_pts": 18.449,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "170": [
+  {
+   "donor": "task166",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.129,
+   "donor_pts": 21.822,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "112": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "345": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "048": [
+  {
+   "donor": "task393",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.03,
+   "mechanism": "connected-components",
+   "shared_sub": []
+  },
+  {
+   "donor": "task291",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.81,
+   "mechanism": "connected-components",
+   "shared_sub": []
+  }
+ ],
+ "017": [
+  {
+   "donor": "task061",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.786,
+   "donor_pts": 18.342,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  },
+  {
+   "donor": "task386",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.648,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  },
+  {
+   "donor": "task373",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.906,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  }
+ ],
+ "169": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "018": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "177": [
+  {
+   "donor": "task181",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.092,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "horizontal-mirror"
+   ]
+  },
+  {
+   "donor": "task060",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.653,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "horizontal-mirror"
+   ]
+  },
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "325": [
+  {
+   "donor": "task399",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.906,
+   "mechanism": "counting/histogram",
+   "shared_sub": []
+  },
+  {
+   "donor": "task391",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.931,
+   "mechanism": "counting/histogram",
+   "shared_sub": []
+  },
+  {
+   "donor": "task355",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.71,
+   "mechanism": "counting/histogram",
+   "shared_sub": []
+  }
+ ],
+ "175": [
+  {
+   "donor": "task061",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.762,
+   "donor_pts": 18.342,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  },
+  {
+   "donor": "task386",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.648,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  },
+  {
+   "donor": "task373",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.906,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  }
+ ],
+ "035": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "328": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "208": [
+  {
+   "donor": "task200",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.229,
+   "donor_pts": 18.565,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "107": [
+  {
+   "donor": "task384",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.824,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task307",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task223",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  }
+ ],
+ "390": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "034": [
+  {
+   "donor": "task141",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.169,
+   "donor_pts": 19.177,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": [
+    "diagonal-rays"
+   ]
+  },
+  {
+   "donor": "task200",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.183,
+   "donor_pts": 18.565,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task199",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.177,
+   "donor_pts": 18.343,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "189": [
+  {
+   "donor": "task040",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.753,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "marker-recolor"
+   ]
+  },
+  {
+   "donor": "task299",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.246,
+   "donor_pts": 21.088,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "283": [
+  {
+   "donor": "task147",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.806,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "interior-fill"
+   ]
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "201": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "330": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "368": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "301": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "365": [
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task346",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.381,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "174": [
+  {
+   "donor": "task300",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.73,
+   "donor_pts": 18.799,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "bounding-box"
+   ]
+  },
+  {
+   "donor": "task290",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.128,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "bounding-box"
+   ]
+  },
+  {
+   "donor": "task031",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.543,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "bounding-box"
+   ]
+  }
+ ],
+ "398": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "264": [
+  {
+   "donor": "task057",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.551,
+   "donor_pts": 18.496,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "351": [
+  {
+   "donor": "task242",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.951,
+   "donor_pts": 18.941,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task316",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.666,
+   "donor_pts": 18.946,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "348": [
+  {
+   "donor": "task295",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.785,
+   "donor_pts": 18.723,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": [
+    "triangular-expansion"
+   ]
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "302": [
+  {
+   "donor": "task283",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.535,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "interior-fill"
+   ]
+  },
+  {
+   "donor": "task147",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.806,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "interior-fill"
+   ]
+  },
+  {
+   "donor": "task320",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.798,
+   "donor_pts": 18.354,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "184": [
+  {
+   "donor": "task218",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.817,
+   "donor_pts": 18.525,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "120": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "106": [
+  {
+   "donor": "task194",
+   "tax_score": 4.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.756,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "4-fold-rotation",
+    "grid-doubling"
+   ]
+  },
+  {
+   "donor": "task287",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.479,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "quadrant-mirroring"
+   ]
+  },
+  {
+   "donor": "task152",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.5,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "grid-doubling"
+   ]
+  }
+ ],
+ "289": [
+  {
+   "donor": "task249",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.911,
+   "donor_pts": 19.435,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task376",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.906,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task343",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.756,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  }
+ ],
+ "327": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "310": [
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task346",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.381,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "092": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "396": [
+  {
+   "donor": "task300",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.668,
+   "donor_pts": 18.799,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "051": [
+  {
+   "donor": "task200",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.128,
+   "donor_pts": 18.565,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "185": [
+  {
+   "donor": "task065",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.261,
+   "donor_pts": 18.542,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "250": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "055": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "132": [
+  {
+   "donor": "task128",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.552,
+   "donor_pts": 20.087,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "037": [
+  {
+   "donor": "task375",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": [
+    "diagonal-lines"
+   ]
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "109": [
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task385",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task360",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.171,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "088": [
+  {
+   "donor": "task394",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "subgrid-extract"
+   ]
+  },
+  {
+   "donor": "task326",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "subgrid-extract"
+   ]
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "381": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "190": [
+  {
+   "donor": "task200",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.313,
+   "donor_pts": 18.565,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task199",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.297,
+   "donor_pts": 18.343,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task141",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.258,
+   "donor_pts": 19.177,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "012": [
+  {
+   "donor": "task317",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.016,
+   "mechanism": "morphology",
+   "shared_sub": []
+  },
+  {
+   "donor": "task098",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "morphology",
+   "shared_sub": []
+  },
+  {
+   "donor": "task095",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.156,
+   "mechanism": "morphology",
+   "shared_sub": []
+  }
+ ],
+ "260": [
+  {
+   "donor": "task327",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.453,
+   "donor_pts": 18.587,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task200",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.126,
+   "donor_pts": 18.565,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "134": [
+  {
+   "donor": "task130",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "scaling/resize",
+   "shared_sub": [
+    "block-downsample"
+   ]
+  },
+  {
+   "donor": "task384",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.824,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task307",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  }
+ ],
+ "036": [
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.587,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task346",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.381,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "159": [
+  {
+   "donor": "task384",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.824,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task307",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task223",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  }
+ ],
+ "335": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "213": [
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task346",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.381,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "160": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "013": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "336": [
+  {
+   "donor": "task176",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.925,
+   "mechanism": "flood-fill",
+   "shared_sub": []
+  },
+  {
+   "donor": "task041",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.449,
+   "mechanism": "flood-fill",
+   "shared_sub": []
+  },
+  {
+   "donor": "task283",
+   "tax_score": 0.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.535,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "interior-fill"
+   ]
+  }
+ ],
+ "161": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "023": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "119": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "356": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "205": [
+  {
+   "donor": "task218",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.385,
+   "donor_pts": 18.525,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "079": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "090": [
+  {
+   "donor": "task226",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.391,
+   "donor_pts": 18.392,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "091": [
+  {
+   "donor": "task394",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "subgrid-extract"
+   ]
+  },
+  {
+   "donor": "task326",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "subgrid-extract"
+   ]
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "234": [
+  {
+   "donor": "task261",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "object-copy/move",
+   "shared_sub": [
+    "vertical-shift"
+   ]
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "069": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "093": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "030": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "270": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "094": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "206": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "019": [
+  {
+   "donor": "task376",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.906,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task343",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.756,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task315",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.562,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  }
+ ],
+ "281": [
+  {
+   "donor": "task384",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.824,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task307",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task223",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  }
+ ],
+ "075": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "228": [
+  {
+   "donor": "task140",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "object-copy/move",
+   "shared_sub": [
+    "180-rotation"
+   ]
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "342": [
+  {
+   "donor": "task166",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.431,
+   "donor_pts": 21.822,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "020": [
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task385",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task360",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.171,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "400": [
+  {
+   "donor": "task172",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.213,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task385",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task360",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.171,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "346": [
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task329",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.623,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "114": [
+  {
+   "donor": "task155",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.574,
+   "donor_pts": 20.073,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "254": [
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.566,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "031": [
+  {
+   "donor": "task300",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "bounding-box"
+   ]
+  },
+  {
+   "donor": "task290",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.128,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "bounding-box"
+   ]
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "151": [
+  {
+   "donor": "task352",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "3x3-neighborhood"
+   ]
+  },
+  {
+   "donor": "task068",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.565,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "3x3-neighborhood"
+   ]
+  },
+  {
+   "donor": "task040",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.757,
+   "donor_pts": 19.753,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "047": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "027": [
+  {
+   "donor": "task172",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "reflection"
+   ]
+  },
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task385",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "320": [
+  {
+   "donor": "task258",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.784,
+   "donor_pts": 19.925,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "269": [
+  {
+   "donor": "task078",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.367,
+   "mechanism": "object-copy/move",
+   "shared_sub": [
+    "vertical-stacking"
+   ]
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "041": [
+  {
+   "donor": "task176",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.925,
+   "mechanism": "flood-fill",
+   "shared_sub": []
+  }
+ ],
+ "057": [
+  {
+   "donor": "task253",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.607,
+   "donor_pts": 19.073,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "115": [
+  {
+   "donor": "task178",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.407,
+   "donor_pts": 18.679,
+   "mechanism": "crop/extract",
+   "shared_sub": [
+    "color-sequence"
+   ]
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "226": [
+  {
+   "donor": "task127",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.019,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "grid-partition"
+   ]
+  },
+  {
+   "donor": "task283",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.66,
+   "donor_pts": 18.535,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "044": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "340": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "071": [
+  {
+   "donor": "task181",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.243,
+   "donor_pts": 19.092,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "horizontal-mirror"
+   ]
+  },
+  {
+   "donor": "task060",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.653,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "horizontal-mirror"
+   ]
+  },
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "333": [
+  {
+   "donor": "task200",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.181,
+   "donor_pts": 18.565,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task082",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.181,
+   "donor_pts": 19.753,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "137": [
+  {
+   "donor": "task141",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.266,
+   "donor_pts": 19.177,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "148": [
+  {
+   "donor": "task295",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.376,
+   "donor_pts": 18.723,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "062": [
+  {
+   "donor": "task311",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "horizontal-reflect"
+   ]
+  },
+  {
+   "donor": "task152",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.5,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "horizontal-reflect"
+   ]
+  },
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "124": [
+  {
+   "donor": "task297",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.315,
+   "mechanism": "tiling/fractal",
+   "shared_sub": [
+    "vertical-repeat"
+   ]
+  },
+  {
+   "donor": "task231",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.563,
+   "donor_pts": 19.717,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task376",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.906,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  }
+ ],
+ "061": [
+  {
+   "donor": "task386",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.648,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  },
+  {
+   "donor": "task373",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.906,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  },
+  {
+   "donor": "task305",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.545,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  }
+ ],
+ "086": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "277": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "202": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "273": [
+  {
+   "donor": "task283",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.535,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "interior-fill"
+   ]
+  },
+  {
+   "donor": "task147",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.806,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "interior-fill"
+   ]
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "256": [
+  {
+   "donor": "task295",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.688,
+   "donor_pts": 18.723,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task348",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.615,
+   "donor_pts": 18.468,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "156": [
+  {
+   "donor": "task283",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.535,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "interior-fill"
+   ]
+  },
+  {
+   "donor": "task147",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.806,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "interior-fill"
+   ]
+  },
+  {
+   "donor": "task320",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.634,
+   "donor_pts": 18.354,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "244": [
+  {
+   "donor": "task384",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.824,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task307",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task223",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  }
+ ],
+ "369": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.49,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.304,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "193": [
+  {
+   "donor": "task048",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.61,
+   "donor_pts": 18.312,
+   "mechanism": "connected-components",
+   "shared_sub": []
+  },
+  {
+   "donor": "task393",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.03,
+   "mechanism": "connected-components",
+   "shared_sub": []
+  },
+  {
+   "donor": "task291",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.81,
+   "mechanism": "connected-components",
+   "shared_sub": []
+  }
+ ],
+ "122": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "043": [
+  {
+   "donor": "task386",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.648,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  },
+  {
+   "donor": "task373",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.906,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  },
+  {
+   "donor": "task305",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.545,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  }
+ ],
+ "078": [
+  {
+   "donor": "task269",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.438,
+   "mechanism": "object-copy/move",
+   "shared_sub": [
+    "vertical-stacking"
+   ]
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "294": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "022": [
+  {
+   "donor": "task316",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.189,
+   "donor_pts": 18.946,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.171,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "218": [
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task346",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.381,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "305": [
+  {
+   "donor": "task386",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.648,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  },
+  {
+   "donor": "task373",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.906,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  },
+  {
+   "donor": "task236",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.164,
+   "mechanism": "grid-arithmetic",
+   "shared_sub": []
+  }
+ ],
+ "068": [
+  {
+   "donor": "task352",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "3x3-neighborhood"
+   ]
+  },
+  {
+   "donor": "task127",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.34,
+   "donor_pts": 19.019,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "263": [
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task346",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.381,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "377": [
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task346",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.381,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "323": [
+  {
+   "donor": "task199",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.813,
+   "donor_pts": 18.343,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task200",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.809,
+   "donor_pts": 18.565,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task141",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.736,
+   "donor_pts": 19.177,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "238": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "225": [
+  {
+   "donor": "task266",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.766,
+   "donor_pts": 19.662,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "284": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "259": [
+  {
+   "donor": "task218",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.344,
+   "donor_pts": 18.525,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "200": [
+  {
+   "donor": "task199",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.859,
+   "donor_pts": 18.343,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task141",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.803,
+   "donor_pts": 19.177,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "341": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "293": [
+  {
+   "donor": "task395",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.97,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task347",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.037,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task321",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.296,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  }
+ ],
+ "097": [
+  {
+   "donor": "task317",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.016,
+   "mechanism": "morphology",
+   "shared_sub": []
+  },
+  {
+   "donor": "task098",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "morphology",
+   "shared_sub": []
+  },
+  {
+   "donor": "task095",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.156,
+   "mechanism": "morphology",
+   "shared_sub": []
+  }
+ ],
+ "344": [
+  {
+   "donor": "task331",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.762,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "orthogonal-adjacency"
+   ]
+  },
+  {
+   "donor": "task147",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.479,
+   "donor_pts": 18.806,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "015": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "220": [
+  {
+   "donor": "task095",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.593,
+   "donor_pts": 19.156,
+   "mechanism": "morphology",
+   "shared_sub": [
+    "3x3-dilation"
+   ]
+  },
+  {
+   "donor": "task317",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.016,
+   "mechanism": "morphology",
+   "shared_sub": []
+  },
+  {
+   "donor": "task098",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "morphology",
+   "shared_sub": []
+  }
+ ],
+ "136": [
+  {
+   "donor": "task357",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": [
+    "diagonal-ray"
+   ]
+  },
+  {
+   "donor": "task248",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.983,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": [
+    "diagonal-ray"
+   ]
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "143": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "139": [
+  {
+   "donor": "task040",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.346,
+   "donor_pts": 19.753,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "303": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "033": [
+  {
+   "donor": "task376",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.906,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task343",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.756,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task315",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.562,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  }
+ ],
+ "288": [
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task385",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task360",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.171,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "153": [
+  {
+   "donor": "task316",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.596,
+   "donor_pts": 18.946,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task242",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.49,
+   "donor_pts": 18.941,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "065": [
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task346",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.381,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "199": [
+  {
+   "donor": "task082",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.753,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": [
+    "vertical-stripes"
+   ]
+  },
+  {
+   "donor": "task200",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.859,
+   "donor_pts": 18.565,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task141",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.822,
+   "donor_pts": 19.177,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "304": [
+  {
+   "donor": "task376",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.906,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task343",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.756,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task315",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.562,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  }
+ ],
+ "224": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "280": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "359": [
+  {
+   "donor": "task395",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.97,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task347",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.037,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task321",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.296,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  }
+ ],
+ "383": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "275": [
+  {
+   "donor": "task033",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.472,
+   "mechanism": "tiling/fractal",
+   "shared_sub": [
+    "template-stamp"
+   ]
+  },
+  {
+   "donor": "task195",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.209,
+   "donor_pts": 18.634,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task376",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.906,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  }
+ ],
+ "165": [
+  {
+   "donor": "task200",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.178,
+   "donor_pts": 18.565,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task199",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.153,
+   "donor_pts": 18.343,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task141",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.15,
+   "donor_pts": 19.177,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "063": [
+  {
+   "donor": "task320",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.343,
+   "donor_pts": 18.354,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "085": [
+  {
+   "donor": "task395",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.97,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task347",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.037,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task321",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.296,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  }
+ ],
+ "002": [
+  {
+   "donor": "task176",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.925,
+   "mechanism": "flood-fill",
+   "shared_sub": []
+  },
+  {
+   "donor": "task041",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.449,
+   "mechanism": "flood-fill",
+   "shared_sub": []
+  },
+  {
+   "donor": "task395",
+   "tax_score": 0.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.97,
+   "mechanism": "mask/overlay",
+   "shared_sub": [
+    "conditional-recolor"
+   ]
+  }
+ ],
+ "009": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "246": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "046": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "105": [
+  {
+   "donor": "task395",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.97,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task347",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.037,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task321",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.296,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  }
+ ],
+ "099": [
+  {
+   "donor": "task176",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.925,
+   "mechanism": "flood-fill",
+   "shared_sub": []
+  },
+  {
+   "donor": "task041",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.449,
+   "mechanism": "flood-fill",
+   "shared_sub": []
+  },
+  {
+   "donor": "task098",
+   "tax_score": 0.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "morphology",
+   "shared_sub": [
+    "border-preserve"
+   ]
+  }
+ ],
+ "243": [
+  {
+   "donor": "task176",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.925,
+   "mechanism": "flood-fill",
+   "shared_sub": []
+  },
+  {
+   "donor": "task041",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.449,
+   "mechanism": "flood-fill",
+   "shared_sub": []
+  },
+  {
+   "donor": "task282",
+   "tax_score": 0.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.9,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "seed-expansion"
+   ]
+  }
+ ],
+ "089": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "008": [
+  {
+   "donor": "task266",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.662,
+   "mechanism": "object-copy/move",
+   "shared_sub": [
+    "marker-anchor"
+   ]
+  },
+  {
+   "donor": "task261",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "object-copy/move",
+   "shared_sub": [
+    "vertical-shift"
+   ]
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "374": [
+  {
+   "donor": "task320",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.351,
+   "donor_pts": 18.354,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "397": [
+  {
+   "donor": "task167",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.016,
+   "mechanism": "counting/histogram",
+   "shared_sub": [
+    "unique-color-count"
+   ]
+  },
+  {
+   "donor": "task399",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.906,
+   "mechanism": "counting/histogram",
+   "shared_sub": []
+  },
+  {
+   "donor": "task391",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.931,
+   "mechanism": "counting/histogram",
+   "shared_sub": []
+  }
+ ],
+ "154": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "133": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "268": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "392": [
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task385",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task360",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.171,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "255": [
+  {
+   "donor": "task395",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.97,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task347",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.037,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  },
+  {
+   "donor": "task321",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.296,
+   "mechanism": "mask/overlay",
+   "shared_sub": []
+  }
+ ],
+ "183": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "297": [
+  {
+   "donor": "task376",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.906,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task343",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.756,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task315",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.562,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  }
+ ],
+ "232": [
+  {
+   "donor": "task082",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.686,
+   "donor_pts": 19.753,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "319": [
+  {
+   "donor": "task384",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.824,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task307",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task223",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  }
+ ],
+ "125": [
+  {
+   "donor": "task283",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.535,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "border-highlight"
+   ]
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "239": [
+  {
+   "donor": "task391",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.541,
+   "donor_pts": 19.931,
+   "mechanism": "counting/histogram",
+   "shared_sub": []
+  },
+  {
+   "donor": "task399",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.906,
+   "mechanism": "counting/histogram",
+   "shared_sub": []
+  },
+  {
+   "donor": "task355",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.71,
+   "mechanism": "counting/histogram",
+   "shared_sub": []
+  }
+ ],
+ "378": [
+  {
+   "donor": "task141",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.177,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": [
+    "diagonal-rays"
+   ]
+  },
+  {
+   "donor": "task200",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.311,
+   "donor_pts": 18.565,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "005": [
+  {
+   "donor": "task057",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.121,
+   "donor_pts": 18.496,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "101": [
+  {
+   "donor": "task384",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.824,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task307",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  },
+  {
+   "donor": "task223",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 23.391,
+   "mechanism": "scaling/resize",
+   "shared_sub": []
+  }
+ ],
+ "029": [
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.164,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task346",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.381,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "387": [
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task385",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task360",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.171,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "118": [
+  {
+   "donor": "task299",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.088,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "line-intersection"
+   ]
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "233": [
+  {
+   "donor": "task300",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.228,
+   "donor_pts": 18.799,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task121",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.188,
+   "donor_pts": 19.213,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "285": [
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task385",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task360",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.171,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "367": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "187": [
+  {
+   "donor": "task276",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "background-swap"
+   ]
+  },
+  {
+   "donor": "task283",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.314,
+   "donor_pts": 18.535,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "138": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "025": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "157": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "066": [
+  {
+   "donor": "task070",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.076,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": [
+    "blue-to-green"
+   ]
+  },
+  {
+   "donor": "task040",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.324,
+   "donor_pts": 19.753,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task299",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.303,
+   "donor_pts": 21.088,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "370": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "279": [
+  {
+   "donor": "task166",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.192,
+   "donor_pts": 21.822,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "196": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "131": [
+  {
+   "donor": "task122",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.303,
+   "mechanism": "object-copy/move",
+   "shared_sub": [
+    "horizontal-shift"
+   ]
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.256,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "117": [
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task385",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task360",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.171,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "050": [
+  {
+   "donor": "task200",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.233,
+   "donor_pts": 18.565,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "382": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "096": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "361": [
+  {
+   "donor": "task194",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.173,
+   "donor_pts": 18.756,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "4-fold-rotation"
+   ]
+  },
+  {
+   "donor": "task106",
+   "tax_score": 3.4,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.561,
+   "mechanism": "symmetry-completion",
+   "shared_sub": [
+    "4-fold-rotation"
+   ]
+  },
+  {
+   "donor": "task150",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.175,
+   "donor_pts": 20.073,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "222": [
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task346",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.381,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "363": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "354": [
+  {
+   "donor": "task197",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.454,
+   "donor_pts": 18.841,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ],
+ "168": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "212": [
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task357",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.327,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "245": [
+  {
+   "donor": "task380",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.467,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task362",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.799,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  },
+  {
+   "donor": "task353",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.503,
+   "mechanism": "object-copy/move",
+   "shared_sub": []
+  }
+ ],
+ "042": [
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task385",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task360",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.171,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "308": [
+  {
+   "donor": "task400",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.371,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task385",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 21.599,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  },
+  {
+   "donor": "task360",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.171,
+   "mechanism": "symmetry-completion",
+   "shared_sub": []
+  }
+ ],
+ "221": [
+  {
+   "donor": "task001",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.347,
+   "donor_pts": 19.562,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task376",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.906,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  },
+  {
+   "donor": "task343",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.756,
+   "mechanism": "tiling/fractal",
+   "shared_sub": []
+  }
+ ],
+ "188": [
+  {
+   "donor": "task326",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.145,
+   "donor_pts": 21.599,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task394",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.69,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  },
+  {
+   "donor": "task372",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.702,
+   "mechanism": "crop/extract",
+   "shared_sub": []
+  }
+ ],
+ "379": [
+  {
+   "donor": "task024",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.321,
+   "donor_pts": 20.766,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task375",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 19.727,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  },
+  {
+   "donor": "task371",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.854,
+   "mechanism": "line/ray-drawing",
+   "shared_sub": []
+  }
+ ],
+ "198": [
+  {
+   "donor": "task389",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 20.132,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task352",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 18.869,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  },
+  {
+   "donor": "task337",
+   "tax_score": 3.0,
+   "tfidf_sim": 0.0,
+   "donor_pts": 22.697,
+   "mechanism": "recolor-by-rule",
+   "shared_sub": []
+  }
+ ]
+}

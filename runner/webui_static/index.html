@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>NeuroGolf · Live Ops</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand-group">
+        <div class="arc-mark" aria-hidden="true">
+          <i class="c1"></i><i class="c2"></i><i class="c3"></i>
+          <i class="c4"></i><i class="c5"></i><i class="c6"></i>
+          <i class="c7"></i><i class="c8"></i><i class="c9"></i>
+        </div>
+        <div>
+          <div class="eyebrow">ARC // OPTIMIZATION FLEET</div>
+          <h1>NeuroGolf <span>Live Ops</span></h1>
+        </div>
+      </div>
+      <div class="top-meta">
+        <div class="meta-item"><span>PIN</span><strong id="pin-sha">········</strong></div>
+        <div class="meta-item"><span>EVIDENCE</span><strong id="era-name">loading</strong></div>
+        <div class="connection-pill loading" id="connection-pill">
+          <i></i><span>CONNECTING</span>
+        </div>
+        <button class="icon-button" id="refresh-button" title="Refresh now (R)" aria-label="Refresh now">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6v5h-5M4 18v-5h5M18.5 9a7 7 0 0 0-11.9-2.4L4 9m16 6-2.6 2.4A7 7 0 0 1 5.5 15"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="metric-grid" aria-label="Fleet summary">
+        <article class="metric score-metric">
+          <div class="metric-head"><span>BANKED VS PIN</span><i class="signal signal-green"></i></div>
+          <div class="metric-value" id="metric-delta">+0.00</div>
+          <div class="metric-foot"><span>clean reconciled ledger</span><b id="pin-short">PIN ········</b></div>
+        </article>
+        <article class="metric">
+          <div class="metric-head"><span>BUILD WORKERS</span><i class="signal signal-cyan"></i></div>
+          <div class="metric-value"><span id="metric-workers">0</span><em>/</em><small id="metric-worker-cap">0</small></div>
+          <div class="capacity"><i id="worker-capacity"></i></div>
+          <div class="metric-foot"><span id="worker-utilization">fleet idle</span><b id="run-count">0 RUNS</b></div>
+        </article>
+        <article class="metric">
+          <div class="metric-head"><span>DECISION LANE</span><i class="signal signal-violet"></i></div>
+          <div class="metric-value"><span id="metric-deciders">0</span><em>+</em><small id="metric-decider-wait">0</small></div>
+          <div class="metric-foot"><span>active + waiting</span><b id="helper-count">0 HELPERS</b></div>
+        </article>
+        <article class="metric">
+          <div class="metric-head"><span>WORK PRESSURE</span><i class="signal signal-yellow"></i></div>
+          <div class="metric-value"><span id="metric-queue">0</span></div>
+          <div class="metric-foot"><span>ready to route</span><b id="cooling-count">0 COOLING</b></div>
+        </article>
+      </section>
+
+      <div class="dashboard-grid">
+        <section class="panel fleet-panel">
+          <div class="panel-header">
+            <div>
+              <div class="eyebrow">OWNERSHIP // NOW</div>
+              <h2>Active fleet</h2>
+            </div>
+            <div class="panel-tools">
+              <div class="legend"><span class="codex-dot"></span>Codex</div>
+              <span class="last-sync" id="last-sync">waiting for state</span>
+            </div>
+          </div>
+
+          <div class="worker-grid" id="worker-grid">
+            <div class="empty-state">
+              <div class="empty-glyph"><i></i><i></i><i></i><i></i></div>
+              <strong>Reading fleet telemetry</strong>
+              <span>Worker ownership will appear here.</span>
+            </div>
+          </div>
+
+          <div class="allocation-deck" id="allocation-deck" aria-label="Model allocation policy"></div>
+
+          <div class="pipeline-wrap">
+            <div class="pipeline-label">RETRY PIPELINE</div>
+            <div class="pipeline" id="pipeline">
+              <div class="pipe-stage"><i class="pipe-build"></i><span>Build</span><strong id="pipe-build">0</strong></div>
+              <b>→</b>
+              <div class="pipe-stage"><i class="pipe-analyst"></i><span>Analyst</span><strong id="pipe-analyst">0</strong></div>
+              <b>→</b>
+              <div class="pipe-stage"><i class="pipe-price"></i><span>Price</span><strong id="pipe-price">0</strong></div>
+              <b>→</b>
+              <div class="pipe-stage"><i class="pipe-decide"></i><span>Decide</span><strong id="pipe-decide">0</strong></div>
+              <b>→</b>
+              <div class="pipe-stage"><i class="pipe-ready"></i><span>Ready</span><strong id="pipe-ready">0</strong></div>
+            </div>
+          </div>
+
+          <div class="run-strip" id="run-strip"></div>
+        </section>
+
+        <aside class="side-stack">
+          <section class="panel health-panel">
+            <div class="panel-header compact">
+              <div><div class="eyebrow">SYSTEM</div><h2>Health checks</h2></div>
+              <div class="health-score" id="health-score">—</div>
+            </div>
+            <div class="health-grid" id="health-grid"></div>
+          </section>
+
+          <section class="panel attention-panel">
+            <div class="panel-header compact">
+              <div><div class="eyebrow">OPERATOR</div><h2>Needs attention</h2></div>
+              <span class="counter" id="attention-count">0</span>
+            </div>
+            <div class="attention-list" id="attention-list"></div>
+          </section>
+        </aside>
+
+        <section class="panel task-panel">
+          <div class="panel-header task-header">
+            <div>
+              <div class="eyebrow">LATEST PIN // TASK STATE</div>
+              <h2>Task explorer</h2>
+            </div>
+            <div class="task-tools">
+              <label class="search-box">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m16 16 4 4"/></svg>
+                <input id="task-search" type="search" placeholder="Task, ARC id, model…" autocomplete="off">
+                <kbd>/</kbd>
+              </label>
+              <div class="segmented" id="task-filter" aria-label="Task filter">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter="active">Active</button>
+                <button data-filter="positive">Δ+</button>
+                <button data-filter="attention">Risk</button>
+              </div>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr>
+                <th data-sort="priority">Priority</th>
+                <th data-sort="task">Task</th>
+                <th data-sort="state">State</th>
+                <th data-sort="holder">Holder</th>
+                <th class="numeric" data-sort="difficulty">Difficulty</th>
+                <th class="numeric" data-sort="delta">Δ vs pin</th>
+                <th class="numeric" data-sort="pin">Pin pts</th>
+                <th class="numeric" data-sort="attempts">Attempts</th>
+              </tr></thead>
+              <tbody id="task-table"></tbody>
+            </table>
+          </div>
+          <div class="table-footer"><span id="task-count">0 tasks</span><span>Click a row for evidence · clean era only</span></div>
+        </section>
+
+        <section class="panel activity-panel">
+          <div class="panel-header compact">
+            <div><div class="eyebrow">CLEAN ERA</div><h2>Run activity</h2></div>
+            <span class="live-label"><i></i>LIVE</span>
+          </div>
+          <div class="activity-list" id="activity-list"></div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <aside class="task-drawer" id="task-drawer" aria-hidden="true">
+    <div class="drawer-head">
+      <div>
+        <div class="eyebrow">TASK EVIDENCE</div>
+        <h2 id="drawer-title">task000</h2>
+        <span id="drawer-arc">ARC ········</span>
+      </div>
+      <button class="icon-button" id="drawer-close" aria-label="Close task detail">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div class="drawer-body" id="drawer-body"></div>
+  </aside>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

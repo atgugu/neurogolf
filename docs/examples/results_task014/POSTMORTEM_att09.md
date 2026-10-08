@@ -1,0 +1,7 @@
+# post-mortem att09 [codex] outcome=DONE (analyst)
+- **DECISION-AUDIT:** Planned pivot to STATIC-U8-COLIDX20 (fixed 20×20 u8 window + local mask); builder deviated to selected-channel sentinel canvas + dynamic-palette `Equal` — still a valid family pivot, budget closed easily (2542 ≪ 5338), but the exact tensor recipe did not match the decider sketch.
+- **FAMILY:** Selected-channel sentinel canvas + dynamic palette — pin cost replaced by `canvas01` u8 `[1,1,30,30]` (900 B), traced single-channel `crop_f32`/`crop_u8`, row/col `Einsum` bbox counts, terminal `Equal(canvas01, pal)` for `[1,10,30,30]` bool output.
+- **COST:** cost **2542**, Δ **+0.8919** — last verdict: `DONE task014 +0.89` / `Fast gate: PASS, cost 2542, Δ +0.8919`.
+- **KEY MOVE:** Slice only the rarest-color one-hot channel (not all 10), cast to u8, `Pad` to fixed `[1,1,30,30]` sentinel (255), then `Equal` with a dynamic palette — avoids the data-dependent `[1,10,h,w]` runtime balloon (9148 repriced).
+- **WASTE:** Skip coordinate/LUT `inside_mask` (900 B + dead proof), native 10-ch crop + terminal `Pad`, axis-tail colidx canvas (2643), and the unused STATIC-U8-COLIDX20 20×20 plan — do not trust zeros-probe/static pricing on dynamic crops.
+- **TRANSFER:** Rare-color bbox via cheap row/col projections; u8 sentinel canvas + terminal `Equal` for padded one-hot crops; single-channel slice-before-pad when output contract is full spatial bool; always reprice with real-input scorer before submitting.

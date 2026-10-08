@@ -1,0 +1,4002 @@
+{
+ "001": {
+  "invariants": "relative pixel layout within blocks",
+  "mechanism": "tiling/fractal",
+  "objects": "sparse same-color input pixels",
+  "submechanisms": [
+   "conditional-block-tile",
+   "pattern-stamp",
+   "grid-scale-up"
+  ]
+ },
+ "002": {
+  "invariants": "green frames and scattered pixels",
+  "mechanism": "flood-fill",
+  "objects": "surrounded black interior regions",
+  "submechanisms": [
+   "enclosed-cavity",
+   "hole-fill",
+   "conditional-recolor"
+  ]
+ },
+ "003": {
+  "invariants": "stencil offsets within each period",
+  "mechanism": "tiling/fractal",
+  "objects": "sparse pixel stencil bands",
+  "submechanisms": [
+   "vertical-stencil-repeat",
+   "alternating-band-flip",
+   "extend-downward"
+  ]
+ },
+ "004": {
+  "invariants": "colors and bottom edge",
+  "mechanism": "object-copy/move",
+  "objects": "colored trapezoid outline frames",
+  "submechanisms": [
+   "edge-offset",
+   "horizontal-shift",
+   "trapezoid-frame"
+  ]
+ },
+ "005": {
+  "invariants": "sprite shape, spacing, per-direction color",
+  "mechanism": "object-copy/move",
+  "objects": "3x3 sprite stamps along rays",
+  "submechanisms": [
+   "ray-extension",
+   "directional-stamping",
+   "fixed-spacing-repeat"
+  ]
+ },
+ "006": {
+  "invariants": "grid size half alignment",
+  "mechanism": "mask/overlay",
+  "objects": "paired half-grid black pixels",
+  "submechanisms": [
+   "logical-intersection",
+   "dual-half-grid",
+   "overlap-highlight"
+  ]
+ },
+ "007": {
+  "invariants": "periodic palette by diagonal sum",
+  "mechanism": "recolor-by-rule",
+  "objects": "cells grouped by anti-diagonal index",
+  "submechanisms": [
+   "diagonal-stripes",
+   "modulo-periodicity",
+   "sparse-hints"
+  ]
+ },
+ "008": {
+  "invariants": "cyan fixed, shape, nibble pattern",
+  "mechanism": "object-copy/move",
+  "objects": "red block, cyan marker, black nibbles",
+  "submechanisms": [
+   "vertical-shift",
+   "marker-anchor",
+   "preserve-holes"
+  ]
+ },
+ "009": {
+  "invariants": "grid layout, dot positions colors",
+  "mechanism": "line/ray-drawing",
+  "objects": "colored dots on gridded canvas",
+  "submechanisms": [
+   "same-color-pairs",
+   "axis-aligned-connect",
+   "segment-fill"
+  ]
+ },
+ "010": {
+  "invariants": "positions and relative heights",
+  "mechanism": "sorting/ranking",
+  "objects": "vertical gray bars",
+  "submechanisms": [
+   "height-rank",
+   "ordinal-recolor",
+   "vertical-bars"
+  ]
+ },
+ "011": {
+  "invariants": "hollywood-square grid topology",
+  "mechanism": "object-copy/move",
+  "objects": "sparse colored pixels in mini-grids",
+  "submechanisms": [
+   "coord-remap",
+   "region-fill",
+   "count-filter"
+  ]
+ },
+ "012": {
+  "invariants": "color roles and cross count",
+  "mechanism": "morphology",
+  "objects": "two-color plus-shaped crosses",
+  "submechanisms": [
+   "arm-extension",
+   "diagonal-fill",
+   "gravity"
+  ]
+ },
+ "013": {
+  "invariants": "stripe spacing, color alternation",
+  "mechanism": "line/ray-drawing",
+  "objects": "two seed marker pixels",
+  "submechanisms": [
+   "vertical-column-fill",
+   "alternating-stripes",
+   "periodic-spacing"
+  ]
+ },
+ "014": {
+  "invariants": "pixel colors within bounding box",
+  "mechanism": "crop/extract",
+  "objects": "rarest foreground color pixels",
+  "submechanisms": [
+   "rarest-color",
+   "bounding-box",
+   "color-frequency"
+  ]
+ },
+ "015": {
+  "invariants": "grid size, static non-star pixels",
+  "mechanism": "line/ray-drawing",
+  "objects": "twinkler star marker pixels",
+  "submechanisms": [
+   "rook-orthogonal",
+   "bishop-diagonal",
+   "marker-triggered"
+  ]
+ },
+ "016": {
+  "invariants": "grid shape and cell positions",
+  "mechanism": "palette-permutation",
+  "objects": "grid pixels by color value",
+  "submechanisms": [
+   "lookup-table",
+   "per-pixel",
+   "global-mapping"
+  ]
+ },
+ "017": {
+  "invariants": "tile period, modulo, coordinate offset",
+  "mechanism": "grid-arithmetic",
+  "objects": "black rectangular masks on patterned grid",
+  "submechanisms": [
+   "periodic-tiling",
+   "occlusion-inpaint",
+   "distance-modulo"
+  ]
+ },
+ "018": {
+  "invariants": "shape topology, rotation, accent colors",
+  "mechanism": "object-copy/move",
+  "objects": "paired colored sprites, background and accents",
+  "submechanisms": [
+   "rotation",
+   "background-color-restore",
+   "partial-sprite-completion"
+  ]
+ },
+ "019": {
+  "invariants": "relative positions and main colors",
+  "mechanism": "tiling/fractal",
+  "objects": "sparse colored pixel markers",
+  "submechanisms": [
+   "2x2-quadrant-tile",
+   "diagonal-corner-markers",
+   "grid-doubling"
+  ]
+ },
+ "020": {
+  "invariants": "center color, ring layout, colors",
+  "mechanism": "symmetry-completion",
+  "objects": "center cell and three colored rings",
+  "submechanisms": [
+   "radial-rings",
+   "four-fold-symmetry",
+   "gap-fill"
+  ]
+ },
+ "021": {
+  "invariants": "band count, interior color",
+  "mechanism": "counting/histogram",
+  "objects": "divider lines, rectangular bands",
+  "submechanisms": [
+   "separator-line-detection",
+   "band-counting",
+   "dimension-collapse"
+  ]
+ },
+ "022": {
+  "invariants": "relative offsets and cell colors",
+  "mechanism": "crop/extract",
+  "objects": "gray anchors and scattered 3x3 patches",
+  "submechanisms": [
+   "gray-anchor-locate",
+   "3x3-neighborhood-extract",
+   "fragment-merge"
+  ]
+ },
+ "023": {
+  "invariants": "positions and shape geometry",
+  "mechanism": "recolor-by-rule",
+  "objects": "gray boxes and stick segments",
+  "submechanisms": [
+   "shape-classification",
+   "type-to-color",
+   "size-orientation-rule"
+  ]
+ },
+ "024": {
+  "invariants": "grid size seed positions colors",
+  "mechanism": "line/ray-drawing",
+  "objects": "sparse colored anchor seed pixels",
+  "submechanisms": [
+   "direction-by-color",
+   "seed-to-line",
+   "full-span-extension"
+  ]
+ },
+ "025": {
+  "invariants": "vertical lines unchanged",
+  "mechanism": "line/ray-drawing",
+  "objects": "trigger pixels, vertical colored lines",
+  "submechanisms": [
+   "color-match trigger",
+   "adjacent-to-line stamp",
+   "same-row projection"
+  ]
+ },
+ "026": {
+  "invariants": "grid layout and geometry",
+  "mechanism": "grid-arithmetic",
+  "objects": "left and right half pixels",
+  "submechanisms": [
+   "half-grid-compare",
+   "logical-intersection",
+   "xor-recolor"
+  ]
+ },
+ "027": {
+  "invariants": "shape topology, symmetry center",
+  "mechanism": "symmetry-completion",
+  "objects": "connected blue pixel creature",
+  "submechanisms": [
+   "90-degree rotation",
+   "reflection",
+   "four-fold symmetry"
+  ]
+ },
+ "028": {
+  "invariants": "anchor rows, bilateral symmetry",
+  "mechanism": "symmetry-completion",
+  "objects": "two colored seed pixels",
+  "submechanisms": [
+   "border-frame",
+   "row-expansion",
+   "bilateral-symmetry"
+  ]
+ },
+ "029": {
+  "invariants": "interior colors and layout",
+  "mechanism": "crop/extract",
+  "objects": "bordered rectangular interior region",
+  "submechanisms": [
+   "frame-detection",
+   "interior-crop",
+   "border-marker"
+  ]
+ },
+ "030": {
+  "invariants": "shape, colors, column positions",
+  "mechanism": "object-copy/move",
+  "objects": "colored copies of one shape",
+  "submechanisms": [
+   "vertical-align",
+   "pattern-stamp",
+   "multi-color"
+  ]
+ },
+ "031": {
+  "invariants": "relative layout and colors",
+  "mechanism": "crop/extract",
+  "objects": "colored connected pixel blob",
+  "submechanisms": [
+   "bounding-box",
+   "minimal-crop",
+   "object-isolation"
+  ]
+ },
+ "032": {
+  "invariants": "column color and stack order",
+  "mechanism": "object-copy/move",
+  "objects": "scattered colored cells per column",
+  "submechanisms": [
+   "column-gravity",
+   "bottom-stack",
+   "per-column"
+  ]
+ },
+ "033": {
+  "invariants": "colored shapes, grid dividers",
+  "mechanism": "tiling/fractal",
+  "objects": "top-left cell pixel positions",
+  "submechanisms": [
+   "template-stamp",
+   "reference-cell",
+   "cross-tile-replication"
+  ]
+ },
+ "034": {
+  "invariants": "grid size, square color, inactive corners",
+  "mechanism": "line/ray-drawing",
+  "objects": "2x2 colored square, red corners",
+  "submechanisms": [
+   "diagonal-rays",
+   "red-corner-markers",
+   "thick-ray-stamp"
+  ]
+ },
+ "035": {
+  "invariants": "cyan box and source pixels",
+  "mechanism": "object-copy/move",
+  "objects": "exterior colored pixels, cyan rectangle",
+  "submechanisms": [
+   "bbox-clamp",
+   "boundary-projection",
+   "marker-duplicate"
+  ]
+ },
+ "036": {
+  "invariants": "colors and layout within bbox",
+  "mechanism": "crop/extract",
+  "objects": "marked connected foreground object",
+  "submechanisms": [
+   "bounding-box-crop",
+   "object-localization",
+   "background-removal"
+  ]
+ },
+ "037": {
+  "invariants": "endpoint positions and colors",
+  "mechanism": "line/ray-drawing",
+  "objects": "colored diagonal endpoint pairs",
+  "submechanisms": [
+   "connect-endpoints",
+   "diagonal-lines",
+   "same-color-pairing"
+  ]
+ },
+ "038": {
+  "invariants": "positions discarded, count only",
+  "mechanism": "counting/histogram",
+  "objects": "2x2 blue square blocks",
+  "submechanisms": [
+   "size-color-filter",
+   "object-count",
+   "count-to-bar"
+  ]
+ },
+ "039": {
+  "invariants": "tile colors and relative layout",
+  "mechanism": "crop/extract",
+  "objects": "colored pixels in symmetric grid",
+  "submechanisms": [
+   "rotational-symmetry",
+   "pinwheel-replication",
+   "tile-extraction"
+  ]
+ },
+ "040": {
+  "invariants": "positions, borders, grid shape",
+  "mechanism": "recolor-by-rule",
+  "objects": "green interior marker pixels",
+  "submechanisms": [
+   "half-plane-split",
+   "border-color-match",
+   "marker-recolor"
+  ]
+ },
+ "041": {
+  "invariants": "position color horizontal span",
+  "mechanism": "flood-fill",
+  "objects": "colored diamond outline shapes",
+  "submechanisms": [
+   "vertical-up-fill",
+   "outline-to-solid",
+   "column-propagation"
+  ]
+ },
+ "042": {
+  "invariants": "green block positions unchanged",
+  "mechanism": "symmetry-completion",
+  "objects": "paired magnified green blocks",
+  "submechanisms": [
+   "vertical-mirror-extension",
+   "flip-dependent-offset",
+   "recolor-to-cyan"
+  ]
+ },
+ "043": {
+  "invariants": "gray edge markers preserved",
+  "mechanism": "grid-arithmetic",
+  "objects": "edge markers, interior grid cells",
+  "submechanisms": [
+   "cartesian-product",
+   "axis-markers",
+   "intersection-fill"
+  ]
+ },
+ "044": {
+  "invariants": "box frames, dust, shapes",
+  "mechanism": "object-copy/move",
+  "objects": "colored sprites, gray boxes",
+  "submechanisms": [
+   "count-matching",
+   "pattern-relocation",
+   "silhouette-fill"
+  ]
+ },
+ "045": {
+  "invariants": "endpoints; non-matching row interiors",
+  "mechanism": "recolor-by-rule",
+  "objects": "odd rows with endpoint colors",
+  "submechanisms": [
+   "endpoint-match",
+   "row-fill",
+   "conditional-fill"
+  ]
+ },
+ "046": {
+  "invariants": "segment paths and colors",
+  "mechanism": "object-copy/move",
+  "objects": "offset staggered colored path segments",
+  "submechanisms": [
+   "offset-normalization",
+   "horizontal-compaction",
+   "junction-recolor"
+  ]
+ },
+ "047": {
+  "invariants": "grid size, anchor colors",
+  "mechanism": "line/ray-drawing",
+  "objects": "two colored anchor pixels",
+  "submechanisms": [
+   "orthogonal-extension",
+   "line-intersection",
+   "cross-recolor"
+  ]
+ },
+ "048": {
+  "invariants": "input grid unchanged",
+  "mechanism": "connected-components",
+  "objects": "two red 2x2 boxes, cyan pixels",
+  "submechanisms": [
+   "path-reachability",
+   "4-connectivity",
+   "binary-output"
+  ]
+ },
+ "049": {
+  "invariants": "smallest box size and color",
+  "mechanism": "crop/extract",
+  "objects": "colored axis-aligned rectangles",
+  "submechanisms": [
+   "smallest-rectangle",
+   "rarest-color",
+   "solid-fill"
+  ]
+ },
+ "050": {
+  "invariants": "endpoint positions and colors",
+  "mechanism": "line/ray-drawing",
+  "objects": "cyan marker endpoints",
+  "submechanisms": [
+   "connect-collinear-markers",
+   "fill-between-endpoints",
+   "preserve-endpoints"
+  ]
+ },
+ "051": {
+  "invariants": "emitter shape and background",
+  "mechanism": "line/ray-drawing",
+  "objects": "laser diamond emitter and beam",
+  "submechanisms": [
+   "beam-from-emitter",
+   "gravity-orientation",
+   "diamond-source"
+  ]
+ },
+ "052": {
+  "invariants": "row boundaries and uniformity",
+  "mechanism": "recolor-by-rule",
+  "objects": "horizontal grid rows",
+  "submechanisms": [
+   "row-uniformity",
+   "binary-classification",
+   "row-collapse"
+  ]
+ },
+ "053": {
+  "invariants": "columns colors original pixels",
+  "mechanism": "object-copy/move",
+  "objects": "scattered same-color pixels",
+  "submechanisms": [
+   "vertical-copy",
+   "one-row-down",
+   "pixel-duplicate"
+  ]
+ },
+ "054": {
+  "invariants": "box layout, background, colors",
+  "mechanism": "object-copy/move",
+  "objects": "corner star template, in-box markers",
+  "submechanisms": [
+   "template-replication",
+   "line-projection",
+   "star-glyph"
+  ]
+ },
+ "055": {
+  "invariants": "cyan divider lines and layout",
+  "mechanism": "recolor-by-rule",
+  "objects": "rectangular regions between cyan dividers",
+  "submechanisms": [
+   "region-position",
+   "template-fill",
+   "cross-pattern"
+  ]
+ },
+ "056": {
+  "invariants": "grid size and cell topology",
+  "mechanism": "other",
+  "objects": "single-color five-pixel patterns",
+  "submechanisms": [
+   "template-match",
+   "pattern-classification",
+   "shape-id"
+  ]
+ },
+ "057": {
+  "invariants": "sprite shape and color",
+  "mechanism": "object-copy/move",
+  "objects": "single colored sprite cluster",
+  "submechanisms": [
+   "horizontal-duplication",
+   "sprite-extraction",
+   "side-by-side"
+  ]
+ },
+ "058": {
+  "invariants": "grid size, empty background",
+  "mechanism": "line/ray-drawing",
+  "objects": "grid cells along spiral path",
+  "submechanisms": [
+   "spiral-path",
+   "directional-walk",
+   "boundary-turn"
+  ]
+ },
+ "059": {
+  "invariants": "grid layout and gray dividers",
+  "mechanism": "counting/histogram",
+  "objects": "mini-grid cells with scattered pixels",
+  "submechanisms": [
+   "per-mini-grid pixel count",
+   "max-count selection",
+   "full-region fill"
+  ]
+ },
+ "060": {
+  "invariants": "row positions, anchor colors",
+  "mechanism": "symmetry-completion",
+  "objects": "edge pixels on selected rows",
+  "submechanisms": [
+   "horizontal-mirror",
+   "edge-to-center-fill",
+   "center-divider"
+  ]
+ },
+ "061": {
+  "invariants": "grid size and visible colors",
+  "mechanism": "grid-arithmetic",
+  "objects": "black rectangular masked regions",
+  "submechanisms": [
+   "rect-cutouts",
+   "mod-inference",
+   "hole-fill"
+  ]
+ },
+ "062": {
+  "invariants": "sprite geometry and symmetry axis",
+  "mechanism": "symmetry-completion",
+  "objects": "sprite shape and mirror markers",
+  "submechanisms": [
+   "horizontal-reflect",
+   "recolor-markers",
+   "green-background"
+  ]
+ },
+ "063": {
+  "invariants": "perimeter border colors unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "empty interior rows and columns",
+  "submechanisms": [
+   "empty-row-column-fill",
+   "interior-only",
+   "conditional-green"
+  ]
+ },
+ "064": {
+  "invariants": "box, background, dot positions",
+  "mechanism": "line/ray-drawing",
+  "objects": "dots outside box, rectangular box",
+  "submechanisms": [
+   "orthogonal-rays",
+   "connect-to-box",
+   "seed-from-dots"
+  ]
+ },
+ "065": {
+  "invariants": "dot position within quadrant, colors",
+  "mechanism": "crop/extract",
+  "objects": "quadrants, cross divider, marker dot",
+  "submechanisms": [
+   "quadrant-selection",
+   "cross-partition",
+   "marker-localization"
+  ]
+ },
+ "066": {
+  "invariants": "red green cyan markers",
+  "mechanism": "recolor-by-rule",
+  "objects": "hidden blue path segments",
+  "submechanisms": [
+   "hidden-path-reveal",
+   "blue-to-green",
+   "orthogonal-trace"
+  ]
+ },
+ "067": {
+  "invariants": "source panel color values",
+  "mechanism": "crop/extract",
+  "objects": "three side-by-side pattern panels",
+  "submechanisms": [
+   "triptych",
+   "vertical-flip",
+   "left-panel"
+  ]
+ },
+ "068": {
+  "invariants": "rarest pixel centers unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "least frequent colored pixels",
+  "submechanisms": [
+   "min-frequency selection",
+   "3x3-neighborhood",
+   "red-halo"
+  ]
+ },
+ "069": {
+  "invariants": "sprite shape and grid positions",
+  "mechanism": "object-copy/move",
+  "objects": "connected sprite at multiple sites",
+  "submechanisms": [
+   "cyan-placeholder",
+   "template-transfer",
+   "erase-reference"
+  ]
+ },
+ "070": {
+  "invariants": "tiled background outside rectangle",
+  "mechanism": "recolor-by-rule",
+  "objects": "rectangle region blue and cyan pixels",
+  "submechanisms": [
+   "rectangle-region",
+   "blue-to-green",
+   "cyan-mask"
+  ]
+ },
+ "071": {
+  "invariants": "horizontal symmetry, sprite shape",
+  "mechanism": "symmetry-completion",
+  "objects": "mirrored sprite, rectangular box",
+  "submechanisms": [
+   "horizontal-mirror",
+   "box-removal",
+   "occlusion-restore"
+  ]
+ },
+ "072": {
+  "invariants": "width and column alignment",
+  "mechanism": "grid-arithmetic",
+  "objects": "red pixels in paired halves",
+  "submechanisms": [
+   "xor-parity",
+   "divider-split",
+   "half-collapse"
+  ]
+ },
+ "073": {
+  "invariants": "gray tower columns and positions",
+  "mechanism": "object-copy/move",
+  "objects": "blue markers atop gray towers",
+  "submechanisms": [
+   "vertical-drop",
+   "column-aligned",
+   "marker-relocation"
+  ]
+ },
+ "074": {
+  "invariants": "8-fold symmetry, seed palette",
+  "mechanism": "symmetry-completion",
+  "objects": "lower-triangle seed pixel colors",
+  "submechanisms": [
+   "8-fold reflection",
+   "triangle seed",
+   "maroon occlusion"
+  ]
+ },
+ "075": {
+  "invariants": "tile colors, gray divider column",
+  "mechanism": "object-copy/move",
+  "objects": "reference tile, blue anchor markers",
+  "submechanisms": [
+   "template-stamp",
+   "marker-anchored",
+   "sparse-replication"
+  ]
+ },
+ "076": {
+  "invariants": "anchor layout and rotations",
+  "mechanism": "object-copy/move",
+  "objects": "rotated multi-color sprite stamps",
+  "submechanisms": [
+   "rotated-stamping",
+   "anchor-matching",
+   "pattern-completion"
+  ]
+ },
+ "077": {
+  "invariants": "red pixels, layout, grid dimensions",
+  "mechanism": "mask/overlay",
+  "objects": "red-yellow rectangles, static background scatter",
+  "submechanisms": [
+   "occlusion-removal",
+   "rectangle-regions",
+   "static-to-yellow"
+  ]
+ },
+ "078": {
+  "invariants": "segment heights colors column count",
+  "mechanism": "object-copy/move",
+  "objects": "per-column blue top red bottom bars",
+  "submechanisms": [
+   "vertical-stacking",
+   "column-relocation",
+   "segment-join"
+  ]
+ },
+ "079": {
+  "invariants": "dominant sprite shape and color",
+  "mechanism": "object-copy/move",
+  "objects": "scattered colored sprite instances",
+  "submechanisms": [
+   "majority-selection",
+   "prototype-extraction",
+   "3x3-normalization"
+  ]
+ },
+ "080": {
+  "invariants": "line grid, colors, positions",
+  "mechanism": "object-copy/move",
+  "objects": "plus cross markers at centers",
+  "submechanisms": [
+   "template-replication",
+   "plus-expansion",
+   "marker-completion"
+  ]
+ },
+ "081": {
+  "invariants": "block positions, three cyan corners",
+  "mechanism": "recolor-by-rule",
+  "objects": "2x2 L-shaped cyan blocks",
+  "submechanisms": [
+   "missing-corner-fill",
+   "2x2-blocks",
+   "L-shape"
+  ]
+ },
+ "082": {
+  "invariants": "seed column and color",
+  "mechanism": "line/ray-drawing",
+  "objects": "top-row colored seed pixels",
+  "submechanisms": [
+   "vertical-stripes",
+   "checkerboard-phase",
+   "column-expansion"
+  ]
+ },
+ "083": {
+  "invariants": "pixel colors and relative layout",
+  "mechanism": "symmetry-completion",
+  "objects": "sparse colored input pixels",
+  "submechanisms": [
+   "axis-mirror",
+   "2x-expansion",
+   "four-fold-reflection"
+  ]
+ },
+ "084": {
+  "invariants": "left column color unchanged",
+  "mechanism": "line/ray-drawing",
+  "objects": "left column, bottom row, diagonal",
+  "submechanisms": [
+   "anti-diagonal",
+   "bottom-row",
+   "size-dependent"
+  ]
+ },
+ "085": {
+  "invariants": "position width color outer rows",
+  "mechanism": "mask/overlay",
+  "objects": "three-row colored rectangular bars",
+  "submechanisms": [
+   "alternating-column-mask",
+   "middle-row-stripe",
+   "per-rectangle"
+  ]
+ },
+ "086": {
+  "invariants": "flower position size shape",
+  "mechanism": "recolor-by-rule",
+  "objects": "nested square flower motifs",
+  "submechanisms": [
+   "center-border-swap",
+   "plus-extension",
+   "nested-squares"
+  ]
+ },
+ "087": {
+  "invariants": "colors and grid size",
+  "mechanism": "other",
+  "objects": "entire grid cells",
+  "submechanisms": [
+   "rotate-180",
+   "flip-vertical",
+   "flip-horizontal"
+  ]
+ },
+ "088": {
+  "invariants": "sprite cell layout within box",
+  "mechanism": "crop/extract",
+  "objects": "corner-marked box and interior sprite",
+  "submechanisms": [
+   "corner-bbox",
+   "sprite-recolor",
+   "subgrid-extract"
+  ]
+ },
+ "089": {
+  "invariants": "sprite identity and anchor positions",
+  "mechanism": "object-copy/move",
+  "objects": "3x3 diagonally-connected sprite stamps",
+  "submechanisms": [
+   "sprite-stamping",
+   "horizontal-flip",
+   "marker-completion"
+  ]
+ },
+ "090": {
+  "invariants": "non-hole pixels unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "largest black rectangular hole",
+  "submechanisms": [
+   "largest-empty-rectangle",
+   "hole-detection",
+   "rectangular-cutout"
+  ]
+ },
+ "091": {
+  "invariants": "colors and layout within region",
+  "mechanism": "crop/extract",
+  "objects": "glowstick frame and interior pixels",
+  "submechanisms": [
+   "marker-frame",
+   "subgrid-extract",
+   "boundary-redraw"
+  ]
+ },
+ "092": {
+  "invariants": "endpoint coords and colors",
+  "mechanism": "line/ray-drawing",
+  "objects": "colored stick endpoint pairs",
+  "submechanisms": [
+   "endpoint-pair-fill",
+   "horizontal-vertical-sticks",
+   "axis-aligned-segments"
+  ]
+ },
+ "093": {
+  "invariants": "horizon band, column alignment",
+  "mechanism": "line/ray-drawing",
+  "objects": "colored pixels, gray horizon band",
+  "submechanisms": [
+   "vertical-ray-cast",
+   "horizon-barrier",
+   "edge-to-barrier"
+  ]
+ },
+ "094": {
+  "invariants": "cyan background and blue frames",
+  "mechanism": "line/ray-drawing",
+  "objects": "hollow blue square frame centers",
+  "submechanisms": [
+   "crosshair-lines",
+   "frame-center-anchor",
+   "full-span"
+  ]
+ },
+ "095": {
+  "invariants": "seed center positions and color",
+  "mechanism": "morphology",
+  "objects": "isolated gray seed pixels",
+  "submechanisms": [
+   "3x3-dilation",
+   "seed-preservation",
+   "neighbor-recolor"
+  ]
+ },
+ "096": {
+  "invariants": "arm geometry and colors",
+  "mechanism": "object-copy/move",
+  "objects": "colored symmetric cross-arm motifs",
+  "submechanisms": [
+   "canonical-centering",
+   "quadrant-symmetric-arms",
+   "color-index-spacing"
+  ]
+ },
+ "097": {
+  "invariants": "clusters, grid size, color",
+  "mechanism": "morphology",
+  "objects": "scattered same-color pixels",
+  "submechanisms": [
+   "isolated-pixel-removal",
+   "8-neighbor-count",
+   "singleton-pruning"
+  ]
+ },
+ "098": {
+  "invariants": "position size border color",
+  "mechanism": "morphology",
+  "objects": "solid colored rectangles",
+  "submechanisms": [
+   "hollow-interior",
+   "rectangle-outline",
+   "border-preserve"
+  ]
+ },
+ "099": {
+  "invariants": "blue borders, box size",
+  "mechanism": "flood-fill",
+  "objects": "marker dots, blue-framed rectangles",
+  "submechanisms": [
+   "rectangle-completion",
+   "center-marker",
+   "border-preserve"
+  ]
+ },
+ "100": {
+  "invariants": "larger bounding-box area wins",
+  "mechanism": "counting/histogram",
+  "objects": "two colored hollow rectangles",
+  "submechanisms": [
+   "area-comparison",
+   "max-area-wins",
+   "hollow-rectangles"
+  ]
+ },
+ "101": {
+  "invariants": "shape topology and red accents",
+  "mechanism": "scaling/resize",
+  "objects": "scaled copies of one sprite",
+  "submechanisms": [
+   "template-replication",
+   "partial-completion",
+   "multi-instance"
+  ]
+ },
+ "102": {
+  "invariants": "positions sizes gray borders",
+  "mechanism": "recolor-by-rule",
+  "objects": "gray-bordered hollow rectangles",
+  "submechanisms": [
+   "square-detection",
+   "hollow-frame-interior",
+   "shape-conditioned-fill"
+  ]
+ },
+ "103": {
+  "invariants": "input pixel layout",
+  "mechanism": "recolor-by-rule",
+  "objects": "red pixels on grid",
+  "submechanisms": [
+   "horizontal-symmetry",
+   "binary-classification",
+   "mirror-test"
+  ]
+ },
+ "104": {
+  "invariants": "block size, red center pivot",
+  "mechanism": "object-copy/move",
+  "objects": "quadrant marker, two square blocks",
+  "submechanisms": [
+   "quadrant-decode",
+   "diagonal-block-pair",
+   "horizontal-mirror"
+  ]
+ },
+ "105": {
+  "invariants": "blue positions and frame geometry",
+  "mechanism": "mask/overlay",
+  "objects": "rectangular frame border pixels",
+  "submechanisms": [
+   "hidden-pixel-reveal",
+   "frame-completion",
+   "color-filter"
+  ]
+ },
+ "106": {
+  "invariants": "cell colors unchanged",
+  "mechanism": "symmetry-completion",
+  "objects": "small grid colored cells",
+  "submechanisms": [
+   "4-fold-rotation",
+   "quadrant-mirroring",
+   "grid-doubling"
+  ]
+ },
+ "107": {
+  "invariants": "colors and relative layout",
+  "mechanism": "scaling/resize",
+  "objects": "2x2 box and corner pixels",
+  "submechanisms": [
+   "count-derived factor",
+   "block replication",
+   "corner markers"
+  ]
+ },
+ "108": {
+  "invariants": "colors and relative positions",
+  "mechanism": "scaling/resize",
+  "objects": "sparse colored marker pixels",
+  "submechanisms": [
+   "block-upscale",
+   "sparse-markers",
+   "4x4-expansion"
+  ]
+ },
+ "109": {
+  "invariants": "quadrant-relative pixel offsets",
+  "mechanism": "symmetry-completion",
+  "objects": "sprite pixels in one quadrant",
+  "submechanisms": [
+   "4-way-mirror",
+   "quadrant-extract",
+   "cross-color-recolor"
+  ]
+ },
+ "110": {
+  "invariants": "unmasked background pattern preserved",
+  "mechanism": "mask/overlay",
+  "objects": "black rectangular cutout regions",
+  "submechanisms": [
+   "rect-cutout-removal",
+   "radial-mod-pattern",
+   "periodic-tile-fill"
+  ]
+ },
+ "111": {
+  "invariants": "sprite shape and color",
+  "mechanism": "crop/extract",
+  "objects": "gray-marked sprite instance",
+  "submechanisms": [
+   "gray-marker",
+   "sprite-isolation",
+   "local-coordinates"
+  ]
+ },
+ "112": {
+  "invariants": "green box position, pattern topology",
+  "mechanism": "object-copy/move",
+  "objects": "red pixel pattern, green anchor box",
+  "submechanisms": [
+   "corner-reflection",
+   "quad-stamp",
+   "anchor-relative"
+  ]
+ },
+ "113": {
+  "invariants": "width and top color sequence",
+  "mechanism": "symmetry-completion",
+  "objects": "solid horizontal color row bands",
+  "submechanisms": [
+   "vertical-mirror",
+   "row-reflection",
+   "band-replication"
+  ]
+ },
+ "114": {
+  "invariants": "interior grid content unchanged",
+  "mechanism": "object-copy/move",
+  "objects": "edge pixels of input grid",
+  "submechanisms": [
+   "edge-replication",
+   "border-padding",
+   "grid-expansion"
+  ]
+ },
+ "115": {
+  "invariants": "color identity and band order",
+  "mechanism": "crop/extract",
+  "objects": "horizontal colored stripe bands",
+  "submechanisms": [
+   "stripe-bands",
+   "color-sequence",
+   "row-collapse"
+  ]
+ },
+ "116": {
+  "invariants": "background color, width, symmetry",
+  "mechanism": "symmetry-completion",
+  "objects": "colored foreground pixels",
+  "submechanisms": [
+   "vertical-mirror",
+   "height-doubling",
+   "bottom-half-copy"
+  ]
+ },
+ "117": {
+  "invariants": "cross body position and colors",
+  "mechanism": "symmetry-completion",
+  "objects": "partial sprite around cross marker",
+  "submechanisms": [
+   "quad-reflection",
+   "cross-anchor",
+   "sprite-replicate"
+  ]
+ },
+ "118": {
+  "invariants": "red crosses, layout unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "gray pixels on cross arms",
+  "submechanisms": [
+   "cross-detection",
+   "gray-to-cyan",
+   "line-intersection"
+  ]
+ },
+ "119": {
+  "invariants": "wall band, cyan starter segment",
+  "mechanism": "line/ray-drawing",
+  "objects": "V-shaped diagonal from wall",
+  "submechanisms": [
+   "v-diagonal-continuation",
+   "wall-rebound-point",
+   "gravity-rotation"
+  ]
+ },
+ "120": {
+  "invariants": "positions sizes border colors",
+  "mechanism": "recolor-by-rule",
+  "objects": "axis-aligned colored rectangles",
+  "submechanisms": [
+   "hollow-interior",
+   "rect-border",
+   "cyan-fill"
+  ]
+ },
+ "121": {
+  "invariants": "sprite shape and colors",
+  "mechanism": "crop/extract",
+  "objects": "cyan-marked 3x3 sprite",
+  "submechanisms": [
+   "cyan-center-marker",
+   "3x3-sprite-extract",
+   "marker-recolor"
+  ]
+ },
+ "122": {
+  "invariants": "green stripe pattern, grid dimensions",
+  "mechanism": "object-copy/move",
+  "objects": "3x3 red block on green stripe row",
+  "submechanisms": [
+   "horizontal-shift",
+   "slot-advance",
+   "anchor-row"
+  ]
+ },
+ "123": {
+  "invariants": "color sequence order from input",
+  "mechanism": "scaling/resize",
+  "objects": "cells by max(r,c) diagonal layer",
+  "submechanisms": [
+   "max-coordinate-indexing",
+   "modulo-wrap",
+   "diagonal-layers"
+  ]
+ },
+ "124": {
+  "invariants": "sprite shape color spacing",
+  "mechanism": "tiling/fractal",
+  "objects": "repeated colored sprite tiles",
+  "submechanisms": [
+   "vertical-repeat",
+   "diagonal-offset",
+   "square-extension"
+  ]
+ },
+ "125": {
+  "invariants": "rectangle positions and sizes",
+  "mechanism": "recolor-by-rule",
+  "objects": "pink frames with cyan holes",
+  "submechanisms": [
+   "nested-rectangles",
+   "border-highlight",
+   "hole-fill"
+  ]
+ },
+ "126": {
+  "invariants": "shooter glyphs and background unchanged",
+  "mechanism": "line/ray-drawing",
+  "objects": "colored U-shaped shooter markers",
+  "submechanisms": [
+   "vertical-projection",
+   "bottom-anchor",
+   "shooter-pattern"
+  ]
+ },
+ "127": {
+  "invariants": "gray divider grid structure",
+  "mechanism": "recolor-by-rule",
+  "objects": "seed pixels in grid cells",
+  "submechanisms": [
+   "cell-fill",
+   "color-offset",
+   "grid-partition"
+  ]
+ },
+ "128": {
+  "invariants": "width, color, column, height",
+  "mechanism": "object-copy/move",
+  "objects": "colored bottom-aligned rectangular bars",
+  "submechanisms": [
+   "vertical-shift-up",
+   "per-object-height-offset",
+   "bottom-aligned-rectangles"
+  ]
+ },
+ "129": {
+  "invariants": "grid size and shape",
+  "mechanism": "counting/histogram",
+  "objects": "sparse colored pixel markers",
+  "submechanisms": [
+   "majority-color",
+   "mode-selection",
+   "uniform-fill"
+  ]
+ },
+ "130": {
+  "invariants": "tile grid structure and colors",
+  "mechanism": "scaling/resize",
+  "objects": "uniform colored tile blocks",
+  "submechanisms": [
+   "block-downsample",
+   "tile-color-extract",
+   "ignore-gray-markers"
+  ]
+ },
+ "131": {
+  "invariants": "creature shape, row positions",
+  "mechanism": "object-copy/move",
+  "objects": "green creature, red vertical line",
+  "submechanisms": [
+   "align-to-line",
+   "horizontal-shift",
+   "marker-column"
+  ]
+ },
+ "132": {
+  "invariants": "grid size, background outside",
+  "mechanism": "object-copy/move",
+  "objects": "axis-aligned box corner markers",
+  "submechanisms": [
+   "rectangle-completion",
+   "corner-markers",
+   "bbox-fill"
+  ]
+ },
+ "133": {
+  "invariants": "topology, placement, colors",
+  "mechanism": "object-copy/move",
+  "objects": "multi-scale sprite copies",
+  "submechanisms": [
+   "template-completion",
+   "scaled-replication",
+   "partial-clue"
+  ]
+ },
+ "134": {
+  "invariants": "sprite cell occupancy pattern",
+  "mechanism": "scaling/resize",
+  "objects": "magnified block-expanded sprite",
+  "submechanisms": [
+   "block-downsample",
+   "sprite-extract",
+   "uniform-recolor"
+  ]
+ },
+ "135": {
+  "invariants": "cell colors unchanged",
+  "mechanism": "crop/extract",
+  "objects": "top-right subgrid patch",
+  "submechanisms": [
+   "top-right-crop",
+   "fixed-offset",
+   "subgrid-select"
+  ]
+ },
+ "136": {
+  "invariants": "box positions and colors",
+  "mechanism": "line/ray-drawing",
+  "objects": "two colored 2x2 anchor boxes",
+  "submechanisms": [
+   "diagonal-ray",
+   "color-to-direction",
+   "corner-anchor"
+  ]
+ },
+ "137": {
+  "invariants": "center color ring spacing",
+  "mechanism": "line/ray-drawing",
+  "objects": "diagonal three-pixel seed",
+  "submechanisms": [
+   "concentric-square-rings",
+   "spacing-expansion",
+   "perimeter-tracing"
+  ]
+ },
+ "138": {
+  "invariants": "border lines and colors",
+  "mechanism": "line/ray-drawing",
+  "objects": "seed pixels, rectangular frame",
+  "submechanisms": [
+   "color-to-direction",
+   "ray-until-boundary",
+   "rect-crop"
+  ]
+ },
+ "139": {
+  "invariants": "sprite cells stay yellow",
+  "mechanism": "recolor-by-rule",
+  "objects": "two sparse sprites in tiles",
+  "submechanisms": [
+   "complement-fill",
+   "fixed-3x3-regions",
+   "dual-sprites"
+  ]
+ },
+ "140": {
+  "invariants": "colors unchanged, positions rotate",
+  "mechanism": "object-copy/move",
+  "objects": "six colored cells on grid",
+  "submechanisms": [
+   "180-rotation",
+   "sparse-cells",
+   "position-remap"
+  ]
+ },
+ "141": {
+  "invariants": "grid size, background, seed color",
+  "mechanism": "line/ray-drawing",
+  "objects": "single colored seed pixel",
+  "submechanisms": [
+   "diagonal-rays",
+   "x-pattern",
+   "seed-extension"
+  ]
+ },
+ "142": {
+  "invariants": "cell color values",
+  "mechanism": "symmetry-completion",
+  "objects": "input grid cells",
+  "submechanisms": [
+   "mirror-reflection",
+   "quadrant-tiling",
+   "grid-expansion"
+  ]
+ },
+ "143": {
+  "invariants": "gray cross, other sprites, reference",
+  "mechanism": "recolor-by-rule",
+  "objects": "boxed reference sprite, duplicate copies",
+  "submechanisms": [
+   "template-match",
+   "duplicate-detection",
+   "gray-out"
+  ]
+ },
+ "144": {
+  "invariants": "grid size and alignment",
+  "mechanism": "grid-arithmetic",
+  "objects": "aligned top-bottom cell pairs",
+  "submechanisms": [
+   "boolean-and",
+   "stacked-subgrid-compare",
+   "emptiness-mask"
+  ]
+ },
+ "145": {
+  "invariants": "red divider lines unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "rectangular regions between red lines",
+  "submechanisms": [
+   "rectangular-partition",
+   "area-min-max",
+   "region-fill"
+  ]
+ },
+ "146": {
+  "invariants": "extracted block colors unchanged",
+  "mechanism": "crop/extract",
+  "objects": "three stacked 3x3 blocks",
+  "submechanisms": [
+   "diagonal-symmetry-test",
+   "select-asymmetric-block",
+   "vertical-panel-split"
+  ]
+ },
+ "147": {
+  "invariants": "grid size and marker positions",
+  "mechanism": "recolor-by-rule",
+  "objects": "green markers and interior cells",
+  "submechanisms": [
+   "interior-fill",
+   "edge-marker-recolor",
+   "position-conditional"
+  ]
+ },
+ "148": {
+  "invariants": "red portal edges, row offsets",
+  "mechanism": "line/ray-drawing",
+  "objects": "portal strips, cyan row markers",
+  "submechanisms": [
+   "portal-row-pairing",
+   "horizontal-fill",
+   "marker-recolor"
+  ]
+ },
+ "149": {
+  "invariants": "mini-grid partition structure",
+  "mechanism": "counting/histogram",
+  "objects": "pink pixels per mini-grid",
+  "submechanisms": [
+   "per-region-count",
+   "threshold-marking",
+   "grid-collapse"
+  ]
+ },
+ "150": {
+  "invariants": "row colors, grid dimensions",
+  "mechanism": "symmetry-completion",
+  "objects": "colored grid rows",
+  "submechanisms": [
+   "horizontal-flip",
+   "row-reverse",
+   "mirror"
+  ]
+ },
+ "151": {
+  "invariants": "full cross lines preserved",
+  "mechanism": "recolor-by-rule",
+  "objects": "orthogonal cross intersection neighborhood",
+  "submechanisms": [
+   "cross-intersection",
+   "3x3-neighborhood",
+   "junction-highlight"
+  ]
+ },
+ "152": {
+  "invariants": "cell colors unchanged",
+  "mechanism": "symmetry-completion",
+  "objects": "input grid rows and cells",
+  "submechanisms": [
+   "horizontal-reflect",
+   "vertical-reflect",
+   "grid-doubling"
+  ]
+ },
+ "153": {
+  "invariants": "relative offsets, connectivity, colors",
+  "mechanism": "crop/extract",
+  "objects": "two anchored 3x3 color halves",
+  "submechanisms": [
+   "dual-anchor-merge",
+   "binary-partition",
+   "diagonal-connectivity"
+  ]
+ },
+ "154": {
+  "invariants": "red frame position and shape",
+  "mechanism": "object-copy/move",
+  "objects": "gray pixels outside red frame",
+  "submechanisms": [
+   "mirror-fold",
+   "split-merge",
+   "bounding-frame"
+  ]
+ },
+ "155": {
+  "invariants": "colors and column positions",
+  "mechanism": "object-copy/move",
+  "objects": "all grid cells",
+  "submechanisms": [
+   "vertical-flip",
+   "row-reversal",
+   "mirror"
+  ]
+ },
+ "156": {
+  "invariants": "positions sizes yellow borders",
+  "mechanism": "recolor-by-rule",
+  "objects": "two yellow rectangles",
+  "submechanisms": [
+   "interior-fill",
+   "size-ordered-labels",
+   "border-preserve"
+  ]
+ },
+ "157": {
+  "invariants": "red bar and sprite positions",
+  "mechanism": "recolor-by-rule",
+  "objects": "black sprites matching gray templates",
+  "submechanisms": [
+   "shape-matching",
+   "footprint-compare",
+   "template-reference"
+  ]
+ },
+ "158": {
+  "invariants": "positions scales flips background",
+  "mechanism": "object-copy/move",
+  "objects": "magnified symmetric sprite instances",
+  "submechanisms": [
+   "template-completion",
+   "magnification",
+   "flip-transform"
+  ]
+ },
+ "159": {
+  "invariants": "sprite pattern, colors, connectivity",
+  "mechanism": "scaling/resize",
+  "objects": "3x3 sprite, red frame box",
+  "submechanisms": [
+   "integer block upscale",
+   "box-derived factor",
+   "border copy"
+  ]
+ },
+ "160": {
+  "invariants": "positions; non-box shapes unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "anchored sprite glyphs by type",
+  "submechanisms": [
+   "box-to-plus",
+   "type-conditional",
+   "blue-to-red"
+  ]
+ },
+ "161": {
+  "invariants": "grid size and laser axes",
+  "mechanism": "line/ray-drawing",
+  "objects": "rows and columns with edge markers",
+  "submechanisms": [
+   "edge-pair markers",
+   "row-column sweep",
+   "laser extension"
+  ]
+ },
+ "162": {
+  "invariants": "foreground outside filled holes",
+  "mechanism": "recolor-by-rule",
+  "objects": "isolated black hole regions",
+  "submechanisms": [
+   "3x3-neighborhood",
+   "hole-fill",
+   "zero-sum-predicate"
+  ]
+ },
+ "163": {
+  "invariants": "gray dividers, copied colors",
+  "mechanism": "object-copy/move",
+  "objects": "pixels in yellow-marked mini-grid",
+  "submechanisms": [
+   "yellow-marker",
+   "mini-grid-extract",
+   "anchor-reposition"
+  ]
+ },
+ "164": {
+  "invariants": "cell colors unchanged",
+  "mechanism": "symmetry-completion",
+  "objects": "input grid colored cells",
+  "submechanisms": [
+   "horizontal-reflection",
+   "mirror-duplicate",
+   "width-doubling"
+  ]
+ },
+ "165": {
+  "invariants": "kite shape and pixel locations",
+  "mechanism": "line/ray-drawing",
+  "objects": "scattered pixels and kite shape",
+  "submechanisms": [
+   "vertical-column-fill",
+   "obstacle-terminated",
+   "below-kite-gate"
+  ]
+ },
+ "166": {
+  "invariants": "cyan bar pixels unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "variable-length cyan horizontal bars",
+  "submechanisms": [
+   "bounding-box-fill",
+   "preserve-cyan-bars",
+   "marker-pixel"
+  ]
+ },
+ "167": {
+  "invariants": "grid size, empty background",
+  "mechanism": "counting/histogram",
+  "objects": "unique colors in input grid",
+  "submechanisms": [
+   "unique-color-count",
+   "count-to-pattern",
+   "diagonal-row-markers"
+  ]
+ },
+ "168": {
+  "invariants": "block position color direction",
+  "mechanism": "line/ray-drawing",
+  "objects": "2x2 blocks with direction markers",
+  "submechanisms": [
+   "direction-marker",
+   "extend-to-boundary",
+   "2x2-anchor"
+  ]
+ },
+ "169": {
+  "invariants": "sprite shape layout positions",
+  "mechanism": "recolor-by-rule",
+  "objects": "non-overlapping gray sprite shapes",
+  "submechanisms": [
+   "per-sprite-cell-count",
+   "linear-map-5-minus-n",
+   "group-by-object"
+  ]
+ },
+ "170": {
+  "invariants": "sprite topology and alignment",
+  "mechanism": "recolor-by-rule",
+  "objects": "megasprite and color key box",
+  "submechanisms": [
+   "demagnify-sprite",
+   "color-box-lookup",
+   "positional-mapping"
+  ]
+ },
+ "171": {
+  "invariants": "interior cells grid dimensions",
+  "mechanism": "recolor-by-rule",
+  "objects": "grid perimeter border cells",
+  "submechanisms": [
+   "perimeter-border",
+   "frame-draw",
+   "edge-cells"
+  ]
+ },
+ "172": {
+  "invariants": "cell colors and columns",
+  "mechanism": "symmetry-completion",
+  "objects": "entire input grid",
+  "submechanisms": [
+   "vertical-mirror",
+   "vertical-stack",
+   "reflection"
+  ]
+ },
+ "173": {
+  "invariants": "position colors sprite topology",
+  "mechanism": "symmetry-completion",
+  "objects": "3x3 cross plus line sprites",
+  "submechanisms": [
+   "partial-motif-restore",
+   "center-or-arms-masked",
+   "sprite-type-match"
+  ]
+ },
+ "174": {
+  "invariants": "target box shape and colors",
+  "mechanism": "crop/extract",
+  "objects": "colored pixel box patterns",
+  "submechanisms": [
+   "asymmetry-selection",
+   "bounding-box",
+   "multi-object"
+  ]
+ },
+ "175": {
+  "invariants": "grid size, index color formula",
+  "mechanism": "grid-arithmetic",
+  "objects": "grid cells, black mask rectangles",
+  "submechanisms": [
+   "quotient-of-indices",
+   "rectangular-mask-removal",
+   "diagonal-symmetry"
+  ]
+ },
+ "176": {
+  "invariants": "red line path unchanged",
+  "mechanism": "flood-fill",
+  "objects": "red zigzag line, column segments",
+  "submechanisms": [
+   "column-segment-fill",
+   "boundary-mode-cycle",
+   "zigzag-anchor"
+  ]
+ },
+ "177": {
+  "invariants": "rectangle size, background color",
+  "mechanism": "symmetry-completion",
+  "objects": "accent pixels in colored rectangle",
+  "submechanisms": [
+   "horizontal-mirror",
+   "subgrid-extract",
+   "two-color-rectangle"
+  ]
+ },
+ "178": {
+  "invariants": "band color order preserved",
+  "mechanism": "crop/extract",
+  "objects": "full-width horizontal color stripes",
+  "submechanisms": [
+   "horizontal-bands",
+   "stripe-collapse",
+   "color-sequence"
+  ]
+ },
+ "179": {
+  "invariants": "color values and grid size",
+  "mechanism": "other",
+  "objects": "individual grid cells",
+  "submechanisms": [
+   "transpose",
+   "diagonal-reflection",
+   "index-swap"
+  ]
+ },
+ "180": {
+  "invariants": "colors and local pixel positions",
+  "mechanism": "crop/extract",
+  "objects": "four quadrant colored pixel scatters",
+  "submechanisms": [
+   "quadrant-merge",
+   "overlap-priority",
+   "layer-stack"
+  ]
+ },
+ "181": {
+  "invariants": "yellow markers, grid size",
+  "mechanism": "symmetry-completion",
+  "objects": "cyan sprite, yellow markers",
+  "submechanisms": [
+   "horizontal-mirror",
+   "reflect-copy",
+   "fixed-anchors"
+  ]
+ },
+ "182": {
+  "invariants": "positions, box, other shapes",
+  "mechanism": "recolor-by-rule",
+  "objects": "sprites sharing reference shape",
+  "submechanisms": [
+   "shape-matching",
+   "reference-box",
+   "duplicate-instances"
+  ]
+ },
+ "183": {
+  "invariants": "marker positions unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "cyan marker pixels in quadrants",
+  "submechanisms": [
+   "quadrant-partition",
+   "corner-color-lookup",
+   "frame-crop"
+  ]
+ },
+ "184": {
+  "invariants": "patch layout and colors",
+  "mechanism": "crop/extract",
+  "objects": "rectangular colored patches in mosaic",
+  "submechanisms": [
+   "mosaic-grid",
+   "per-patch-color",
+   "downsample"
+  ]
+ },
+ "185": {
+  "invariants": "marker colors and cell positions",
+  "mechanism": "crop/extract",
+  "objects": "colored markers in grid cells",
+  "submechanisms": [
+   "line-grid parsing",
+   "cell-marker decode",
+   "3x3 region extract"
+  ]
+ },
+ "186": {
+  "invariants": "grid size, fixed slot layout",
+  "mechanism": "counting/histogram",
+  "objects": "scattered blue input pixels",
+  "submechanisms": [
+   "pixel-count",
+   "count-to-pattern",
+   "fixed-indicator-slots"
+  ]
+ },
+ "187": {
+  "invariants": "colored borders and line paths",
+  "mechanism": "recolor-by-rule",
+  "objects": "hollow box frames with lines",
+  "submechanisms": [
+   "hollow-interior-fill",
+   "background-swap",
+   "rectangular-frames"
+  ]
+ },
+ "188": {
+  "invariants": "subgrid pixel colors unchanged",
+  "mechanism": "crop/extract",
+  "objects": "identical duplicated subgrids",
+  "submechanisms": [
+   "half-crop",
+   "deduplicate",
+   "2x-axis"
+  ]
+ },
+ "189": {
+  "invariants": "marker positions and quadrant layout",
+  "mechanism": "recolor-by-rule",
+  "objects": "green marker pixels per quadrant",
+  "submechanisms": [
+   "quadrant-lookup",
+   "palette-key",
+   "marker-recolor"
+  ]
+ },
+ "190": {
+  "invariants": "box position, color, ray directions",
+  "mechanism": "line/ray-drawing",
+  "objects": "2x2 colored box and ray seeds",
+  "submechanisms": [
+   "ray-extension",
+   "direction-from-seeds",
+   "anchor-box"
+  ]
+ },
+ "191": {
+  "invariants": "yellow scatter pixels preserved",
+  "mechanism": "object-copy/move",
+  "objects": "sprite patterns in bordered regions",
+  "submechanisms": [
+   "template-matching",
+   "rotation-reflection",
+   "border-framing"
+  ]
+ },
+ "192": {
+  "invariants": "rectangle blocks position and color",
+  "mechanism": "connected-components",
+  "objects": "isolated scatter pixels, solid rectangles",
+  "submechanisms": [
+   "noise-removal",
+   "isolated-pixel-filter",
+   "rectangle-preservation"
+  ]
+ },
+ "193": {
+  "invariants": "box geometry and color",
+  "mechanism": "connected-components",
+  "objects": "filled rectangles and stray pixels",
+  "submechanisms": [
+   "singleton-removal",
+   "rectangle-retention",
+   "distractor-filter"
+  ]
+ },
+ "194": {
+  "invariants": "colors and pattern preserved",
+  "mechanism": "symmetry-completion",
+  "objects": "sparse colored pixels",
+  "submechanisms": [
+   "4-fold-rotation",
+   "pixel-copy",
+   "grid-doubling"
+  ]
+ },
+ "195": {
+  "invariants": "block size and sprite topology",
+  "mechanism": "tiling/fractal",
+  "objects": "upscaled gray sprite blocks",
+  "submechanisms": [
+   "block-downsample",
+   "self-similar-expansion",
+   "sprite-extract"
+  ]
+ },
+ "196": {
+  "invariants": "positions, gaps, interior unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "hollow rectangle border pixels",
+  "submechanisms": [
+   "gap-detection",
+   "size-threshold",
+   "border-closure"
+  ]
+ },
+ "197": {
+  "invariants": "row indices, binary pattern",
+  "mechanism": "recolor-by-rule",
+  "objects": "selected rows, column pattern",
+  "submechanisms": [
+   "binary-column-mask",
+   "row-completion",
+   "per-row-colors"
+  ]
+ },
+ "198": {
+  "invariants": "line grid topology and spacing",
+  "mechanism": "recolor-by-rule",
+  "objects": "black markers on line grid",
+  "submechanisms": [
+   "marker-adjacency",
+   "separator-conditional",
+   "macro-cell-fill"
+  ]
+ },
+ "199": {
+  "invariants": "grid size, stripe parity",
+  "mechanism": "line/ray-drawing",
+  "objects": "single seed pixel",
+  "submechanisms": [
+   "vertical-stripes",
+   "column-parity",
+   "marker-offset"
+  ]
+ },
+ "200": {
+  "invariants": "seed color, boundary reflection",
+  "mechanism": "line/ray-drawing",
+  "objects": "bottom seed pixel, vertical rays",
+  "submechanisms": [
+   "vertical-bounce",
+   "edge-reflection",
+   "gray-turn-markers"
+  ]
+ },
+ "201": {
+  "invariants": "sprite shapes, border colors",
+  "mechanism": "object-copy/move",
+  "objects": "two sprites, empty framed rectangle",
+  "submechanisms": [
+   "side-by-side-compose",
+   "frame-template",
+   "horizontal-flip"
+  ]
+ },
+ "202": {
+  "invariants": "stratum colors, heights, width",
+  "mechanism": "line/ray-drawing",
+  "objects": "black dots within color strata",
+  "submechanisms": [
+   "vertical-extension",
+   "per-stratum",
+   "column-fill"
+  ]
+ },
+ "203": {
+  "invariants": "symmetry and layer geometry",
+  "mechanism": "recolor-by-rule",
+  "objects": "diagonal nested color layers",
+  "submechanisms": [
+   "layer-index-reversal",
+   "diagonal-bands",
+   "four-fold-mirror"
+  ]
+ },
+ "204": {
+  "invariants": "frame position size blue outline",
+  "mechanism": "recolor-by-rule",
+  "objects": "hollow blue square frames",
+  "submechanisms": [
+   "parity-rule",
+   "interior-fill",
+   "frame-detection"
+  ]
+ },
+ "205": {
+  "invariants": "box size and marker colors",
+  "mechanism": "crop/extract",
+  "objects": "colored box and interior markers",
+  "submechanisms": [
+   "marker-cross-lines",
+   "rect-region-detect",
+   "row-column-fill"
+  ]
+ },
+ "206": {
+  "invariants": "sprite shape and colors",
+  "mechanism": "object-copy/move",
+  "objects": "colored sprite, gray marker",
+  "submechanisms": [
+   "sprite-stamp",
+   "gray-anchor",
+   "connected-pattern"
+  ]
+ },
+ "207": {
+  "invariants": "color and sprite pixel pattern",
+  "mechanism": "crop/extract",
+  "objects": "four 2x2 quadrant sprites",
+  "submechanisms": [
+   "odd-one-out",
+   "quadrant-sprites",
+   "pattern-match"
+  ]
+ },
+ "208": {
+  "invariants": "background colors, hole interiors",
+  "mechanism": "line/ray-drawing",
+  "objects": "black rectangular cutout holes",
+  "submechanisms": [
+   "rect-border",
+   "hole-detection",
+   "one-shot-example"
+  ]
+ },
+ "209": {
+  "invariants": "colors and sprite topology",
+  "mechanism": "scaling/resize",
+  "objects": "small sprite, yellow corner frame",
+  "submechanisms": [
+   "block magnification",
+   "frame crop",
+   "partial preview completion"
+  ]
+ },
+ "210": {
+  "invariants": "column positions and colors",
+  "mechanism": "symmetry-completion",
+  "objects": "sparse blue pixel dots",
+  "submechanisms": [
+   "vertical-reflection",
+   "canvas-doubling",
+   "sparse-dots"
+  ]
+ },
+ "211": {
+  "invariants": "color and reflection symmetry",
+  "mechanism": "symmetry-completion",
+  "objects": "sparse colored pixels in input grid",
+  "submechanisms": [
+   "mirror-reflect",
+   "vertical-bands",
+   "pixel-copy"
+  ]
+ },
+ "212": {
+  "invariants": "horizon row, seed columns, colors",
+  "mechanism": "line/ray-drawing",
+  "objects": "colored seed pixels, grey horizon",
+  "submechanisms": [
+   "vertical-rays",
+   "horizon-direction-flip",
+   "collision-stop"
+  ]
+ },
+ "213": {
+  "invariants": "stripe color order and count",
+  "mechanism": "crop/extract",
+  "objects": "horizontal stripes, gray bordered box",
+  "submechanisms": [
+   "stripe-color-read",
+   "row-solid-fill",
+   "marker-box-sizing"
+  ]
+ },
+ "214": {
+  "invariants": "colors unchanged, rotations only",
+  "mechanism": "object-copy/move",
+  "objects": "square color input patch",
+  "submechanisms": [
+   "90-degree-rotation",
+   "180-degree-rotation",
+   "gray-separators"
+  ]
+ },
+ "215": {
+  "invariants": "sprite shape spacing color",
+  "mechanism": "tiling/fractal",
+  "objects": "colored sprite horizontally repeated",
+  "submechanisms": [
+   "vertical-period-3",
+   "horizontal-repeat",
+   "alternating-flip"
+  ]
+ },
+ "216": {
+  "invariants": "chosen box pattern preserved",
+  "mechanism": "crop/extract",
+  "objects": "blue rectangles with red pixels",
+  "submechanisms": [
+   "count-red-dots",
+   "select-max-box",
+   "subgrid-crop"
+  ]
+ },
+ "217": {
+  "invariants": "sprite shape and color",
+  "mechanism": "object-copy/move",
+  "objects": "colored sprite on block subgrid",
+  "submechanisms": [
+   "sprite-replication",
+   "block-grid",
+   "pattern-stencil"
+  ]
+ },
+ "218": {
+  "invariants": "patch colors and grid topology",
+  "mechanism": "crop/extract",
+  "objects": "uniform-color rectangular quilt patches",
+  "submechanisms": [
+   "quilt-decomposition",
+   "block-color-summary",
+   "variable-patch-sizes"
+  ]
+ },
+ "219": {
+  "invariants": "band rows, A and B cyan",
+  "mechanism": "tiling/fractal",
+  "objects": "horizontal bands with tiled A/B/C motifs",
+  "submechanisms": [
+   "horizontal-periodic-tiling",
+   "reference-band",
+   "recolor-C-region"
+  ]
+ },
+ "220": {
+  "invariants": "center color and positions",
+  "mechanism": "morphology",
+  "objects": "isolated colored seed pixels",
+  "submechanisms": [
+   "3x3-dilation",
+   "halo-recolor",
+   "center-preserve"
+  ]
+ },
+ "221": {
+  "invariants": "pattern geometry and color",
+  "mechanism": "tiling/fractal",
+  "objects": "colored input pixel pattern",
+  "submechanisms": [
+   "void-count-scaling",
+   "pattern-replication",
+   "block-grid-layout"
+  ]
+ },
+ "222": {
+  "invariants": "box interior colors and position",
+  "mechanism": "crop/extract",
+  "objects": "solid-color rectangular box",
+  "submechanisms": [
+   "rectangular-bbox",
+   "background-zeroing",
+   "in-place-isolation"
+  ]
+ },
+ "223": {
+  "invariants": "colors and relative positions",
+  "mechanism": "scaling/resize",
+  "objects": "sparse colored pixels on grid",
+  "submechanisms": [
+   "block-upscale",
+   "pixel-magnification",
+   "integer-scale"
+  ]
+ },
+ "224": {
+  "invariants": "inner frame, markers, background",
+  "mechanism": "line/ray-drawing",
+  "objects": "nested rectangle frames, gray markers",
+  "submechanisms": [
+   "nested-rectangles",
+   "border-completion",
+   "gray-anchors"
+  ]
+ },
+ "225": {
+  "invariants": "center block and colors unchanged",
+  "mechanism": "object-copy/move",
+  "objects": "central 2x2 color block",
+  "submechanisms": [
+   "diagonal-replication",
+   "2x2-motif",
+   "four-copies"
+  ]
+ },
+ "226": {
+  "invariants": "gray separator lines and layout",
+  "mechanism": "recolor-by-rule",
+  "objects": "rectangular cells between gray dividers",
+  "submechanisms": [
+   "grid-partition",
+   "positional-targeting",
+   "corner-center-fill"
+  ]
+ },
+ "227": {
+  "invariants": "positional correspondence across panels",
+  "mechanism": "mask/overlay",
+  "objects": "stacked top and bottom panels",
+  "submechanisms": [
+   "layer-comparison",
+   "empty-intersection",
+   "conditional-recolor"
+  ]
+ },
+ "228": {
+  "invariants": "box border and black interior unchanged",
+  "mechanism": "object-copy/move",
+  "objects": "inner corner marker pixels of framed box",
+  "submechanisms": [
+   "180-rotation",
+   "corner-to-exterior",
+   "diagonal-mapping"
+  ]
+ },
+ "229": {
+  "invariants": "most frequent color preserved",
+  "mechanism": "recolor-by-rule",
+  "objects": "grid cells by color frequency",
+  "submechanisms": [
+   "mode-frequency",
+   "gray-out-nonmode",
+   "per-cell-threshold"
+  ]
+ },
+ "230": {
+  "invariants": "gray blocks unchanged",
+  "mechanism": "object-copy/move",
+  "objects": "2x2 gray square blocks",
+  "submechanisms": [
+   "corner-extension",
+   "position-to-color",
+   "2x2-blocks"
+  ]
+ },
+ "231": {
+  "invariants": "period colors row offset",
+  "mechanism": "tiling/fractal",
+  "objects": "repeating horizontal color stripes",
+  "submechanisms": [
+   "periodic-extension",
+   "horizontal-tiling",
+   "modulo-repeat"
+  ]
+ },
+ "232": {
+  "invariants": "row index and seed column",
+  "mechanism": "line/ray-drawing",
+  "objects": "colored seed pixels per row",
+  "submechanisms": [
+   "horizontal-ray",
+   "parity-stripe",
+   "rightward-extension"
+  ]
+ },
+ "233": {
+  "invariants": "positions, rotations, background colors",
+  "mechanism": "crop/extract",
+  "objects": "red frame, 3x3 sprite tiles",
+  "submechanisms": [
+   "recolor-black-to-red",
+   "sprite-rotation",
+   "colored-tile-backgrounds"
+  ]
+ },
+ "234": {
+  "invariants": "frog position, colors, box sizes",
+  "mechanism": "object-copy/move",
+  "objects": "two colored rectangles, vertical tongue",
+  "submechanisms": [
+   "vertical-shift",
+   "gap-removal",
+   "tongue-retraction"
+  ]
+ },
+ "235": {
+  "invariants": "panel order and spacing",
+  "mechanism": "recolor-by-rule",
+  "objects": "three patterned 4x4 panels",
+  "submechanisms": [
+   "glyph-classification",
+   "pattern-lookup",
+   "row-uniform-fill"
+  ]
+ },
+ "236": {
+  "invariants": "cell positions and grid size",
+  "mechanism": "grid-arithmetic",
+  "objects": "top blue bottom red pixels",
+  "submechanisms": [
+   "xor-parity",
+   "dual-region-align",
+   "mod-2-count"
+  ]
+ },
+ "237": {
+  "invariants": "background unchanged, seeds preserved",
+  "mechanism": "line/ray-drawing",
+  "objects": "sparse colored seed pixels",
+  "submechanisms": [
+   "horizontal-ray",
+   "vertical-edge-ray",
+   "seed-anchors"
+  ]
+ },
+ "238": {
+  "invariants": "sprite shape and positions",
+  "mechanism": "recolor-by-rule",
+  "objects": "cyan sprite, colored box frame",
+  "submechanisms": [
+   "diagonal-quadrants",
+   "border-color-lookup",
+   "sprite-crop"
+  ]
+ },
+ "239": {
+  "invariants": "per-color frequencies preserved",
+  "mechanism": "counting/histogram",
+  "objects": "grid cell colors",
+  "submechanisms": [
+   "frequency-count",
+   "sort-by-count",
+   "bar-columns"
+  ]
+ },
+ "240": {
+  "invariants": "colors and center axes",
+  "mechanism": "symmetry-completion",
+  "objects": "sparse colored seed pixels",
+  "submechanisms": [
+   "quadrant-mirror",
+   "dotted-outline",
+   "diagonal-pairing"
+  ]
+ },
+ "241": {
+  "invariants": "gray diagonal, colors unchanged",
+  "mechanism": "symmetry-completion",
+  "objects": "off-diagonal colored pixels",
+  "submechanisms": [
+   "transpose",
+   "diagonal-reflection",
+   "coordinate-swap"
+  ]
+ },
+ "242": {
+  "invariants": "four-fold grid symmetry",
+  "mechanism": "crop/extract",
+  "objects": "black hole in symmetric grid",
+  "submechanisms": [
+   "symmetry-fill",
+   "hole-locate",
+   "subgrid-crop"
+  ]
+ },
+ "243": {
+  "invariants": "non-blue colors, grid size",
+  "mechanism": "flood-fill",
+  "objects": "blue seeds and black cells",
+  "submechanisms": [
+   "seed-expansion",
+   "4-connected",
+   "barrier-stop"
+  ]
+ },
+ "244": {
+  "invariants": "pixel colors and layout",
+  "mechanism": "scaling/resize",
+  "objects": "magnified color blocks",
+  "submechanisms": [
+   "downsample-blocks",
+   "remove-gridlines",
+   "horizontal-unflip"
+  ]
+ },
+ "245": {
+  "invariants": "green corners, red sprite shape",
+  "mechanism": "object-copy/move",
+  "objects": "red sprite, green corner frame",
+  "submechanisms": [
+   "translation",
+   "corner-frame-alignment",
+   "sprite-repositioning"
+  ]
+ },
+ "246": {
+  "invariants": "seed positions and colors",
+  "mechanism": "line/ray-drawing",
+  "objects": "two colored anchor pixels",
+  "submechanisms": [
+   "manhattan-path",
+   "two-seed-points",
+   "bbox-wire"
+  ]
+ },
+ "247": {
+  "invariants": "colors, max count, column order",
+  "mechanism": "counting/histogram",
+  "objects": "boxed colored pixel sprites",
+  "submechanisms": [
+   "pixel-count-per-box",
+   "max-count-filter",
+   "left-to-right-sort"
+  ]
+ },
+ "248": {
+  "invariants": "grid size and background",
+  "mechanism": "line/ray-drawing",
+  "objects": "ray bouncing within grid",
+  "submechanisms": [
+   "wall-reflection",
+   "diagonal-ray",
+   "path-tracing"
+  ]
+ },
+ "249": {
+  "invariants": "colors and relative positions preserved",
+  "mechanism": "tiling/fractal",
+  "objects": "sparse colored pixels on grid",
+  "submechanisms": [
+   "horizontal-doubling",
+   "grid-duplication",
+   "side-by-side-copy"
+  ]
+ },
+ "250": {
+  "invariants": "red box unchanged, gray count preserved",
+  "mechanism": "object-copy/move",
+  "objects": "gray pixels relative to red box",
+  "submechanisms": [
+   "snap-to-frame",
+   "anchor-box",
+   "side-projection"
+  ]
+ },
+ "251": {
+  "invariants": "red borders and inner cores",
+  "mechanism": "recolor-by-rule",
+  "objects": "hollow red rectangular frames",
+  "submechanisms": [
+   "hollow-frame-fill",
+   "nested-rectangles",
+   "annulus-recolor"
+  ]
+ },
+ "252": {
+  "invariants": "diagonal positions, even column colors",
+  "mechanism": "recolor-by-rule",
+  "objects": "anti-diagonal colored line bands",
+  "submechanisms": [
+   "anti-diagonal-bands",
+   "column-parity",
+   "alternating-recolor"
+  ]
+ },
+ "253": {
+  "invariants": "color and corner orientation",
+  "mechanism": "object-copy/move",
+  "objects": "four colored L-corner fragments",
+  "submechanisms": [
+   "corner-identification",
+   "canonical-layout",
+   "mosaic-assembly"
+  ]
+ },
+ "254": {
+  "invariants": "bar positions heights and spacing",
+  "mechanism": "recolor-by-rule",
+  "objects": "vertical bars of varying heights",
+  "submechanisms": [
+   "min-max-extrema",
+   "vertical-bars",
+   "height-comparison"
+  ]
+ },
+ "255": {
+  "invariants": "background noise pixels unchanged",
+  "mechanism": "mask/overlay",
+  "objects": "green hollow rectangular vein channels",
+  "submechanisms": [
+   "hidden-green-reveal",
+   "hollow-rectangles",
+   "vascular-tree"
+  ]
+ },
+ "256": {
+  "invariants": "red line position unchanged",
+  "mechanism": "line/ray-drawing",
+  "objects": "red horizontal line segment",
+  "submechanisms": [
+   "triangle-fill",
+   "line-anchor",
+   "bicolor-regions"
+  ]
+ },
+ "257": {
+  "invariants": "relative coordinates per quadrant",
+  "mechanism": "mask/overlay",
+  "objects": "quadrant colored pixels",
+  "submechanisms": [
+   "quadrant-merge",
+   "index-priority",
+   "cross-partition"
+  ]
+ },
+ "258": {
+  "invariants": "blue positions, rows, segment lengths",
+  "mechanism": "recolor-by-rule",
+  "objects": "horizontal blue pixel segments",
+  "submechanisms": [
+   "alternating-fill",
+   "parity-index",
+   "horizontal-segments"
+  ]
+ },
+ "259": {
+  "invariants": "sprite shape colors topology",
+  "mechanism": "crop/extract",
+  "objects": "colored sprite on blue field",
+  "submechanisms": [
+   "bounding-box-crop",
+   "offset-normalization",
+   "background-swap"
+  ]
+ },
+ "260": {
+  "invariants": "main diagonal color and position",
+  "mechanism": "line/ray-drawing",
+  "objects": "main diagonal, gray corner wedges",
+  "submechanisms": [
+   "parallel-diagonal-offset",
+   "corner-anchor-markers",
+   "diagonal-index-arithmetic"
+  ]
+ },
+ "261": {
+  "invariants": "columns and relative pixel arrangement",
+  "mechanism": "object-copy/move",
+  "objects": "cyan pixels at grid coordinates",
+  "submechanisms": [
+   "vertical-shift",
+   "recolor",
+   "translate-down"
+  ]
+ },
+ "262": {
+  "invariants": "grid size, marker columns",
+  "mechanism": "recolor-by-rule",
+  "objects": "per-row gray column markers",
+  "submechanisms": [
+   "column-index lookup",
+   "row-wide fill",
+   "marker indicator"
+  ]
+ },
+ "263": {
+  "invariants": "outlier shape and color",
+  "mechanism": "crop/extract",
+  "objects": "stacked colored sprite bands",
+  "submechanisms": [
+   "outlier-band",
+   "shape-comparison",
+   "sprite-extraction"
+  ]
+ },
+ "264": {
+  "invariants": "sprite colors and marker geometry",
+  "mechanism": "object-copy/move",
+  "objects": "nine labeled 3x3 sprite tiles",
+  "submechanisms": [
+   "pattern-matching",
+   "spatial-reassembly",
+   "gray-frame-detection"
+  ]
+ },
+ "265": {
+  "invariants": "nonzero pixel colors unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "2x2 empty black hole blocks",
+  "submechanisms": [
+   "2x2-hole-fill",
+   "stripe-adjacency",
+   "two-pass-order"
+  ]
+ },
+ "266": {
+  "invariants": "marker position, grid size",
+  "mechanism": "object-copy/move",
+  "objects": "single red marker pixel",
+  "submechanisms": [
+   "diagonal-offset",
+   "fixed-stencil",
+   "marker-anchor"
+  ]
+ },
+ "267": {
+  "invariants": "shape positions, grid layout",
+  "mechanism": "recolor-by-rule",
+  "objects": "connected blob, bottom-left marker",
+  "submechanisms": [
+   "marker-target-color",
+   "blob-recolor",
+   "corner-hint"
+  ]
+ },
+ "268": {
+  "invariants": "frame color shape position",
+  "mechanism": "line/ray-drawing",
+  "objects": "colored rectangular frame cavity",
+  "submechanisms": [
+   "fountain-rays",
+   "interior-fill",
+   "symmetric-spread"
+  ]
+ },
+ "269": {
+  "invariants": "color and column position",
+  "mechanism": "object-copy/move",
+  "objects": "sparse colored pixels",
+  "submechanisms": [
+   "vertical-stacking",
+   "index-ordering",
+   "column-preserved"
+  ]
+ },
+ "270": {
+  "invariants": "center positions and ray directions",
+  "mechanism": "line/ray-drawing",
+  "objects": "flower centers and petal tip pixels",
+  "submechanisms": [
+   "cardinal-rays",
+   "tip-to-base",
+   "petal-completion"
+  ]
+ },
+ "271": {
+  "invariants": "pixel positions within box",
+  "mechanism": "crop/extract",
+  "objects": "cyan 3x3 boxes, blue pixels",
+  "submechanisms": [
+   "subgrid-selection",
+   "max-coverage-box",
+   "pattern-isolation"
+  ]
+ },
+ "272": {
+  "invariants": "edge cells stay red",
+  "mechanism": "recolor-by-rule",
+  "objects": "red marked grid cells",
+  "submechanisms": [
+   "edge-detection",
+   "interior-recolor",
+   "boundary-preserved"
+  ]
+ },
+ "273": {
+  "invariants": "corner positions and box dimensions",
+  "mechanism": "recolor-by-rule",
+  "objects": "rectangles defined by yellow corners",
+  "submechanisms": [
+   "corner-anchors",
+   "interior-fill",
+   "rectangle-from-corners"
+  ]
+ },
+ "274": {
+  "invariants": "cup walls, water fill level",
+  "mechanism": "counting/histogram",
+  "objects": "empty rows above water in cup",
+  "submechanisms": [
+   "headroom-count",
+   "binary-pattern-encoding",
+   "interior-measurement"
+  ]
+ },
+ "275": {
+  "invariants": "plus layout within each tile",
+  "mechanism": "tiling/fractal",
+  "objects": "colored markers and plus stencil",
+  "submechanisms": [
+   "template-stamp",
+   "cartesian-product",
+   "marker-driven-blocks"
+  ]
+ },
+ "276": {
+  "invariants": "orange pixel locations preserved",
+  "mechanism": "recolor-by-rule",
+  "objects": "scattered orange pixels on pink",
+  "submechanisms": [
+   "background-swap",
+   "preserve-markers",
+   "color-substitution"
+  ]
+ },
+ "277": {
+  "invariants": "positions and geometry preserved",
+  "mechanism": "recolor-by-rule",
+  "objects": "cyan anchored sprite shapes",
+  "submechanisms": [
+   "sprite-variant",
+   "column-width",
+   "anchor-placement"
+  ]
+ },
+ "278": {
+  "invariants": "isolated red positions preserved",
+  "mechanism": "recolor-by-rule",
+  "objects": "paired red pixels, neighbors",
+  "submechanisms": [
+   "hidden-green-restore",
+   "adjacent-red-pairs",
+   "3x3-neighborhood"
+  ]
+ },
+ "279": {
+  "invariants": "positions unchanged, barnacles unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "rectangular box perimeter pixels",
+  "submechanisms": [
+   "closed-rectangle-detection",
+   "perimeter-gap",
+   "cyan-blue-recolor"
+  ]
+ },
+ "280": {
+  "invariants": "boxes and dots unchanged",
+  "mechanism": "line/ray-drawing",
+  "objects": "green rectangles, red dot markers",
+  "submechanisms": [
+   "dot-anchored-beams",
+   "thickness-from-box-size",
+   "extend-to-boundary"
+  ]
+ },
+ "281": {
+  "invariants": "width, top edge, colors",
+  "mechanism": "scaling/resize",
+  "objects": "hollow rectangle, cyan marker dot",
+  "submechanisms": [
+   "vertical-extend",
+   "marker-guided",
+   "hollow-frame"
+  ]
+ },
+ "282": {
+  "invariants": "grid size, marker positions",
+  "mechanism": "recolor-by-rule",
+  "objects": "isolated gray marker pixels",
+  "submechanisms": [
+   "neighbor-adjacency",
+   "cross-diagonal-stencil",
+   "seed-expansion"
+  ]
+ },
+ "283": {
+  "invariants": "positions sizes and shapes",
+  "mechanism": "recolor-by-rule",
+  "objects": "gray filled rectangles",
+  "submechanisms": [
+   "border-highlight",
+   "corner-marking",
+   "interior-fill"
+  ]
+ },
+ "284": {
+  "invariants": "seed locations and colors",
+  "mechanism": "line/ray-drawing",
+  "objects": "paired colored seed pixels",
+  "submechanisms": [
+   "horizontal-extension",
+   "endpoint-caps",
+   "opposite-directions"
+  ]
+ },
+ "285": {
+  "invariants": "shape topology, centers, symmetry",
+  "mechanism": "symmetry-completion",
+  "objects": "connected sprites at anchor centers",
+  "submechanisms": [
+   "quadrant-reflection",
+   "partial-quadrant-hint",
+   "per-quadrant-color"
+  ]
+ },
+ "286": {
+  "invariants": "cyan walls preserved unchanged",
+  "mechanism": "flood-fill",
+  "objects": "non-cyan colored seed pixels",
+  "submechanisms": [
+   "checkerboard-parity",
+   "seed-expansion",
+   "cyan-barrier"
+  ]
+ },
+ "287": {
+  "invariants": "four-way reflection symmetry preserved",
+  "mechanism": "symmetry-completion",
+  "objects": "mirrored grid yellow rectangular cutouts",
+  "submechanisms": [
+   "quadrant-mirroring",
+   "hole-restore",
+   "four-fold-reflection"
+  ]
+ },
+ "288": {
+  "invariants": "bottom rows, bilateral symmetry",
+  "mechanism": "symmetry-completion",
+  "objects": "figure base, diagonal antennae",
+  "submechanisms": [
+   "diagonal-extension",
+   "bilateral-mirror",
+   "shoulder-anchors"
+  ]
+ },
+ "289": {
+  "invariants": "relative positions within panels",
+  "mechanism": "tiling/fractal",
+  "objects": "colored pixels on grid",
+  "submechanisms": [
+   "per-color-mask",
+   "panel-stack",
+   "position-preserve"
+  ]
+ },
+ "290": {
+  "invariants": "frame thicknesses and square size",
+  "mechanism": "crop/extract",
+  "objects": "nested two-color square patch",
+  "submechanisms": [
+   "color-swap",
+   "nested-frame",
+   "bounding-box"
+  ]
+ },
+ "291": {
+  "invariants": "target box fill color only",
+  "mechanism": "connected-components",
+  "objects": "colored rectangles, one with hole",
+  "submechanisms": [
+   "hole-detection",
+   "object-selection",
+   "color-extraction"
+  ]
+ },
+ "292": {
+  "invariants": "marker positions unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "yellow marker cells",
+  "submechanisms": [
+   "mod-3-columns",
+   "column-index",
+   "yellow-to-pink"
+  ]
+ },
+ "293": {
+  "invariants": "bar positions thicknesses colors",
+  "mechanism": "mask/overlay",
+  "objects": "perpendicular colored line bars",
+  "submechanisms": [
+   "z-order-swap",
+   "line-intersection",
+   "perpendicular-bars"
+  ]
+ },
+ "294": {
+  "invariants": "colors shapes hollow fill pattern",
+  "mechanism": "object-copy/move",
+  "objects": "two stacked hollow rectangles",
+  "submechanisms": [
+   "gravity",
+   "hollow-rectangles",
+   "rigid-shift"
+  ]
+ },
+ "295": {
+  "invariants": "color, left edge, top width",
+  "mechanism": "line/ray-drawing",
+  "objects": "top-row colored segment",
+  "submechanisms": [
+   "triangular-expansion",
+   "per-row-extension",
+   "wedge-fill"
+  ]
+ },
+ "296": {
+  "invariants": "colors and intra-quadrant positions",
+  "mechanism": "crop/extract",
+  "objects": "colored pixels in corner quadrants",
+  "submechanisms": [
+   "quadrant-merge",
+   "separator-removal",
+   "coordinate-offset"
+  ]
+ },
+ "297": {
+  "invariants": "color order and width",
+  "mechanism": "tiling/fractal",
+  "objects": "top-row palette colors",
+  "submechanisms": [
+   "horizontal-bands",
+   "palette-to-row",
+   "vertical-repeat"
+  ]
+ },
+ "298": {
+  "invariants": "layout and symmetry preserved",
+  "mechanism": "recolor-by-rule",
+  "objects": "symmetric diagonal color bands",
+  "submechanisms": [
+   "cyclic-shift",
+   "diagonal-bands",
+   "mirror-symmetry"
+  ]
+ },
+ "299": {
+  "invariants": "stub segments and grid layout",
+  "mechanism": "recolor-by-rule",
+  "objects": "cyan vertical and red horizontal stubs",
+  "submechanisms": [
+   "line-intersection",
+   "perpendicular-streets",
+   "crossing-highlight"
+  ]
+ },
+ "300": {
+  "invariants": "reference sprite shape and colors",
+  "mechanism": "crop/extract",
+  "objects": "colored blob sprites on grid",
+  "submechanisms": [
+   "bounding-box",
+   "reference-sprite",
+   "sprite-isolation"
+  ]
+ },
+ "301": {
+  "invariants": "colors and segment lengths",
+  "mechanism": "object-copy/move",
+  "objects": "colored horizontal line segments",
+  "submechanisms": [
+   "right-align",
+   "length-ranked",
+   "triangular-stack"
+  ]
+ },
+ "302": {
+  "invariants": "frame positions and gray borders",
+  "mechanism": "recolor-by-rule",
+  "objects": "hollow gray-bordered square frames",
+  "submechanisms": [
+   "hole-dimension-color",
+   "square-frames",
+   "interior-fill"
+  ]
+ },
+ "303": {
+  "invariants": "grid size, off-line colors",
+  "mechanism": "recolor-by-rule",
+  "objects": "uniform black rows and columns",
+  "submechanisms": [
+   "full-row-col",
+   "black-to-red",
+   "line-highlight"
+  ]
+ },
+ "304": {
+  "invariants": "input tile pattern unchanged",
+  "mechanism": "tiling/fractal",
+  "objects": "mode-colored input cells",
+  "submechanisms": [
+   "mode-color mask",
+   "block stamp",
+   "self-similar upscale"
+  ]
+ },
+ "305": {
+  "invariants": "stripe phase and palette size",
+  "mechanism": "grid-arithmetic",
+  "objects": "black rectangular mask regions",
+  "submechanisms": [
+   "modulo-stripes",
+   "cutout-infill",
+   "period-inference"
+  ]
+ },
+ "306": {
+  "invariants": "yellow separators, colors unchanged",
+  "mechanism": "tiling/fractal",
+  "objects": "colored pixels in one quadrant",
+  "submechanisms": [
+   "quadrant-replication",
+   "pattern-copy",
+   "separator-grid"
+  ]
+ },
+ "307": {
+  "invariants": "colors and relative positions",
+  "mechanism": "scaling/resize",
+  "objects": "sparse colored pixels",
+  "submechanisms": [
+   "2x-upscale",
+   "pixel-block-expansion",
+   "sparse-grid"
+  ]
+ },
+ "308": {
+  "invariants": "symmetry axes and offset-color map",
+  "mechanism": "symmetry-completion",
+  "objects": "scattered symmetric square perimeter fragments",
+  "submechanisms": [
+   "4-fold symmetry",
+   "square perimeter",
+   "fragment assembly"
+  ]
+ },
+ "309": {
+  "invariants": "grid shape other colors",
+  "mechanism": "recolor-by-rule",
+  "objects": "individual colored pixels",
+  "submechanisms": [
+   "orange-to-gray",
+   "conditional-replace",
+   "per-pixel"
+  ]
+ },
+ "310": {
+  "invariants": "wire colors and lattice spacing",
+  "mechanism": "crop/extract",
+  "objects": "bordered box, periodic wire lattice",
+  "submechanisms": [
+   "box-border",
+   "periodic-lattice",
+   "wire-intersections"
+  ]
+ },
+ "311": {
+  "invariants": "left half colors and positions",
+  "mechanism": "symmetry-completion",
+  "objects": "sparse orange pixels on grid",
+  "submechanisms": [
+   "horizontal-reflect",
+   "mirror-right-half",
+   "double-width"
+  ]
+ },
+ "312": {
+  "invariants": "box layout, stripe colors",
+  "mechanism": "recolor-by-rule",
+  "objects": "gray boxes, left stripe",
+  "submechanisms": [
+   "row-lookup",
+   "reference-column",
+   "gray-fill"
+  ]
+ },
+ "313": {
+  "invariants": "positions, parity pattern, border",
+  "mechanism": "palette-permutation",
+  "objects": "triangular checkerboard cells",
+  "submechanisms": [
+   "cyclic-shift",
+   "checkerboard-index",
+   "triangular-mask"
+  ]
+ },
+ "314": {
+  "invariants": "black dividers and quadrant positions",
+  "mechanism": "symmetry-completion",
+  "objects": "colored quadrant pixels in macro grid",
+  "submechanisms": [
+   "center-axis fill",
+   "pair matching",
+   "quadrant slots"
+  ]
+ },
+ "315": {
+  "invariants": "motif colors and relative layout",
+  "mechanism": "tiling/fractal",
+  "objects": "red marker cells, input pixel pattern",
+  "submechanisms": [
+   "marker-anchored-stamp",
+   "block-replication",
+   "grid-upscale"
+  ]
+ },
+ "316": {
+  "invariants": "colors and left-to-right order",
+  "mechanism": "crop/extract",
+  "objects": "sparse colored pixels",
+  "submechanisms": [
+   "column-sort",
+   "row-major-pack",
+   "middle-row-flip"
+  ]
+ },
+ "317": {
+  "invariants": "tile layout and marker locations",
+  "mechanism": "morphology",
+  "objects": "sparse gray marker points",
+  "submechanisms": [
+   "dilation",
+   "grid-aligned-blocks",
+   "marker-expansion"
+  ]
+ },
+ "318": {
+  "invariants": "cell coordinates preserved",
+  "mechanism": "mask/overlay",
+  "objects": "paired quadrant colored pixels",
+  "submechanisms": [
+   "panel-or",
+   "occupancy-union",
+   "recolor-output"
+  ]
+ },
+ "319": {
+  "invariants": "sprite shape and colors",
+  "mechanism": "scaling/resize",
+  "objects": "small sprites and 2x magnified copy",
+  "submechanisms": [
+   "2x-downscale",
+   "magnified-marker",
+   "sprite-selection"
+  ]
+ },
+ "320": {
+  "invariants": "column positions heights bottom halves",
+  "mechanism": "recolor-by-rule",
+  "objects": "vertical red column stacks",
+  "submechanisms": [
+   "top-half-recolor",
+   "vertical-columns",
+   "floor-division"
+  ]
+ },
+ "321": {
+  "invariants": "cell positions, left-priority wins",
+  "mechanism": "mask/overlay",
+  "objects": "colored pixels in side panels",
+  "submechanisms": [
+   "panel-merge",
+   "overlap-priority",
+   "z-order"
+  ]
+ },
+ "322": {
+  "invariants": "column index and color",
+  "mechanism": "line/ray-drawing",
+  "objects": "one seed pixel per column",
+  "submechanisms": [
+   "vertical-ray",
+   "column-fill-down",
+   "seed-extension"
+  ]
+ },
+ "323": {
+  "invariants": "seed position and color",
+  "mechanism": "line/ray-drawing",
+  "objects": "single cyan seed pixel",
+  "submechanisms": [
+   "staircase-trace",
+   "bidirectional-diagonal",
+   "seed-anchored"
+  ]
+ },
+ "324": {
+  "invariants": "stripe pattern and seed locations",
+  "mechanism": "line/ray-drawing",
+  "objects": "seed dots on striped background",
+  "submechanisms": [
+   "diagonal-expansion",
+   "conditional-recolor",
+   "stripe-background"
+  ]
+ },
+ "325": {
+  "invariants": "sprite count only",
+  "mechanism": "counting/histogram",
+  "objects": "distinct cyan sprite blobs",
+  "submechanisms": [
+   "sprite-count",
+   "diagonal-encoding",
+   "identity-matrix"
+  ]
+ },
+ "326": {
+  "invariants": "pixel colors unchanged",
+  "mechanism": "crop/extract",
+  "objects": "top-left 2x2 corner pixels",
+  "submechanisms": [
+   "top-left-corner",
+   "fixed-2x2-window",
+   "subgrid-extract"
+  ]
+ },
+ "327": {
+  "invariants": "color along southeast diagonal",
+  "mechanism": "line/ray-drawing",
+  "objects": "sparse colored input pixels",
+  "submechanisms": [
+   "southeast-diagonal-rays",
+   "variable-ray-length",
+   "doubled-output-canvas"
+  ]
+ },
+ "328": {
+  "invariants": "corner seeds preserved",
+  "mechanism": "recolor-by-rule",
+  "objects": "corner seed pixels",
+  "submechanisms": [
+   "manhattan-voronoi",
+   "checkerboard-parity",
+   "tie-exclusion"
+  ]
+ },
+ "329": {
+  "invariants": "row index and cell colors",
+  "mechanism": "crop/extract",
+  "objects": "central vertical column",
+  "submechanisms": [
+   "center-column",
+   "column-select",
+   "zero-background"
+  ]
+ },
+ "330": {
+  "invariants": "shape position and layout",
+  "mechanism": "recolor-by-rule",
+  "objects": "gray connected sprite blobs",
+  "submechanisms": [
+   "pixel-count",
+   "connected-components",
+   "size-six-threshold"
+  ]
+ },
+ "331": {
+  "invariants": "seed positions and color",
+  "mechanism": "recolor-by-rule",
+  "objects": "isolated seed marker pixels",
+  "submechanisms": [
+   "directional-neighbors",
+   "orthogonal-adjacency",
+   "seed-preservation"
+  ]
+ },
+ "332": {
+  "invariants": "path shape and positions",
+  "mechanism": "recolor-by-rule",
+  "objects": "gray pixels along column path",
+  "submechanisms": [
+   "column-parity",
+   "alternating-columns",
+   "width-dependent-phase"
+  ]
+ },
+ "333": {
+  "invariants": "seeds, box, background unchanged",
+  "mechanism": "line/ray-drawing",
+  "objects": "colored seed pixels, green box",
+  "submechanisms": [
+   "orthogonal-rays",
+   "extend-to-green",
+   "seed-alignment"
+  ]
+ },
+ "334": {
+  "invariants": "spatial layout discarded",
+  "mechanism": "recolor-by-rule",
+  "objects": "single color scattered pixels",
+  "submechanisms": [
+   "color-lookup",
+   "fixed-template",
+   "membership-test"
+  ]
+ },
+ "335": {
+  "invariants": "markers and background preserved",
+  "mechanism": "line/ray-drawing",
+  "objects": "two red marker pixels",
+  "submechanisms": [
+   "manhattan-path",
+   "orthogonal-segments",
+   "two-point-connect"
+  ]
+ },
+ "336": {
+  "invariants": "gray walls, hole at column five",
+  "mechanism": "flood-fill",
+  "objects": "gray-walled rectangular container interior",
+  "submechanisms": [
+   "interior-fill",
+   "bottom-hole-drain",
+   "vertical-spill"
+  ]
+ },
+ "337": {
+  "invariants": "size and non-target colors",
+  "mechanism": "recolor-by-rule",
+  "objects": "gray and cyan grid cells",
+  "submechanisms": [
+   "gray-cyan-swap",
+   "pairwise-exchange",
+   "per-cell"
+  ]
+ },
+ "338": {
+  "invariants": "frame geometry and placement",
+  "mechanism": "recolor-by-rule",
+  "objects": "hollow red rectangular frames",
+  "submechanisms": [
+   "hollow-rectangle",
+   "interior-fill",
+   "border-enclosure"
+  ]
+ },
+ "339": {
+  "invariants": "color preserved, layout discarded",
+  "mechanism": "counting/histogram",
+  "objects": "same-color scattered pixels",
+  "submechanisms": [
+   "pixel-count",
+   "count-to-height",
+   "column-output"
+  ]
+ },
+ "340": {
+  "invariants": "colored border frame unchanged",
+  "mechanism": "object-copy/move",
+  "objects": "interior pixels matching edge colors",
+  "submechanisms": [
+   "edge-color-match",
+   "border-projection",
+   "noise-filter"
+  ]
+ },
+ "341": {
+  "invariants": "bar colors positions gravity",
+  "mechanism": "recolor-by-rule",
+  "objects": "two stacked horizontal colored bars",
+  "submechanisms": [
+   "interior-channel",
+   "cyan-connector",
+   "gravity"
+  ]
+ },
+ "342": {
+  "invariants": "quadrant markers, spatial layout",
+  "mechanism": "recolor-by-rule",
+  "objects": "cyan 2x2 box, quadrant pixels",
+  "submechanisms": [
+   "quadrant-sampling",
+   "cyan-template",
+   "corner-mapping"
+  ]
+ },
+ "343": {
+  "invariants": "tile period, bar heights, colors",
+  "mechanism": "tiling/fractal",
+  "objects": "repeating vertical bar columns",
+  "submechanisms": [
+   "horizontal-repetition",
+   "vertical-bars",
+   "alternating-flip"
+  ]
+ },
+ "344": {
+  "invariants": "layout and unrelated pixels unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "green pixels adjacent to red",
+  "submechanisms": [
+   "orthogonal-adjacency",
+   "green-red-pair",
+   "conditional-swap"
+  ]
+ },
+ "345": {
+  "invariants": "gray dots, seed positions",
+  "mechanism": "line/ray-drawing",
+  "objects": "bottom red seeds, gray obstacles",
+  "submechanisms": [
+   "obstacle-deflection",
+   "upward-path-growth",
+   "seeded-ray-trace"
+  ]
+ },
+ "346": {
+  "invariants": "center color value only",
+  "mechanism": "crop/extract",
+  "objects": "3x3 block center pixel",
+  "submechanisms": [
+   "3x3-neighborhood",
+   "center-outlier",
+   "singleton-output"
+  ]
+ },
+ "347": {
+  "invariants": "occupied cell positions",
+  "mechanism": "mask/overlay",
+  "objects": "pixels in split panels",
+  "submechanisms": [
+   "dual-half-union",
+   "presence-marking",
+   "uniform-recolor"
+  ]
+ },
+ "348": {
+  "invariants": "seed column, height, parity",
+  "mechanism": "line/ray-drawing",
+  "objects": "vertical orange seed line",
+  "submechanisms": [
+   "triangular-expansion",
+   "column-parity-striping",
+   "diagonal-boundaries"
+  ]
+ },
+ "349": {
+  "invariants": "seed blocks unchanged",
+  "mechanism": "line/ray-drawing",
+  "objects": "maroon rectangular seed blocks",
+  "submechanisms": [
+   "downward-rays",
+   "halo-expansion",
+   "radius-scaling"
+  ]
+ },
+ "350": {
+  "invariants": "blue endpoints, grid size",
+  "mechanism": "line/ray-drawing",
+  "objects": "scattered blue anchor pixels",
+  "submechanisms": [
+   "axis-aligned",
+   "collinear-pairs",
+   "between-endpoints"
+  ]
+ },
+ "351": {
+  "invariants": "subgrid colors, surrounding symmetry",
+  "mechanism": "crop/extract",
+  "objects": "mirrored quadrant pattern, rectangular void",
+  "submechanisms": [
+   "quadrant-mirror-tiling",
+   "green-hole-marker",
+   "symmetric-inference"
+  ]
+ },
+ "352": {
+  "invariants": "non-red pixels unchanged",
+  "mechanism": "recolor-by-rule",
+  "objects": "red marker pixel seeds",
+  "submechanisms": [
+   "3x3-neighborhood",
+   "marker-triggered",
+   "halo-expansion"
+  ]
+ },
+ "353": {
+  "invariants": "yellow position, grid size",
+  "mechanism": "object-copy/move",
+  "objects": "green pixel toward yellow anchor",
+  "submechanisms": [
+   "step-toward-anchor",
+   "fixed-reference-pixel",
+   "axis-wise-move"
+  ]
+ },
+ "354": {
+  "invariants": "layout, shapes, light colors",
+  "mechanism": "recolor-by-rule",
+  "objects": "gray boxes, top-row light pixels",
+  "submechanisms": [
+   "column-containment",
+   "marker-color-projection",
+   "rectangle-fill"
+  ]
+ },
+ "355": {
+  "invariants": "quadrant layout and region colors",
+  "mechanism": "counting/histogram",
+  "objects": "quadrant backgrounds and marker pixels",
+  "submechanisms": [
+   "quadrant-tally",
+   "argmax-region",
+   "marker-count"
+  ]
+ },
+ "356": {
+  "invariants": "grid size, point positions, color",
+  "mechanism": "line/ray-drawing",
+  "objects": "scattered cyan pixel points",
+  "submechanisms": [
+   "horizontal-segments",
+   "vertical-segments",
+   "collinear-pairs"
+  ]
+ },
+ "357": {
+  "invariants": "grid size, bounce reflection rules",
+  "mechanism": "line/ray-drawing",
+  "objects": "diagonal ray painting grid cells",
+  "submechanisms": [
+   "boundary-reflection",
+   "diagonal-ray",
+   "color-alternation"
+  ]
+ },
+ "358": {
+  "invariants": "center position periodic coloring rule",
+  "mechanism": "line/ray-drawing",
+  "objects": "intersecting horizontal vertical cross lines",
+  "submechanisms": [
+   "cross-extension",
+   "modular-sum-coloring",
+   "intersection-anchor"
+  ]
+ },
+ "359": {
+  "invariants": "stripe band layout unchanged",
+  "mechanism": "mask/overlay",
+  "objects": "scattered pixels on column stripes",
+  "submechanisms": [
+   "noise-removal",
+   "vertical-stripes",
+   "background-restore"
+  ]
+ },
+ "360": {
+  "invariants": "height, axis, horizontal positions",
+  "mechanism": "symmetry-completion",
+  "objects": "colored pixels mirrored across divider",
+  "submechanisms": [
+   "mirror-axis",
+   "bilateral-merge",
+   "left-extract"
+  ]
+ },
+ "361": {
+  "invariants": "center anchor and pixel colors",
+  "mechanism": "symmetry-completion",
+  "objects": "sparse colored pixels near center",
+  "submechanisms": [
+   "pinwheel",
+   "4-fold-rotation",
+   "quadrant-copy"
+  ]
+ },
+ "362": {
+  "invariants": "color, full-span lines",
+  "mechanism": "object-copy/move",
+  "objects": "orthogonal cross lines",
+  "submechanisms": [
+   "axis-translation",
+   "marker-count-offset",
+   "cross-shift"
+  ]
+ },
+ "363": {
+  "invariants": "background pattern unchanged",
+  "mechanism": "object-copy/move",
+  "objects": "diagonal sprite copies at anchors",
+  "submechanisms": [
+   "sprite-stamping",
+   "template-matching",
+   "valid-placement"
+  ]
+ },
+ "364": {
+  "invariants": "positions and shapes preserved",
+  "mechanism": "recolor-by-rule",
+  "objects": "green-marked sprite pixel clusters",
+  "submechanisms": [
+   "shape-classification",
+   "sprite-clustering",
+   "green-to-target-color"
+  ]
+ },
+ "365": {
+  "invariants": "selected box pixels unchanged",
+  "mechanism": "crop/extract",
+  "objects": "rectangular colored boxes",
+  "submechanisms": [
+   "max-red-count",
+   "box-selection",
+   "subgrid-copy"
+  ]
+ },
+ "366": {
+  "invariants": "dot colors and positions",
+  "mechanism": "mask/overlay",
+  "objects": "boxed regions and interior dots",
+  "submechanisms": [
+   "split-panel-reference",
+   "rectangle-fill",
+   "marker-preserve"
+  ]
+ },
+ "367": {
+  "invariants": "frames, connectors, grid layout",
+  "mechanism": "recolor-by-rule",
+  "objects": "hollow rectangular box interiors",
+  "submechanisms": [
+   "hollow-frame-interior",
+   "enclosed-region",
+   "black-to-yellow"
+  ]
+ },
+ "368": {
+  "invariants": "layout, shape, sprite positions",
+  "mechanism": "object-copy/move",
+  "objects": "identical sprite copies at positions",
+  "submechanisms": [
+   "template-copy",
+   "gray-mask-fill",
+   "sprite-stamping"
+  ]
+ },
+ "369": {
+  "invariants": "gray background blob geometry",
+  "mechanism": "recolor-by-rule",
+  "objects": "black connected silhouette blobs",
+  "submechanisms": [
+   "connected-components",
+   "pixel-count",
+   "size-to-color"
+  ]
+ },
+ "370": {
+  "invariants": "sprite shape, origin, background",
+  "mechanism": "object-copy/move",
+  "objects": "sprite pattern, hint pixel",
+  "submechanisms": [
+   "sprite-stamping",
+   "translation-vector",
+   "hint-recolor"
+  ]
+ },
+ "371": {
+  "invariants": "blue dot positions, grid size",
+  "mechanism": "line/ray-drawing",
+  "objects": "paired blue dots, center plus",
+  "submechanisms": [
+   "midpoint-from-markers",
+   "plus-cross-draw",
+   "symmetric-anchor-pair"
+  ]
+ },
+ "372": {
+  "invariants": "colors and relative positions",
+  "mechanism": "crop/extract",
+  "objects": "pixels in stacked panels",
+  "submechanisms": [
+   "gray-divider",
+   "half-collapse",
+   "coordinate-normalize"
+  ]
+ },
+ "373": {
+  "invariants": "colors preserved, positions permuted",
+  "mechanism": "grid-arithmetic",
+  "objects": "uniform horizontal row stripes",
+  "submechanisms": [
+   "checkerboard-remap",
+   "parity-indexing",
+   "row-interleave"
+  ]
+ },
+ "374": {
+  "invariants": "positions lengths orientations",
+  "mechanism": "recolor-by-rule",
+  "objects": "three orthogonal line segments",
+  "submechanisms": [
+   "length-ranking",
+   "gray-to-color",
+   "line-segments"
+  ]
+ },
+ "375": {
+  "invariants": "background color, grid size",
+  "mechanism": "line/ray-drawing",
+  "objects": "single center black pixel",
+  "submechanisms": [
+   "diagonal-lines",
+   "X-pattern",
+   "center-seed"
+  ]
+ },
+ "376": {
+  "invariants": "mod-4 column roles, color",
+  "mechanism": "tiling/fractal",
+  "objects": "marker rows, filler columns",
+  "submechanisms": [
+   "vertical-band-repeat",
+   "mod-4-columns",
+   "marker-rows"
+  ]
+ },
+ "377": {
+  "invariants": "outer-to-inner color order",
+  "mechanism": "crop/extract",
+  "objects": "nested colored rectangular layers",
+  "submechanisms": [
+   "nested-rectangles",
+   "concentric-frames",
+   "layer-order"
+  ]
+ },
+ "378": {
+  "invariants": "concentric rings unchanged",
+  "mechanism": "line/ray-drawing",
+  "objects": "layered rectangle antenna man",
+  "submechanisms": [
+   "diagonal-rays",
+   "corner-extension",
+   "antenna-draw"
+  ]
+ },
+ "379": {
+  "invariants": "horizontal cyan lines unchanged",
+  "mechanism": "line/ray-drawing",
+  "objects": "red seeds, horizontal cyan lines",
+  "submechanisms": [
+   "vertical-ray-to-line",
+   "intersection-3x3-marker",
+   "barrier-stop"
+  ]
+ },
+ "380": {
+  "invariants": "color and count preserved",
+  "mechanism": "object-copy/move",
+  "objects": "sparse same-color pixels",
+  "submechanisms": [
+   "90\u00b0 CCW rotation",
+   "coordinate remap",
+   "sparse pixels"
+  ]
+ },
+ "381": {
+  "invariants": "unchanged red box pixels",
+  "mechanism": "line/ray-drawing",
+  "objects": "red rectangular box markers",
+  "submechanisms": [
+   "horizontal-gap-fill",
+   "vertical-neighbor-guard",
+   "conditional-maroon-black"
+  ]
+ },
+ "382": {
+  "invariants": "marker positions and colors preserved",
+  "mechanism": "line/ray-drawing",
+  "objects": "cyan top markers, red side markers",
+  "submechanisms": [
+   "obstacle-deflection",
+   "cumulative-column-shift",
+   "edge-seeds"
+  ]
+ },
+ "383": {
+  "invariants": "box frame, unstripe background",
+  "mechanism": "line/ray-drawing",
+  "objects": "marked rows, columns, box frame",
+  "submechanisms": [
+   "row-col-extension",
+   "barnacle-markers",
+   "orthogonal-stripes"
+  ]
+ },
+ "384": {
+  "invariants": "shape topology and yellow color",
+  "mechanism": "scaling/resize",
+  "objects": "yellow diagonally-connected pixel shape",
+  "submechanisms": [
+   "2x-upscale",
+   "pixel-doubling",
+   "bbox-extract"
+  ]
+ },
+ "385": {
+  "invariants": "column heights and colors",
+  "mechanism": "symmetry-completion",
+  "objects": "per-column vertical color stacks",
+  "submechanisms": [
+   "vertical-mirror",
+   "column-stacks",
+   "bottom-to-top"
+  ]
+ },
+ "386": {
+  "invariants": "half-grid correspondence",
+  "mechanism": "grid-arithmetic",
+  "objects": "paired cells across divider",
+  "submechanisms": [
+   "split-panel-compare",
+   "empty-intersection",
+   "conditional-fill"
+  ]
+ },
+ "387": {
+  "invariants": "corner colors and box dimensions",
+  "mechanism": "symmetry-completion",
+  "objects": "four rectangle corner anchor pixels",
+  "submechanisms": [
+   "corner-block-expansion",
+   "symmetric-edge-markers",
+   "rectangle-inference"
+  ]
+ },
+ "388": {
+  "invariants": "relative pixel coordinates",
+  "mechanism": "tiling/fractal",
+  "objects": "sparse colored input pixels",
+  "submechanisms": [
+   "quadrant-replication",
+   "vertical-guide-lines",
+   "grid-expansion"
+  ]
+ },
+ "389": {
+  "invariants": "marker pixel positions",
+  "mechanism": "recolor-by-rule",
+  "objects": "gray marker pixels on colored field",
+  "submechanisms": [
+   "gray-to-foreground",
+   "background-clear",
+   "uniform-bg-detect"
+  ]
+ },
+ "390": {
+  "invariants": "red frame, column alignment",
+  "mechanism": "object-copy/move",
+  "objects": "gray pixels inside red frame",
+  "submechanisms": [
+   "vertical-reflection",
+   "interior-to-exterior",
+   "red-frame"
+  ]
+ },
+ "391": {
+  "invariants": "descending frequency rank order",
+  "mechanism": "counting/histogram",
+  "objects": "bitmap colors by pixel count",
+  "submechanisms": [
+   "frequency-ranking",
+   "exclude-most-common",
+   "column-output"
+  ]
+ },
+ "392": {
+  "invariants": "color thickness corner spacing",
+  "mechanism": "symmetry-completion",
+  "objects": "concentric hollow squares from corner",
+  "submechanisms": [
+   "nested-square-frames",
+   "corner-anchor",
+   "series-extension"
+  ]
+ },
+ "393": {
+  "invariants": "object count and colors",
+  "mechanism": "connected-components",
+  "objects": "distinct colored connected sprites",
+  "submechanisms": [
+   "sprite-color-extraction",
+   "object-enumeration",
+   "one-row-output"
+  ]
+ },
+ "394": {
+  "invariants": "tile period and pattern colors",
+  "mechanism": "crop/extract",
+  "objects": "rectangular bite from tiled grid",
+  "submechanisms": [
+   "periodic-tiling",
+   "rectangular-hole",
+   "subgrid-extract"
+  ]
+ },
+ "395": {
+  "invariants": "grid size and layer alignment",
+  "mechanism": "mask/overlay",
+  "objects": "stacked maroon and blue layers",
+  "submechanisms": [
+   "dual-layer-comparison",
+   "mutual-emptiness",
+   "conditional-recolor"
+  ]
+ },
+ "396": {
+  "invariants": "relative dot positions within box",
+  "mechanism": "crop/extract",
+  "objects": "largest hollow box and colored dots",
+  "submechanisms": [
+   "largest-box-select",
+   "region-filter",
+   "border-recolor"
+  ]
+ },
+ "397": {
+  "invariants": "box pixels unchanged",
+  "mechanism": "counting/histogram",
+  "objects": "2x2 colored box sprites",
+  "submechanisms": [
+   "unique-color-count",
+   "vertical-green-extension",
+   "per-box-shadow"
+  ]
+ },
+ "398": {
+  "invariants": "color values from input row",
+  "mechanism": "line/ray-drawing",
+  "objects": "input row colors as diagonals",
+  "submechanisms": [
+   "diagonal-stripes",
+   "anti-diagonal-rays",
+   "column-offset"
+  ]
+ },
+ "399": {
+  "invariants": "box count not positions",
+  "mechanism": "counting/histogram",
+  "objects": "2x2 red square blocks",
+  "submechanisms": [
+   "object-count",
+   "count-to-pixel-encoding",
+   "fixed-output-grid"
+  ]
+ },
+ "400": {
+  "invariants": "dihedral symmetry preserved",
+  "mechanism": "symmetry-completion",
+  "objects": "masked symmetric color grid",
+  "submechanisms": [
+   "8-fold-symmetry",
+   "mask-extract",
+   "canonical-triangle"
+  ]
+ }
+}

@@ -1,0 +1,6206 @@
+{
+ "001": [
+  {
+   "donor": "task380",
+   "sim": 0.987,
+   "donor_pts": 20.467401,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task296",
+   "sim": 0.905,
+   "donor_pts": 20.50019,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task389",
+   "sim": 0.831,
+   "donor_pts": 20.992667,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "002": [
+  {
+   "donor": "task300",
+   "sim": 0.569,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.53,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.519,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "003": [
+  {
+   "donor": "task292",
+   "sim": 0.209,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task181",
+   "sim": 0.186,
+   "donor_pts": 19.091917,
+   "donor_ops": "Slice:1 GatherND:1 Cast:1 Where:1 Mul:1 ScatterND:1"
+  },
+  {
+   "donor": "task215",
+   "sim": 0.181,
+   "donor_pts": 20.39483,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "004": [
+  {
+   "donor": "task100",
+   "sim": 0.757,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.743,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.683,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "005": [
+  {
+   "donor": "task058",
+   "sim": 0.467,
+   "donor_pts": 19.900134,
+   "donor_ops": "Cast:2 Concat:2 ReduceL2:1 Mod:1 Einsum:1"
+  },
+  {
+   "donor": "task190",
+   "sim": 0.23,
+   "donor_pts": 18.366682,
+   "donor_ops": "Cast:2 Slice:1 QLinearConv:1 MaxPool:1 Sub:1 Transpose:1 ConvInteger:1"
+  },
+  {
+   "donor": "task034",
+   "sim": 0.156,
+   "donor_pts": 19.033853,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "008": [
+  {
+   "donor": "task100",
+   "sim": 0.168,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  },
+  {
+   "donor": "task283",
+   "sim": 0.137,
+   "donor_pts": 18.708431,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task292",
+   "sim": 0.124,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "009": [
+  {
+   "donor": "task109",
+   "sim": 0.283,
+   "donor_pts": 18.357513,
+   "donor_ops": "Cast:2 Add:2 Concat:2 GatherND:1 ReduceSum:1 Equal:1 Slice:1 Einsum:1"
+  },
+  {
+   "donor": "task244",
+   "sim": 0.218,
+   "donor_pts": 18.886318,
+   "donor_ops": "Einsum:3 Not:3 And:3 Concat:2 Cast:2 Greater:2 Equal:1 Less:1"
+  },
+  {
+   "donor": "task033",
+   "sim": 0.203,
+   "donor_pts": 19.409013,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "010": [
+  {
+   "donor": "task099",
+   "sim": 0.281,
+   "donor_pts": 18.777424,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task305",
+   "sim": 0.212,
+   "donor_pts": 18.544801,
+   "donor_ops": "BitwiseAnd:2 GlobalMaxPool:1 ArgMax:1 Gather:1"
+  }
+ ],
+ "011": [
+  {
+   "donor": "task149",
+   "sim": 0.908,
+   "donor_pts": 20.087345,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task163",
+   "sim": 0.866,
+   "donor_pts": 19.263428,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task059",
+   "sim": 0.843,
+   "donor_pts": 19.344008,
+   "donor_ops": "Einsum:2 ReduceMin:1 Equal:1 Cast:1"
+  }
+ ],
+ "012": [
+  {
+   "donor": "task294",
+   "sim": 0.554,
+   "donor_pts": 18.753893,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task051",
+   "sim": 0.443,
+   "donor_pts": 18.66672,
+   "donor_ops": "Mul:17 Cast:7 Einsum:6 Add:5 Concat:2 Sub:2 Sign:2 ReduceSum:1"
+  },
+  {
+   "donor": "task119",
+   "sim": 0.326,
+   "donor_pts": 18.663174,
+   "donor_ops": "Einsum:7 Cast:7 Concat:6 Where:3 Mul:2 Gather:2 Sub:2 GatherND:1"
+  }
+ ],
+ "013": [
+  {
+   "donor": "task345",
+   "sim": 0.335,
+   "donor_pts": 18.76363,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task078",
+   "sim": 0.335,
+   "donor_pts": 20.593281,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task122",
+   "sim": 0.301,
+   "donor_pts": 18.311645,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "014": [
+  {
+   "donor": "task036",
+   "sim": 0.361,
+   "donor_pts": 18.551111,
+   "donor_ops": "Cast:6 Einsum:3 Mul:3 Log:2 Sub:2 Ceil:2 Concat:2 Where:2"
+  },
+  {
+   "donor": "task031",
+   "sim": 0.325,
+   "donor_pts": 18.62668,
+   "donor_ops": "Cast:9 Einsum:6 Div:5 Log:4 Add:4 Sub:4 Concat:3 Slice:1"
+  },
+  {
+   "donor": "task050",
+   "sim": 0.14,
+   "donor_pts": 19.216175,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "015": [
+  {
+   "donor": "task235",
+   "sim": 0.342,
+   "donor_pts": 20.308652,
+   "donor_ops": "Conv:1 Cast:1 Transpose:1 BitwiseAnd:1 ConvInteger:1"
+  },
+  {
+   "donor": "task217",
+   "sim": 0.325,
+   "donor_pts": 19.701683,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task020",
+   "sim": 0.286,
+   "donor_pts": 18.479379,
+   "donor_ops": "Add:11 Concat:8 Cast:7 Slice:5 ReduceMin:2 ArgMin:2 Conv:2 Reshape:2"
+  }
+ ],
+ "017": [
+  {
+   "donor": "task061",
+   "sim": 0.786,
+   "donor_pts": 18.341989,
+   "donor_ops": "ReduceMax:1 ArgMax:1 Sub:1 Gather:1 BitwiseAnd:1"
+  },
+  {
+   "donor": "task295",
+   "sim": 0.407,
+   "donor_pts": 19.165189,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task027",
+   "sim": 0.405,
+   "donor_pts": 18.327967,
+   "donor_ops": "Slice:3 Cast:3 GatherND:3 ReduceSum:2 Greater:1 Where:1 Add:1 Not:1"
+  }
+ ],
+ "018": [
+  {
+   "donor": "task121",
+   "sim": 0.545,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.536,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.518,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  }
+ ],
+ "019": [
+  {
+   "donor": "task116",
+   "sim": 0.354,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task211",
+   "sim": 0.348,
+   "donor_pts": 20.375027,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task296",
+   "sim": 0.334,
+   "donor_pts": 20.50019,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "020": [
+  {
+   "donor": "task015",
+   "sim": 0.286,
+   "donor_pts": 18.931574,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task225",
+   "sim": 0.231,
+   "donor_pts": 19.105597,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task331",
+   "sim": 0.194,
+   "donor_pts": 18.785392,
+   "donor_ops": "Slice:1 Conv:1"
+  }
+ ],
+ "021": [
+  {
+   "donor": "task237",
+   "sim": 0.359,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  },
+  {
+   "donor": "task232",
+   "sim": 0.328,
+   "donor_pts": 18.904175,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task129",
+   "sim": 0.327,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  }
+ ],
+ "022": [
+  {
+   "donor": "task316",
+   "sim": 0.189,
+   "donor_pts": 19.100103,
+   "donor_ops": "Conv:1 Cast:1 Sign:1 ConvInteger:1 ScatterElements:1 Squeeze:1 Gather:1 Equal:1"
+  },
+  {
+   "donor": "task372",
+   "sim": 0.171,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task194",
+   "sim": 0.17,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "023": [
+  {
+   "donor": "task393",
+   "sim": 0.286,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  },
+  {
+   "donor": "task121",
+   "sim": 0.28,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.258,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  }
+ ],
+ "025": [
+  {
+   "donor": "task040",
+   "sim": 0.169,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task122",
+   "sim": 0.136,
+   "donor_pts": 18.311645,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task147",
+   "sim": 0.126,
+   "donor_pts": 19.652892,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "026": [
+  {
+   "donor": "task006",
+   "sim": 0.853,
+   "donor_pts": 20.810345,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task272",
+   "sim": 0.487,
+   "donor_pts": 20.002788,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task350",
+   "sim": 0.473,
+   "donor_pts": 18.940877,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "027": [
+  {
+   "donor": "task362",
+   "sim": 0.759,
+   "donor_pts": 20.355609,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task231",
+   "sim": 0.594,
+   "donor_pts": 19.876036,
+   "donor_ops": "Where:7 Greater:4 Einsum:1 Concat:1 Gather:1"
+  },
+  {
+   "donor": "task215",
+   "sim": 0.563,
+   "donor_pts": 20.39483,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "029": [
+  {
+   "donor": "task307",
+   "sim": 0.171,
+   "donor_pts": 23.390562,
+   "donor_ops": "MaxRoiPool:1"
+  },
+  {
+   "donor": "task249",
+   "sim": 0.164,
+   "donor_pts": 19.672124,
+   "donor_ops": "Cast:2 Conv:1 ReduceSum:1 Sub:1 Min:1 Pad:1 Gather:1"
+  },
+  {
+   "donor": "task372",
+   "sim": 0.164,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "030": [
+  {
+   "donor": "task033",
+   "sim": 0.537,
+   "donor_pts": 19.409013,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task161",
+   "sim": 0.499,
+   "donor_pts": 19.383229,
+   "donor_ops": "Einsum:2 Equal:1 Concat:1 Cast:1 Where:1"
+  },
+  {
+   "donor": "task079",
+   "sim": 0.425,
+   "donor_pts": 18.369317,
+   "donor_ops": "Cast:6 Slice:3 Einsum:2 ArgMax:2 Concat:2 Add:2 Gather:1 OneHot:1"
+  }
+ ],
+ "031": [
+  {
+   "donor": "task036",
+   "sim": 0.423,
+   "donor_pts": 18.551111,
+   "donor_ops": "Cast:6 Einsum:3 Mul:3 Log:2 Sub:2 Ceil:2 Concat:2 Where:2"
+  },
+  {
+   "donor": "task339",
+   "sim": 0.288,
+   "donor_pts": 20.522663,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task296",
+   "sim": 0.216,
+   "donor_pts": 20.50019,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "033": [
+  {
+   "donor": "task030",
+   "sim": 0.537,
+   "donor_pts": 18.48677,
+   "donor_ops": "Einsum:4 Cast:2 Div:1 Mod:1 Equal:1"
+  },
+  {
+   "donor": "task109",
+   "sim": 0.524,
+   "donor_pts": 18.357513,
+   "donor_ops": "Cast:2 Add:2 Concat:2 GatherND:1 ReduceSum:1 Equal:1 Slice:1 Einsum:1"
+  },
+  {
+   "donor": "task161",
+   "sim": 0.515,
+   "donor_pts": 19.383229,
+   "donor_ops": "Einsum:2 Equal:1 Concat:1 Cast:1 Where:1"
+  }
+ ],
+ "034": [
+  {
+   "donor": "task190",
+   "sim": 0.664,
+   "donor_pts": 18.366682,
+   "donor_ops": "Cast:2 Slice:1 QLinearConv:1 MaxPool:1 Sub:1 Transpose:1 ConvInteger:1"
+  },
+  {
+   "donor": "task200",
+   "sim": 0.183,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  },
+  {
+   "donor": "task199",
+   "sim": 0.177,
+   "donor_pts": 19.008535,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "035": [
+  {
+   "donor": "task241",
+   "sim": 0.737,
+   "donor_pts": 25.0,
+   "donor_ops": "Transpose:1"
+  },
+  {
+   "donor": "task237",
+   "sim": 0.196,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  },
+  {
+   "donor": "task082",
+   "sim": 0.178,
+   "donor_pts": 19.752976,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "036": [
+  {
+   "donor": "task321",
+   "sim": 0.611,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task194",
+   "sim": 0.604,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task372",
+   "sim": 0.587,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "037": [
+  {
+   "donor": "task041",
+   "sim": 0.395,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task320",
+   "sim": 0.349,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task258",
+   "sim": 0.338,
+   "donor_pts": 19.989365,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "038": [
+  {
+   "donor": "task320",
+   "sim": 0.666,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.646,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task258",
+   "sim": 0.618,
+   "donor_pts": 19.989365,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "039": [
+  {
+   "donor": "task194",
+   "sim": 0.386,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task321",
+   "sim": 0.376,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task249",
+   "sim": 0.369,
+   "donor_pts": 19.672124,
+   "donor_ops": "Cast:2 Conv:1 ReduceSum:1 Sub:1 Min:1 Pad:1 Gather:1"
+  }
+ ],
+ "041": [
+  {
+   "donor": "task320",
+   "sim": 0.76,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task258",
+   "sim": 0.736,
+   "donor_pts": 19.989365,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task295",
+   "sim": 0.671,
+   "donor_pts": 19.165189,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "043": [
+  {
+   "donor": "task317",
+   "sim": 0.238,
+   "donor_pts": 20.415033,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task261",
+   "sim": 0.236,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task210",
+   "sim": 0.232,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  }
+ ],
+ "044": [
+  {
+   "donor": "task300",
+   "sim": 0.384,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.318,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task121",
+   "sim": 0.31,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  }
+ ],
+ "046": [
+  {
+   "donor": "task293",
+   "sim": 0.384,
+   "donor_pts": 21.311121,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task180",
+   "sim": 0.298,
+   "donor_pts": 20.263802,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task257",
+   "sim": 0.297,
+   "donor_pts": 20.263802,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "047": [
+  {
+   "donor": "task311",
+   "sim": 0.74,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task276",
+   "sim": 0.641,
+   "donor_pts": 22.697415,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task261",
+   "sim": 0.531,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "048": [
+  {
+   "donor": "task031",
+   "sim": 0.155,
+   "donor_pts": 18.62668,
+   "donor_ops": "Cast:9 Einsum:6 Div:5 Log:4 Add:4 Sub:4 Concat:3 Slice:1"
+  }
+ ],
+ "049": [
+  {
+   "donor": "task098",
+   "sim": 0.734,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.692,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task226",
+   "sim": 0.617,
+   "donor_pts": 18.917781,
+   "donor_ops": "Mul:37 Add:8 Max:4 Slice:2 Cast:2 Split:2 Concat:2 QLinearConv:1"
+  }
+ ],
+ "050": [
+  {
+   "donor": "task353",
+   "sim": 0.262,
+   "donor_pts": 19.527729,
+   "donor_ops": "Cast:5 Einsum:4 Concat:3 Sign:2 Add:2 ScatterND:1"
+  },
+  {
+   "donor": "task036",
+   "sim": 0.257,
+   "donor_pts": 18.551111,
+   "donor_ops": "Cast:6 Einsum:3 Mul:3 Log:2 Sub:2 Ceil:2 Concat:2 Where:2"
+  },
+  {
+   "donor": "task200",
+   "sim": 0.233,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  }
+ ],
+ "051": [
+  {
+   "donor": "task119",
+   "sim": 0.615,
+   "donor_pts": 18.663174,
+   "donor_ops": "Einsum:7 Cast:7 Concat:6 Where:3 Mul:2 Gather:2 Sub:2 GatherND:1"
+  },
+  {
+   "donor": "task294",
+   "sim": 0.276,
+   "donor_pts": 18.753893,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task273",
+   "sim": 0.239,
+   "donor_pts": 18.636972,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "055": [
+  {
+   "donor": "task016",
+   "sim": 0.67,
+   "donor_pts": 22.697415,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task220",
+   "sim": 0.609,
+   "donor_pts": 18.920067,
+   "donor_ops": "Einsum:10 Mul:3 Add:3 Concat:3"
+  },
+  {
+   "donor": "task353",
+   "sim": 0.217,
+   "donor_pts": 19.527729,
+   "donor_ops": "Cast:5 Einsum:4 Concat:3 Sign:2 Add:2 ScatterND:1"
+  }
+ ],
+ "057": [
+  {
+   "donor": "task316",
+   "sim": 0.794,
+   "donor_pts": 19.100103,
+   "donor_ops": "Conv:1 Cast:1 Sign:1 ConvInteger:1 ScatterElements:1 Squeeze:1 Gather:1 Equal:1"
+  },
+  {
+   "donor": "task242",
+   "sim": 0.732,
+   "donor_pts": 18.954995,
+   "donor_ops": "Einsum:2 Cast:2 Concat:1 Add:1 Slice:1 Pad:1"
+  },
+  {
+   "donor": "task253",
+   "sim": 0.607,
+   "donor_pts": 19.494668,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "059": [
+  {
+   "donor": "task149",
+   "sim": 0.858,
+   "donor_pts": 20.087345,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task011",
+   "sim": 0.843,
+   "donor_pts": 19.462666,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task163",
+   "sim": 0.803,
+   "donor_pts": 19.263428,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "060": [
+  {
+   "donor": "task053",
+   "sim": 0.159,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  }
+ ],
+ "061": [
+  {
+   "donor": "task017",
+   "sim": 0.786,
+   "donor_pts": 19.16227,
+   "donor_ops": "Equal:4 Cast:3 Einsum:3 Where:3 Greater:2 ReduceMax:1 ArgMax:1 Mod:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.433,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.427,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "062": [
+  {
+   "donor": "task057",
+   "sim": 0.519,
+   "donor_pts": 18.677435,
+   "donor_ops": "Cast:4 ReduceMin:2 ArgMin:2 Add:2 Gather:2 Slice:1 Equal:1 ReduceMax:1"
+  },
+  {
+   "donor": "task242",
+   "sim": 0.467,
+   "donor_pts": 18.954995,
+   "donor_ops": "Einsum:2 Cast:2 Concat:1 Add:1 Slice:1 Pad:1"
+  },
+  {
+   "donor": "task122",
+   "sim": 0.444,
+   "donor_pts": 18.311645,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "063": [
+  {
+   "donor": "task320",
+   "sim": 0.343,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task385",
+   "sim": 0.307,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task156",
+   "sim": 0.297,
+   "donor_pts": 18.868774,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "065": [
+  {
+   "donor": "task109",
+   "sim": 0.499,
+   "donor_pts": 18.357513,
+   "donor_ops": "Cast:2 Add:2 Concat:2 GatherND:1 ReduceSum:1 Equal:1 Slice:1 Einsum:1"
+  },
+  {
+   "donor": "task244",
+   "sim": 0.364,
+   "donor_pts": 18.886318,
+   "donor_ops": "Einsum:3 Not:3 And:3 Concat:2 Cast:2 Greater:2 Equal:1 Less:1"
+  },
+  {
+   "donor": "task033",
+   "sim": 0.309,
+   "donor_pts": 19.409013,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "066": [
+  {
+   "donor": "task119",
+   "sim": 0.446,
+   "donor_pts": 18.663174,
+   "donor_ops": "Einsum:7 Cast:7 Concat:6 Where:3 Mul:2 Gather:2 Sub:2 GatherND:1"
+  },
+  {
+   "donor": "task040",
+   "sim": 0.324,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task237",
+   "sim": 0.31,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  }
+ ],
+ "068": [
+  {
+   "donor": "task237",
+   "sim": 0.347,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  },
+  {
+   "donor": "task127",
+   "sim": 0.34,
+   "donor_pts": 19.200907,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task217",
+   "sim": 0.339,
+   "donor_pts": 19.701683,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "069": [
+  {
+   "donor": "task033",
+   "sim": 0.621,
+   "donor_pts": 19.409013,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task030",
+   "sim": 0.603,
+   "donor_pts": 18.48677,
+   "donor_ops": "Einsum:4 Cast:2 Div:1 Mod:1 Equal:1"
+  },
+  {
+   "donor": "task161",
+   "sim": 0.581,
+   "donor_pts": 19.383229,
+   "donor_ops": "Einsum:2 Equal:1 Concat:1 Cast:1 Where:1"
+  }
+ ],
+ "070": [
+  {
+   "donor": "task343",
+   "sim": 0.336,
+   "donor_pts": 19.409013,
+   "donor_ops": "Where:9 Conv:3 Equal:2 Or:1 Squeeze:1 Concat:1 Gather:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.289,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  },
+  {
+   "donor": "task231",
+   "sim": 0.274,
+   "donor_pts": 19.876036,
+   "donor_ops": "Where:7 Greater:4 Einsum:1 Concat:1 Gather:1"
+  }
+ ],
+ "071": [
+  {
+   "donor": "task383",
+   "sim": 0.382,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task342",
+   "sim": 0.372,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task181",
+   "sim": 0.243,
+   "donor_pts": 19.091917,
+   "donor_ops": "Slice:1 GatherND:1 Cast:1 Where:1 Mul:1 ScatterND:1"
+  }
+ ],
+ "072": [
+  {
+   "donor": "task236",
+   "sim": 0.961,
+   "donor_pts": 20.29952,
+   "donor_ops": "ConvTranspose:1 Cast:1 ConvInteger:1"
+  },
+  {
+   "donor": "task006",
+   "sim": 0.153,
+   "donor_pts": 20.810345,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task276",
+   "sim": 0.153,
+   "donor_pts": 22.697415,
+   "donor_ops": "Gather:1"
+  }
+ ],
+ "075": [
+  {
+   "donor": "task307",
+   "sim": 0.542,
+   "donor_pts": 23.390562,
+   "donor_ops": "MaxRoiPool:1"
+  },
+  {
+   "donor": "task317",
+   "sim": 0.514,
+   "donor_pts": 20.415033,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task183",
+   "sim": 0.484,
+   "donor_pts": 18.681032,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "079": [
+  {
+   "donor": "task033",
+   "sim": 0.431,
+   "donor_pts": 19.409013,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task030",
+   "sim": 0.425,
+   "donor_pts": 18.48677,
+   "donor_ops": "Einsum:4 Cast:2 Div:1 Mod:1 Equal:1"
+  },
+  {
+   "donor": "task161",
+   "sim": 0.39,
+   "donor_pts": 19.383229,
+   "donor_ops": "Einsum:2 Equal:1 Concat:1 Cast:1 Where:1"
+  }
+ ],
+ "081": [
+  {
+   "donor": "task344",
+   "sim": 0.146,
+   "donor_pts": 18.978977,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task171",
+   "sim": 0.132,
+   "donor_pts": 20.109651,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task287",
+   "sim": 0.122,
+   "donor_pts": 19.963047,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "082": [
+  {
+   "donor": "task237",
+   "sim": 0.729,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  },
+  {
+   "donor": "task232",
+   "sim": 0.686,
+   "donor_pts": 18.904175,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task129",
+   "sim": 0.562,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  }
+ ],
+ "083": [
+  {
+   "donor": "task211",
+   "sim": 0.61,
+   "donor_pts": 20.375027,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task296",
+   "sim": 0.589,
+   "donor_pts": 20.50019,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task380",
+   "sim": 0.539,
+   "donor_pts": 20.467401,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "084": [
+  {
+   "donor": "task375",
+   "sim": 0.697,
+   "donor_pts": 20.456705,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task001",
+   "sim": 0.682,
+   "donor_pts": 19.752976,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task389",
+   "sim": 0.664,
+   "donor_pts": 20.992667,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "085": [
+  {
+   "donor": "task128",
+   "sim": 0.521,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.469,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task283",
+   "sim": 0.425,
+   "donor_pts": 18.708431,
+   "donor_ops": "Conv:2"
+  }
+ ],
+ "086": [
+  {
+   "donor": "task041",
+   "sim": 0.939,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task295",
+   "sim": 0.774,
+   "donor_pts": 19.165189,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task348",
+   "sim": 0.728,
+   "donor_pts": 19.119467,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "088": [
+  {
+   "donor": "task383",
+   "sim": 0.85,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task342",
+   "sim": 0.699,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.412,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  }
+ ],
+ "089": [
+  {
+   "donor": "task079",
+   "sim": 0.682,
+   "donor_pts": 18.369317,
+   "donor_ops": "Cast:6 Slice:3 Einsum:2 ArgMax:2 Concat:2 Add:2 Gather:1 OneHot:1"
+  },
+  {
+   "donor": "task033",
+   "sim": 0.435,
+   "donor_pts": 19.409013,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task030",
+   "sim": 0.413,
+   "donor_pts": 18.48677,
+   "donor_ops": "Einsum:4 Cast:2 Div:1 Mod:1 Equal:1"
+  }
+ ],
+ "090": [
+  {
+   "donor": "task098",
+   "sim": 0.429,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.404,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task226",
+   "sim": 0.391,
+   "donor_pts": 18.917781,
+   "donor_ops": "Mul:37 Add:8 Max:4 Slice:2 Cast:2 Split:2 Concat:2 QLinearConv:1"
+  }
+ ],
+ "091": [
+  {
+   "donor": "task171",
+   "sim": 0.146,
+   "donor_pts": 20.109651,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task323",
+   "sim": 0.136,
+   "donor_pts": 19.206986,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task266",
+   "sim": 0.131,
+   "donor_pts": 20.016393,
+   "donor_ops": "QLinearConv:2 Slice:1 Cast:1"
+  }
+ ],
+ "092": [
+  {
+   "donor": "task360",
+   "sim": 0.378,
+   "donor_pts": 19.351026,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "093": [
+  {
+   "donor": "task292",
+   "sim": 0.391,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task040",
+   "sim": 0.389,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task181",
+   "sim": 0.351,
+   "donor_pts": 19.091917,
+   "donor_ops": "Slice:1 GatherND:1 Cast:1 Where:1 Mul:1 ScatterND:1"
+  }
+ ],
+ "094": [
+  {
+   "donor": "task399",
+   "sim": 0.528,
+   "donor_pts": 20.905655,
+   "donor_ops": "Einsum:1 Greater:1 Equal:1 Pad:1"
+  },
+  {
+   "donor": "task136",
+   "sim": 0.404,
+   "donor_pts": 18.390651,
+   "donor_ops": "Cast:3 Einsum:2 Mod:2 Div:2 Concat:2 Unsqueeze:2 Add:2 Where:2"
+  },
+  {
+   "donor": "task352",
+   "sim": 0.376,
+   "donor_pts": 18.868774,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "095": [
+  {
+   "donor": "task320",
+   "sim": 0.746,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task258",
+   "sim": 0.724,
+   "donor_pts": 19.989365,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task230",
+   "sim": 0.658,
+   "donor_pts": 18.868774,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "096": [
+  {
+   "donor": "task320",
+   "sim": 0.445,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.434,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task235",
+   "sim": 0.375,
+   "donor_pts": 20.308652,
+   "donor_ops": "Conv:1 Cast:1 Transpose:1 BitwiseAnd:1 ConvInteger:1"
+  }
+ ],
+ "097": [
+  {
+   "donor": "task211",
+   "sim": 0.345,
+   "donor_pts": 20.375027,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task296",
+   "sim": 0.345,
+   "donor_pts": 20.50019,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task380",
+   "sim": 0.325,
+   "donor_pts": 20.467401,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "098": [
+  {
+   "donor": "task128",
+   "sim": 0.864,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task049",
+   "sim": 0.734,
+   "donor_pts": 19.368788,
+   "donor_ops": "Cast:7 Einsum:2 Div:2 Sub:2 QuantizeLinear:1 Where:1 ReduceMin:1 Equal:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.731,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  }
+ ],
+ "099": [
+  {
+   "donor": "task305",
+   "sim": 0.484,
+   "donor_pts": 18.544801,
+   "donor_ops": "BitwiseAnd:2 GlobalMaxPool:1 ArgMax:1 Gather:1"
+  },
+  {
+   "donor": "task010",
+   "sim": 0.281,
+   "donor_pts": 19.462666,
+   "donor_ops": "Cast:8 Greater:6 Add:6 Sub:6 Einsum:2 Split:1 Concat:1"
+  },
+  {
+   "donor": "task232",
+   "sim": 0.209,
+   "donor_pts": 18.904175,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "100": [
+  {
+   "donor": "task283",
+   "sim": 0.875,
+   "donor_pts": 18.708431,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.755,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.731,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "101": [
+  {
+   "donor": "task121",
+   "sim": 0.334,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.332,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task143",
+   "sim": 0.254,
+   "donor_pts": 18.915501,
+   "donor_ops": "Einsum:3 Equal:2 MaxPool:1 Cast:1 Gather:1 Xor:1 Where:1"
+  }
+ ],
+ "102": [
+  {
+   "donor": "task098",
+   "sim": 0.71,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.662,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.601,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  }
+ ],
+ "104": [
+  {
+   "donor": "task306",
+   "sim": 0.88,
+   "donor_pts": 19.606372,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "105": [
+  {
+   "donor": "task188",
+   "sim": 0.231,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:5 Add:2 Where:2 Concat:2 Greater:1 Equal:1 Less:1 And:1"
+  },
+  {
+   "donor": "task103",
+   "sim": 0.228,
+   "donor_pts": 20.992667,
+   "donor_ops": "Cast:8 Slice:6 Equal:3 And:2 Not:1 Concat:1 Pad:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.205,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  }
+ ],
+ "106": [
+  {
+   "donor": "task155",
+   "sim": 0.965,
+   "donor_pts": 20.072746,
+   "donor_ops": "ReduceL2:1 Cast:1 Add:1 Sub:1 Range:1 Gather:1"
+  },
+  {
+   "donor": "task172",
+   "sim": 0.902,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task214",
+   "sim": 0.86,
+   "donor_pts": 19.620103,
+   "donor_ops": "Mul:3 Gather:2 Conv:1 Cast:1 Transpose:1 Concat:1 QLinearConv:1"
+  }
+ ],
+ "107": [
+  {
+   "donor": "task230",
+   "sim": 0.589,
+   "donor_pts": 18.868774,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task200",
+   "sim": 0.122,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  }
+ ],
+ "108": [
+  {
+   "donor": "task113",
+   "sim": 0.716,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task298",
+   "sim": 0.598,
+   "donor_pts": 20.905655,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task129",
+   "sim": 0.544,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  }
+ ],
+ "109": [
+  {
+   "donor": "task244",
+   "sim": 0.633,
+   "donor_pts": 18.886318,
+   "donor_ops": "Einsum:3 Not:3 And:3 Concat:2 Cast:2 Greater:2 Equal:1 Less:1"
+  },
+  {
+   "donor": "task033",
+   "sim": 0.524,
+   "donor_pts": 19.409013,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task065",
+   "sim": 0.499,
+   "donor_pts": 18.730904,
+   "donor_ops": "Cast:8 Einsum:4 Mul:4 Add:3 Equal:3 Mod:2 ArgMax:2 Concat:2"
+  }
+ ],
+ "110": [
+  {
+   "donor": "task017",
+   "sim": 0.989,
+   "donor_pts": 19.16227,
+   "donor_ops": "Equal:4 Cast:3 Einsum:3 Where:3 Greater:2 ReduceMax:1 ArgMax:1 Mod:1"
+  },
+  {
+   "donor": "task061",
+   "sim": 0.832,
+   "donor_pts": 18.341989,
+   "donor_ops": "ReduceMax:1 ArgMax:1 Sub:1 Gather:1 BitwiseAnd:1"
+  },
+  {
+   "donor": "task027",
+   "sim": 0.361,
+   "donor_pts": 18.327967,
+   "donor_ops": "Slice:3 Cast:3 GatherND:3 ReduceSum:2 Greater:1 Where:1 Add:1 Not:1"
+  }
+ ],
+ "111": [
+  {
+   "donor": "task271",
+   "sim": 0.667,
+   "donor_pts": 18.830389,
+   "donor_ops": "Conv:1 MaxPool:1 Cast:1 Reshape:1 Div:1 Mod:1 Concat:1 Add:1"
+  },
+  {
+   "donor": "task149",
+   "sim": 0.653,
+   "donor_pts": 20.087345,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task011",
+   "sim": 0.636,
+   "donor_pts": 19.462666,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "112": [
+  {
+   "donor": "task342",
+   "sim": 0.567,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task383",
+   "sim": 0.437,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task400",
+   "sim": 0.284,
+   "donor_pts": 18.547951,
+   "donor_ops": "Einsum:8 Cast:6 Sub:4 Where:4 Add:3 Max:3 Div:3 Less:2"
+  }
+ ],
+ "114": [
+  {
+   "donor": "task326",
+   "sim": 0.598,
+   "donor_pts": 21.598803,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task155",
+   "sim": 0.574,
+   "donor_pts": 20.072746,
+   "donor_ops": "ReduceL2:1 Cast:1 Add:1 Sub:1 Range:1 Gather:1"
+  },
+  {
+   "donor": "task172",
+   "sim": 0.558,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  }
+ ],
+ "115": [
+  {
+   "donor": "task320",
+   "sim": 0.478,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.451,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task178",
+   "sim": 0.407,
+   "donor_pts": 18.742332,
+   "donor_ops": "Cast:6 Where:5 Slice:4 Reshape:3 Equal:3 Conv:2 Not:2 And:2"
+  }
+ ],
+ "117": [
+  {
+   "donor": "task189",
+   "sim": 0.39,
+   "donor_pts": 18.53075,
+   "donor_ops": "GatherND:2 Concat:2 Einsum:1"
+  }
+ ],
+ "118": [
+  {
+   "donor": "task295",
+   "sim": 0.601,
+   "donor_pts": 19.165189,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task348",
+   "sim": 0.538,
+   "donor_pts": 19.119467,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.517,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "119": [
+  {
+   "donor": "task051",
+   "sim": 0.615,
+   "donor_pts": 18.66672,
+   "donor_ops": "Mul:17 Cast:7 Einsum:6 Add:5 Concat:2 Sub:2 Sign:2 ReduceSum:1"
+  },
+  {
+   "donor": "task273",
+   "sim": 0.25,
+   "donor_pts": 18.636972,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task292",
+   "sim": 0.212,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "120": [
+  {
+   "donor": "task098",
+   "sim": 0.866,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.766,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task049",
+   "sim": 0.699,
+   "donor_pts": 19.368788,
+   "donor_ops": "Cast:7 Einsum:2 Div:2 Sub:2 QuantizeLinear:1 Where:1 ReduceMin:1 Equal:1"
+  }
+ ],
+ "121": [
+  {
+   "donor": "task300",
+   "sim": 0.759,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task143",
+   "sim": 0.673,
+   "donor_pts": 18.915501,
+   "donor_ops": "Einsum:3 Equal:2 MaxPool:1 Cast:1 Gather:1 Xor:1 Where:1"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.668,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  }
+ ],
+ "122": [
+  {
+   "donor": "task151",
+   "sim": 0.675,
+   "donor_pts": 19.711733,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task040",
+   "sim": 0.65,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task283",
+   "sim": 0.473,
+   "donor_pts": 18.708431,
+   "donor_ops": "Conv:2"
+  }
+ ],
+ "123": [
+  {
+   "donor": "task329",
+   "sim": 0.756,
+   "donor_pts": 19.662462,
+   "donor_ops": "ReduceSum:1 Equal:1 Cast:1 Einsum:1"
+  },
+  {
+   "donor": "task140",
+   "sim": 0.751,
+   "donor_pts": 23.390562,
+   "donor_ops": "RoiAlign:1"
+  },
+  {
+   "donor": "task135",
+   "sim": 0.743,
+   "donor_pts": 20.030187,
+   "donor_ops": "Conv:1 Equal:1 Pad:1"
+  }
+ ],
+ "124": [
+  {
+   "donor": "task231",
+   "sim": 0.563,
+   "donor_pts": 19.876036,
+   "donor_ops": "Where:7 Greater:4 Einsum:1 Concat:1 Gather:1"
+  },
+  {
+   "donor": "task327",
+   "sim": 0.496,
+   "donor_pts": 18.945561,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task362",
+   "sim": 0.467,
+   "donor_pts": 20.355609,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "125": [
+  {
+   "donor": "task305",
+   "sim": 0.476,
+   "donor_pts": 18.544801,
+   "donor_ops": "BitwiseAnd:2 GlobalMaxPool:1 ArgMax:1 Gather:1"
+  },
+  {
+   "donor": "task099",
+   "sim": 0.341,
+   "donor_pts": 18.777424,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.181,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "126": [
+  {
+   "donor": "task237",
+   "sim": 0.27,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  },
+  {
+   "donor": "task129",
+   "sim": 0.233,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  },
+  {
+   "donor": "task232",
+   "sim": 0.229,
+   "donor_pts": 18.904175,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "127": [
+  {
+   "donor": "task373",
+   "sim": 0.713,
+   "donor_pts": 21.598803,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task140",
+   "sim": 0.7,
+   "donor_pts": 23.390562,
+   "donor_ops": "RoiAlign:1"
+  },
+  {
+   "donor": "task232",
+   "sim": 0.626,
+   "donor_pts": 18.904175,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "131": [
+  {
+   "donor": "task215",
+   "sim": 0.332,
+   "donor_pts": 20.39483,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task213",
+   "sim": 0.274,
+   "donor_pts": 18.438969,
+   "donor_ops": "Slice:7 Max:3 Where:3 Einsum:2 Cast:2 Div:2 ReduceMin:1 Greater:1"
+  },
+  {
+   "donor": "task027",
+   "sim": 0.273,
+   "donor_pts": 18.327967,
+   "donor_ops": "Slice:3 Cast:3 GatherND:3 ReduceSum:2 Greater:1 Where:1 Add:1 Not:1"
+  }
+ ],
+ "132": [
+  {
+   "donor": "task128",
+   "sim": 0.552,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.549,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task049",
+   "sim": 0.45,
+   "donor_pts": 19.368788,
+   "donor_ops": "Cast:7 Einsum:2 Div:2 Sub:2 QuantizeLinear:1 Where:1 ReduceMin:1 Equal:1"
+  }
+ ],
+ "133": [
+  {
+   "donor": "task300",
+   "sim": 0.287,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task121",
+   "sim": 0.285,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task355",
+   "sim": 0.251,
+   "donor_pts": 19.386872,
+   "donor_ops": "Einsum:2 GlobalAveragePool:1 Less:1 Cast:1 Max:1 Div:1 ReduceMax:1 GreaterOrEqual:1"
+  }
+ ],
+ "134": [
+  {
+   "donor": "task161",
+   "sim": 0.589,
+   "donor_pts": 19.383229,
+   "donor_ops": "Einsum:2 Equal:1 Concat:1 Cast:1 Where:1"
+  },
+  {
+   "donor": "task195",
+   "sim": 0.457,
+   "donor_pts": 19.176954,
+   "donor_ops": "Mul:3 Einsum:2 Log:2 Cast:2 Concat:1 Add:1 Slice:1 QuantizeLinear:1"
+  },
+  {
+   "donor": "task259",
+   "sim": 0.435,
+   "donor_pts": 18.628388,
+   "donor_ops": "Cast:10 Reshape:4 Concat:4 Add:3 ReduceMax:2 ArgMax:2 GatherElements:2 Unsqueeze:2"
+  }
+ ],
+ "135": [
+  {
+   "donor": "task142",
+   "sim": 0.982,
+   "donor_pts": 20.50019,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task329",
+   "sim": 0.948,
+   "donor_pts": 19.662462,
+   "donor_ops": "ReduceSum:1 Equal:1 Cast:1 Einsum:1"
+  },
+  {
+   "donor": "task214",
+   "sim": 0.863,
+   "donor_pts": 19.620103,
+   "donor_ops": "Mul:3 Gather:2 Conv:1 Cast:1 Transpose:1 Concat:1 QLinearConv:1"
+  }
+ ],
+ "136": [
+  {
+   "donor": "task353",
+   "sim": 0.43,
+   "donor_pts": 19.527729,
+   "donor_ops": "Cast:5 Einsum:4 Concat:3 Sign:2 Add:2 ScatterND:1"
+  },
+  {
+   "donor": "task399",
+   "sim": 0.419,
+   "donor_pts": 20.905655,
+   "donor_ops": "Einsum:1 Greater:1 Equal:1 Pad:1"
+  },
+  {
+   "donor": "task210",
+   "sim": 0.407,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  }
+ ],
+ "137": [
+  {
+   "donor": "task299",
+   "sim": 0.298,
+   "donor_pts": 21.087977,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task292",
+   "sim": 0.278,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task141",
+   "sim": 0.266,
+   "donor_pts": 19.937405,
+   "donor_ops": "Einsum:3"
+  }
+ ],
+ "138": [
+  {
+   "donor": "task239",
+   "sim": 0.196,
+   "donor_pts": 18.751957,
+   "donor_ops": "Where:3 Cast:2 Less:2 ReduceSum:1 TopK:1 Gather:1 Mul:1 Concat:1"
+  }
+ ],
+ "139": [
+  {
+   "donor": "task111",
+   "sim": 0.537,
+   "donor_pts": 19.375982,
+   "donor_ops": "Cast:6 Einsum:4 Sub:1 Concat:1 Add:1 Slice:1 Div:1 Where:1"
+  },
+  {
+   "donor": "task057",
+   "sim": 0.363,
+   "donor_pts": 18.677435,
+   "donor_ops": "Cast:4 ReduceMin:2 ArgMin:2 Add:2 Gather:2 Slice:1 Equal:1 ReduceMax:1"
+  },
+  {
+   "donor": "task040",
+   "sim": 0.346,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "141": [
+  {
+   "donor": "task199",
+   "sim": 0.822,
+   "donor_pts": 19.008535,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task200",
+   "sim": 0.803,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  },
+  {
+   "donor": "task323",
+   "sim": 0.736,
+   "donor_pts": 19.206986,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "143": [
+  {
+   "donor": "task121",
+   "sim": 0.673,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.574,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.459,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  }
+ ],
+ "146": [
+  {
+   "donor": "task235",
+   "sim": 0.468,
+   "donor_pts": 20.308652,
+   "donor_ops": "Conv:1 Cast:1 Transpose:1 BitwiseAnd:1 ConvInteger:1"
+  },
+  {
+   "donor": "task127",
+   "sim": 0.372,
+   "donor_pts": 19.200907,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task056",
+   "sim": 0.282,
+   "donor_pts": 21.598803,
+   "donor_ops": "GatherElements:2 Less:1 Greater:1 Cast:1 Equal:1 Xor:1 Concat:1 Pad:1"
+  }
+ ],
+ "147": [
+  {
+   "donor": "task272",
+   "sim": 0.623,
+   "donor_pts": 20.002788,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task353",
+   "sim": 0.623,
+   "donor_pts": 19.527729,
+   "donor_ops": "Cast:5 Einsum:4 Concat:3 Sign:2 Add:2 ScatterND:1"
+  },
+  {
+   "donor": "task344",
+   "sim": 0.479,
+   "donor_pts": 18.978977,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "148": [
+  {
+   "donor": "task292",
+   "sim": 0.399,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task181",
+   "sim": 0.388,
+   "donor_pts": 19.091917,
+   "donor_ops": "Slice:1 GatherND:1 Cast:1 Where:1 Mul:1 ScatterND:1"
+  },
+  {
+   "donor": "task295",
+   "sim": 0.376,
+   "donor_pts": 19.165189,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "149": [
+  {
+   "donor": "task011",
+   "sim": 0.908,
+   "donor_pts": 19.462666,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task163",
+   "sim": 0.87,
+   "donor_pts": 19.263428,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task059",
+   "sim": 0.858,
+   "donor_pts": 19.344008,
+   "donor_ops": "Einsum:2 ReduceMin:1 Equal:1 Cast:1"
+  }
+ ],
+ "150": [
+  {
+   "donor": "task164",
+   "sim": 0.974,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task152",
+   "sim": 0.969,
+   "donor_pts": 20.905655,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task289",
+   "sim": 0.846,
+   "donor_pts": 18.580005,
+   "donor_ops": "ReduceMax:1 ReduceSum:1 Equal:1 Cast:1 Einsum:1"
+  }
+ ],
+ "151": [
+  {
+   "donor": "task040",
+   "sim": 0.757,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task122",
+   "sim": 0.675,
+   "donor_pts": 18.311645,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task141",
+   "sim": 0.485,
+   "donor_pts": 19.937405,
+   "donor_ops": "Einsum:3"
+  }
+ ],
+ "153": [
+  {
+   "donor": "task316",
+   "sim": 0.596,
+   "donor_pts": 19.100103,
+   "donor_ops": "Conv:1 Cast:1 Sign:1 ConvInteger:1 ScatterElements:1 Squeeze:1 Gather:1 Equal:1"
+  },
+  {
+   "donor": "task057",
+   "sim": 0.538,
+   "donor_pts": 18.677435,
+   "donor_ops": "Cast:4 ReduceMin:2 ArgMin:2 Add:2 Gather:2 Slice:1 Equal:1 ReduceMax:1"
+  },
+  {
+   "donor": "task242",
+   "sim": 0.49,
+   "donor_pts": 18.954995,
+   "donor_ops": "Einsum:2 Cast:2 Concat:1 Add:1 Slice:1 Pad:1"
+  }
+ ],
+ "154": [
+  {
+   "donor": "task383",
+   "sim": 0.758,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task342",
+   "sim": 0.727,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task166",
+   "sim": 0.37,
+   "donor_pts": 21.821946,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "155": [
+  {
+   "donor": "task106",
+   "sim": 0.965,
+   "donor_pts": 18.957367,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task172",
+   "sim": 0.888,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task214",
+   "sim": 0.854,
+   "donor_pts": 19.620103,
+   "donor_ops": "Mul:3 Gather:2 Conv:1 Cast:1 Transpose:1 Concat:1 QLinearConv:1"
+  }
+ ],
+ "156": [
+  {
+   "donor": "task320",
+   "sim": 0.634,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.539,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task258",
+   "sim": 0.525,
+   "donor_pts": 19.989365,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "157": [
+  {
+   "donor": "task300",
+   "sim": 0.157,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task321",
+   "sim": 0.154,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task386",
+   "sim": 0.153,
+   "donor_pts": 20.630552,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  }
+ ],
+ "159": [
+  {
+   "donor": "task244",
+   "sim": 0.388,
+   "donor_pts": 18.886318,
+   "donor_ops": "Einsum:3 Not:3 And:3 Concat:2 Cast:2 Greater:2 Equal:1 Less:1"
+  },
+  {
+   "donor": "task310",
+   "sim": 0.209,
+   "donor_pts": 18.614806,
+   "donor_ops": "Einsum:5 TfIdfVectorizer:5 Div:2 Sub:2 Cast:2 Equal:1 Where:1 ArgMin:1"
+  }
+ ],
+ "160": [
+  {
+   "donor": "task321",
+   "sim": 0.305,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task227",
+   "sim": 0.302,
+   "donor_pts": 20.456705,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task194",
+   "sim": 0.3,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "161": [
+  {
+   "donor": "task033",
+   "sim": 0.515,
+   "donor_pts": 19.409013,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task030",
+   "sim": 0.499,
+   "donor_pts": 18.48677,
+   "donor_ops": "Einsum:4 Cast:2 Div:1 Mod:1 Equal:1"
+  },
+  {
+   "donor": "task079",
+   "sim": 0.39,
+   "donor_pts": 18.369317,
+   "donor_ops": "Cast:6 Slice:3 Einsum:2 ArgMax:2 Concat:2 Add:2 Gather:1 OneHot:1"
+  }
+ ],
+ "162": [
+  {
+   "donor": "task242",
+   "sim": 0.436,
+   "donor_pts": 18.954995,
+   "donor_ops": "Einsum:2 Cast:2 Concat:1 Add:1 Slice:1 Pad:1"
+  },
+  {
+   "donor": "task316",
+   "sim": 0.421,
+   "donor_pts": 19.100103,
+   "donor_ops": "Conv:1 Cast:1 Sign:1 ConvInteger:1 ScatterElements:1 Squeeze:1 Gather:1 Equal:1"
+  },
+  {
+   "donor": "task057",
+   "sim": 0.373,
+   "donor_pts": 18.677435,
+   "donor_ops": "Cast:4 ReduceMin:2 ArgMin:2 Add:2 Gather:2 Slice:1 Equal:1 ReduceMax:1"
+  }
+ ],
+ "163": [
+  {
+   "donor": "task149",
+   "sim": 0.87,
+   "donor_pts": 20.087345,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task011",
+   "sim": 0.866,
+   "donor_pts": 19.462666,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task059",
+   "sim": 0.803,
+   "donor_pts": 19.344008,
+   "donor_ops": "Einsum:2 ReduceMin:1 Equal:1 Cast:1"
+  }
+ ],
+ "165": [
+  {
+   "donor": "task200",
+   "sim": 0.178,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  },
+  {
+   "donor": "task199",
+   "sim": 0.153,
+   "donor_pts": 19.008535,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task141",
+   "sim": 0.15,
+   "donor_pts": 19.937405,
+   "donor_ops": "Einsum:3"
+  }
+ ],
+ "168": [
+  {
+   "donor": "task386",
+   "sim": 0.461,
+   "donor_pts": 20.630552,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task227",
+   "sim": 0.459,
+   "donor_pts": 20.456705,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task395",
+   "sim": 0.453,
+   "donor_pts": 20.810345,
+   "donor_ops": "Conv:2"
+  }
+ ],
+ "169": [
+  {
+   "donor": "task300",
+   "sim": 0.843,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task121",
+   "sim": 0.768,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task143",
+   "sim": 0.595,
+   "donor_pts": 18.915501,
+   "donor_ops": "Einsum:3 Equal:2 MaxPool:1 Cast:1 Gather:1 Xor:1 Where:1"
+  }
+ ],
+ "170": [
+  {
+   "donor": "task342",
+   "sim": 0.315,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task383",
+   "sim": 0.247,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task400",
+   "sim": 0.177,
+   "donor_pts": 18.547951,
+   "donor_ops": "Einsum:8 Cast:6 Sub:4 Where:4 Add:3 Max:3 Div:3 Less:2"
+  }
+ ],
+ "171": [
+  {
+   "donor": "task356",
+   "sim": 0.473,
+   "donor_pts": 18.895207,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task337",
+   "sim": 0.437,
+   "donor_pts": 22.697415,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task350",
+   "sim": 0.336,
+   "donor_pts": 18.940877,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "174": [
+  {
+   "donor": "task300",
+   "sim": 0.73,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task121",
+   "sim": 0.606,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.568,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  }
+ ],
+ "175": [
+  {
+   "donor": "task061",
+   "sim": 0.762,
+   "donor_pts": 18.341989,
+   "donor_ops": "ReduceMax:1 ArgMax:1 Sub:1 Gather:1 BitwiseAnd:1"
+  },
+  {
+   "donor": "task017",
+   "sim": 0.614,
+   "donor_pts": 19.16227,
+   "donor_ops": "Equal:4 Cast:3 Einsum:3 Where:3 Greater:2 ReduceMax:1 ArgMax:1 Mod:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.308,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "176": [
+  {
+   "donor": "task294",
+   "sim": 0.586,
+   "donor_pts": 18.753893,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task229",
+   "sim": 0.56,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:2 MeanVarianceNormalization:1"
+  },
+  {
+   "donor": "task304",
+   "sim": 0.509,
+   "donor_pts": 19.296218,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "177": [
+  {
+   "donor": "task259",
+   "sim": 0.899,
+   "donor_pts": 18.628388,
+   "donor_ops": "Cast:10 Reshape:4 Concat:4 Add:3 ReduceMax:2 ArgMax:2 GatherElements:2 Unsqueeze:2"
+  },
+  {
+   "donor": "task195",
+   "sim": 0.821,
+   "donor_pts": 19.176954,
+   "donor_ops": "Mul:3 Einsum:2 Log:2 Cast:2 Concat:1 Add:1 Slice:1 QuantizeLinear:1"
+  },
+  {
+   "donor": "task218",
+   "sim": 0.406,
+   "donor_pts": 18.571895,
+   "donor_ops": "Cast:5 Where:4 Conv:3 Squeeze:2 TopK:2 Gather:2 Unsqueeze:1 Min:1"
+  }
+ ],
+ "178": [
+  {
+   "donor": "task290",
+   "sim": 0.833,
+   "donor_pts": 19.354553,
+   "donor_ops": "Sub:4 Mul:3 Concat:3 Einsum:2 Cast:1 ReduceSum:1 Sqrt:1 Shrink:1"
+  },
+  {
+   "donor": "task293",
+   "sim": 0.508,
+   "donor_pts": 21.311121,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task040",
+   "sim": 0.432,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "180": [
+  {
+   "donor": "task257",
+   "sim": 0.997,
+   "donor_pts": 20.263802,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task321",
+   "sim": 0.676,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task227",
+   "sim": 0.655,
+   "donor_pts": 20.456705,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  }
+ ],
+ "181": [
+  {
+   "donor": "task292",
+   "sim": 0.809,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task299",
+   "sim": 0.676,
+   "donor_pts": 21.087977,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task215",
+   "sim": 0.508,
+   "donor_pts": 20.39483,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "182": [
+  {
+   "donor": "task048",
+   "sim": 0.401,
+   "donor_pts": 18.463308,
+   "donor_ops": "BitwiseAnd:124 BitwiseOr:119 BitShift:97 Cast:3 Where:3 Greater:2 Equal:2 BitwiseNot:2"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.218,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.207,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  }
+ ],
+ "183": [
+  {
+   "donor": "task142",
+   "sim": 0.771,
+   "donor_pts": 20.50019,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task135",
+   "sim": 0.764,
+   "donor_pts": 20.030187,
+   "donor_ops": "Conv:1 Equal:1 Pad:1"
+  },
+  {
+   "donor": "task329",
+   "sim": 0.743,
+   "donor_pts": 19.662462,
+   "donor_ops": "ReduceSum:1 Equal:1 Cast:1 Einsum:1"
+  }
+ ],
+ "184": [
+  {
+   "donor": "task218",
+   "sim": 0.817,
+   "donor_pts": 18.571895,
+   "donor_ops": "Cast:5 Where:4 Conv:3 Squeeze:2 TopK:2 Gather:2 Unsqueeze:1 Min:1"
+  },
+  {
+   "donor": "task273",
+   "sim": 0.312,
+   "donor_pts": 18.636972,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.285,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  }
+ ],
+ "185": [
+  {
+   "donor": "task109",
+   "sim": 0.395,
+   "donor_pts": 18.357513,
+   "donor_ops": "Cast:2 Add:2 Concat:2 GatherND:1 ReduceSum:1 Equal:1 Slice:1 Einsum:1"
+  },
+  {
+   "donor": "task342",
+   "sim": 0.355,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task244",
+   "sim": 0.328,
+   "donor_pts": 18.886318,
+   "donor_ops": "Einsum:3 Not:3 And:3 Concat:2 Cast:2 Greater:2 Equal:1 Less:1"
+  }
+ ],
+ "186": [
+  {
+   "donor": "task339",
+   "sim": 0.615,
+   "donor_pts": 20.522663,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task210",
+   "sim": 0.566,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task272",
+   "sim": 0.556,
+   "donor_pts": 20.002788,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "187": [
+  {
+   "donor": "task100",
+   "sim": 0.359,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  },
+  {
+   "donor": "task283",
+   "sim": 0.314,
+   "donor_pts": 18.708431,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.282,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "188": [
+  {
+   "donor": "task103",
+   "sim": 0.351,
+   "donor_pts": 20.992667,
+   "donor_ops": "Cast:8 Slice:6 Equal:3 And:2 Not:1 Concat:1 Pad:1"
+  },
+  {
+   "donor": "task326",
+   "sim": 0.145,
+   "donor_pts": 21.598803,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "189": [
+  {
+   "donor": "task183",
+   "sim": 0.26,
+   "donor_pts": 18.681032,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task299",
+   "sim": 0.246,
+   "donor_pts": 21.087977,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task181",
+   "sim": 0.245,
+   "donor_pts": 19.091917,
+   "donor_ops": "Slice:1 GatherND:1 Cast:1 Where:1 Mul:1 ScatterND:1"
+  }
+ ],
+ "190": [
+  {
+   "donor": "task034",
+   "sim": 0.664,
+   "donor_pts": 19.033853,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task200",
+   "sim": 0.313,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  },
+  {
+   "donor": "task199",
+   "sim": 0.297,
+   "donor_pts": 19.008535,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "192": [
+  {
+   "donor": "task048",
+   "sim": 0.686,
+   "donor_pts": 18.463308,
+   "donor_ops": "BitwiseAnd:124 BitwiseOr:119 BitShift:97 Cast:3 Where:3 Greater:2 Equal:2 BitwiseNot:2"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.391,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.39,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "193": [
+  {
+   "donor": "task048",
+   "sim": 0.61,
+   "donor_pts": 18.463308,
+   "donor_ops": "BitwiseAnd:124 BitwiseOr:119 BitShift:97 Cast:3 Where:3 Greater:2 Equal:2 BitwiseNot:2"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.345,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.344,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "194": [
+  {
+   "donor": "task321",
+   "sim": 0.935,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task249",
+   "sim": 0.907,
+   "donor_pts": 19.672124,
+   "donor_ops": "Cast:2 Conv:1 ReduceSum:1 Sub:1 Min:1 Pad:1 Gather:1"
+  },
+  {
+   "donor": "task372",
+   "sim": 0.901,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "195": [
+  {
+   "donor": "task259",
+   "sim": 0.873,
+   "donor_pts": 18.628388,
+   "donor_ops": "Cast:10 Reshape:4 Concat:4 Add:3 ReduceMax:2 ArgMax:2 GatherElements:2 Unsqueeze:2"
+  },
+  {
+   "donor": "task177",
+   "sim": 0.821,
+   "donor_pts": 18.52149,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task218",
+   "sim": 0.295,
+   "donor_pts": 18.571895,
+   "donor_ops": "Cast:5 Where:4 Conv:3 Squeeze:2 TopK:2 Gather:2 Unsqueeze:1 Min:1"
+  }
+ ],
+ "196": [
+  {
+   "donor": "task098",
+   "sim": 0.265,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.246,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.238,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  }
+ ],
+ "197": [
+  {
+   "donor": "task354",
+   "sim": 0.454,
+   "donor_pts": 18.668498,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task312",
+   "sim": 0.312,
+   "donor_pts": 22.697415,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task231",
+   "sim": 0.153,
+   "donor_pts": 19.876036,
+   "donor_ops": "Where:7 Greater:4 Einsum:1 Concat:1 Gather:1"
+  }
+ ],
+ "198": [
+  {
+   "donor": "task316",
+   "sim": 0.833,
+   "donor_pts": 19.100103,
+   "donor_ops": "Conv:1 Cast:1 Sign:1 ConvInteger:1 ScatterElements:1 Squeeze:1 Gather:1 Equal:1"
+  },
+  {
+   "donor": "task057",
+   "sim": 0.786,
+   "donor_pts": 18.677435,
+   "donor_ops": "Cast:4 ReduceMin:2 ArgMin:2 Add:2 Gather:2 Slice:1 Equal:1 ReduceMax:1"
+  },
+  {
+   "donor": "task242",
+   "sim": 0.693,
+   "donor_pts": 18.954995,
+   "donor_ops": "Einsum:2 Cast:2 Concat:1 Add:1 Slice:1 Pad:1"
+  }
+ ],
+ "199": [
+  {
+   "donor": "task200",
+   "sim": 0.859,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  },
+  {
+   "donor": "task141",
+   "sim": 0.822,
+   "donor_pts": 19.937405,
+   "donor_ops": "Einsum:3"
+  },
+  {
+   "donor": "task323",
+   "sim": 0.813,
+   "donor_pts": 19.206986,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "200": [
+  {
+   "donor": "task199",
+   "sim": 0.859,
+   "donor_pts": 19.008535,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task323",
+   "sim": 0.809,
+   "donor_pts": 19.206986,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task141",
+   "sim": 0.803,
+   "donor_pts": 19.937405,
+   "donor_ops": "Einsum:3"
+  }
+ ],
+ "201": [
+  {
+   "donor": "task300",
+   "sim": 0.767,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task121",
+   "sim": 0.704,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.601,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  }
+ ],
+ "202": [
+  {
+   "donor": "task040",
+   "sim": 0.227,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task122",
+   "sim": 0.201,
+   "donor_pts": 18.311645,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task099",
+   "sim": 0.19,
+   "donor_pts": 18.777424,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "203": [
+  {
+   "donor": "task140",
+   "sim": 0.533,
+   "donor_pts": 23.390562,
+   "donor_ops": "RoiAlign:1"
+  },
+  {
+   "donor": "task373",
+   "sim": 0.48,
+   "donor_pts": 21.598803,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task142",
+   "sim": 0.471,
+   "donor_pts": 20.50019,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "205": [
+  {
+   "donor": "task177",
+   "sim": 0.956,
+   "donor_pts": 18.52149,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task259",
+   "sim": 0.922,
+   "donor_pts": 18.628388,
+   "donor_ops": "Cast:10 Reshape:4 Concat:4 Add:3 ReduceMax:2 ArgMax:2 GatherElements:2 Unsqueeze:2"
+  },
+  {
+   "donor": "task195",
+   "sim": 0.86,
+   "donor_pts": 19.176954,
+   "donor_ops": "Mul:3 Einsum:2 Log:2 Cast:2 Concat:1 Add:1 Slice:1 QuantizeLinear:1"
+  }
+ ],
+ "207": [
+  {
+   "donor": "task218",
+   "sim": 0.155,
+   "donor_pts": 18.571895,
+   "donor_ops": "Cast:5 Where:4 Conv:3 Squeeze:2 TopK:2 Gather:2 Unsqueeze:1 Min:1"
+  },
+  {
+   "donor": "task217",
+   "sim": 0.127,
+   "donor_pts": 19.701683,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "208": [
+  {
+   "donor": "task261",
+   "sim": 0.234,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task225",
+   "sim": 0.233,
+   "donor_pts": 19.105597,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task200",
+   "sim": 0.229,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  }
+ ],
+ "211": [
+  {
+   "donor": "task296",
+   "sim": 0.933,
+   "donor_pts": 20.50019,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task380",
+   "sim": 0.851,
+   "donor_pts": 20.467401,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task001",
+   "sim": 0.807,
+   "donor_pts": 19.752976,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "212": [
+  {
+   "donor": "task227",
+   "sim": 0.226,
+   "donor_pts": 20.456705,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task321",
+   "sim": 0.224,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task395",
+   "sim": 0.222,
+   "donor_pts": 20.810345,
+   "donor_ops": "Conv:2"
+  }
+ ],
+ "213": [
+  {
+   "donor": "task362",
+   "sim": 0.539,
+   "donor_pts": 20.355609,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task027",
+   "sim": 0.486,
+   "donor_pts": 18.327967,
+   "donor_ops": "Slice:3 Cast:3 GatherND:3 ReduceSum:2 Greater:1 Where:1 Add:1 Not:1"
+  },
+  {
+   "donor": "task231",
+   "sim": 0.444,
+   "donor_pts": 19.876036,
+   "donor_ops": "Where:7 Greater:4 Einsum:1 Concat:1 Gather:1"
+  }
+ ],
+ "214": [
+  {
+   "donor": "task172",
+   "sim": 0.932,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task142",
+   "sim": 0.876,
+   "donor_pts": 20.50019,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task179",
+   "sim": 0.874,
+   "donor_pts": 25.0,
+   "donor_ops": "Transpose:1"
+  }
+ ],
+ "215": [
+  {
+   "donor": "task231",
+   "sim": 0.599,
+   "donor_pts": 19.876036,
+   "donor_ops": "Where:7 Greater:4 Einsum:1 Concat:1 Gather:1"
+  },
+  {
+   "donor": "task362",
+   "sim": 0.583,
+   "donor_pts": 20.355609,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task027",
+   "sim": 0.563,
+   "donor_pts": 18.327967,
+   "donor_ops": "Slice:3 Cast:3 GatherND:3 ReduceSum:2 Greater:1 Where:1 Add:1 Not:1"
+  }
+ ],
+ "217": [
+  {
+   "donor": "task001",
+   "sim": 0.568,
+   "donor_pts": 19.752976,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task380",
+   "sim": 0.555,
+   "donor_pts": 20.467401,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task296",
+   "sim": 0.538,
+   "donor_pts": 20.50019,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "218": [
+  {
+   "donor": "task177",
+   "sim": 0.406,
+   "donor_pts": 18.52149,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task259",
+   "sim": 0.344,
+   "donor_pts": 18.628388,
+   "donor_ops": "Cast:10 Reshape:4 Concat:4 Add:3 ReduceMax:2 ArgMax:2 GatherElements:2 Unsqueeze:2"
+  },
+  {
+   "donor": "task195",
+   "sim": 0.295,
+   "donor_pts": 19.176954,
+   "donor_ops": "Mul:3 Einsum:2 Log:2 Cast:2 Concat:1 Add:1 Slice:1 QuantizeLinear:1"
+  }
+ ],
+ "220": [
+  {
+   "donor": "task016",
+   "sim": 0.652,
+   "donor_pts": 22.697415,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task095",
+   "sim": 0.593,
+   "donor_pts": 19.818216,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task253",
+   "sim": 0.582,
+   "donor_pts": 19.494668,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "221": [
+  {
+   "donor": "task001",
+   "sim": 0.347,
+   "donor_pts": 19.752976,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task380",
+   "sim": 0.346,
+   "donor_pts": 20.467401,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task296",
+   "sim": 0.318,
+   "donor_pts": 20.50019,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "222": [
+  {
+   "donor": "task200",
+   "sim": 0.231,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  },
+  {
+   "donor": "task141",
+   "sim": 0.215,
+   "donor_pts": 19.937405,
+   "donor_ops": "Einsum:3"
+  },
+  {
+   "donor": "task225",
+   "sim": 0.211,
+   "donor_pts": 19.105597,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "224": [
+  {
+   "donor": "task300",
+   "sim": 0.587,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task121",
+   "sim": 0.525,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.455,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  }
+ ],
+ "225": [
+  {
+   "donor": "task266",
+   "sim": 0.766,
+   "donor_pts": 20.016393,
+   "donor_ops": "QLinearConv:2 Slice:1 Cast:1"
+  },
+  {
+   "donor": "task200",
+   "sim": 0.685,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  },
+  {
+   "donor": "task323",
+   "sim": 0.667,
+   "donor_pts": 19.206986,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "226": [
+  {
+   "donor": "task128",
+   "sim": 0.709,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.699,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task283",
+   "sim": 0.66,
+   "donor_pts": 18.708431,
+   "donor_ops": "Conv:2"
+  }
+ ],
+ "227": [
+  {
+   "donor": "task144",
+   "sim": 0.973,
+   "donor_pts": 20.39483,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task321",
+   "sim": 0.973,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task395",
+   "sim": 0.958,
+   "donor_pts": 20.810345,
+   "donor_ops": "Conv:2"
+  }
+ ],
+ "228": [
+  {
+   "donor": "task342",
+   "sim": 0.786,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task383",
+   "sim": 0.756,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task400",
+   "sim": 0.402,
+   "donor_pts": 18.547951,
+   "donor_ops": "Einsum:8 Cast:6 Sub:4 Where:4 Add:3 Max:3 Div:3 Less:2"
+  }
+ ],
+ "229": [
+  {
+   "donor": "task304",
+   "sim": 0.922,
+   "donor_pts": 19.296218,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task172",
+   "sim": 0.574,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task214",
+   "sim": 0.573,
+   "donor_pts": 19.620103,
+   "donor_ops": "Mul:3 Gather:2 Conv:1 Cast:1 Transpose:1 Concat:1 QLinearConv:1"
+  }
+ ],
+ "231": [
+  {
+   "donor": "task362",
+   "sim": 0.618,
+   "donor_pts": 20.355609,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task215",
+   "sim": 0.599,
+   "donor_pts": 20.39483,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task027",
+   "sim": 0.594,
+   "donor_pts": 18.327967,
+   "donor_ops": "Slice:3 Cast:3 GatherND:3 ReduceSum:2 Greater:1 Where:1 Add:1 Not:1"
+  }
+ ],
+ "232": [
+  {
+   "donor": "task237",
+   "sim": 0.846,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  },
+  {
+   "donor": "task129",
+   "sim": 0.713,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  },
+  {
+   "donor": "task082",
+   "sim": 0.686,
+   "donor_pts": 19.752976,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "233": [
+  {
+   "donor": "task383",
+   "sim": 0.278,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task342",
+   "sim": 0.235,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.228,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  }
+ ],
+ "234": [
+  {
+   "donor": "task283",
+   "sim": 0.485,
+   "donor_pts": 18.708431,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.446,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.437,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  }
+ ],
+ "235": [
+  {
+   "donor": "task127",
+   "sim": 0.565,
+   "donor_pts": 19.200907,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task217",
+   "sim": 0.496,
+   "donor_pts": 19.701683,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task056",
+   "sim": 0.479,
+   "donor_pts": 21.598803,
+   "donor_ops": "GatherElements:2 Less:1 Greater:1 Cast:1 Equal:1 Xor:1 Concat:1 Pad:1"
+  }
+ ],
+ "236": [
+  {
+   "donor": "task072",
+   "sim": 0.961,
+   "donor_pts": 19.807043,
+   "donor_ops": "Conv:1 Cast:1 ConvInteger:1"
+  },
+  {
+   "donor": "task317",
+   "sim": 0.304,
+   "donor_pts": 20.415033,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task261",
+   "sim": 0.294,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "237": [
+  {
+   "donor": "task232",
+   "sim": 0.846,
+   "donor_pts": 18.904175,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task129",
+   "sim": 0.774,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  },
+  {
+   "donor": "task267",
+   "sim": 0.764,
+   "donor_pts": 19.918596,
+   "donor_ops": "Slice:1 Einsum:1"
+  }
+ ],
+ "238": [
+  {
+   "donor": "task342",
+   "sim": 0.437,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task159",
+   "sim": 0.416,
+   "donor_pts": 18.565453,
+   "donor_ops": "Einsum:6 Cast:6 Mul:3 Sub:3 Concat:3 Div:2 Log:2 Unsqueeze:1"
+  },
+  {
+   "donor": "task295",
+   "sim": 0.378,
+   "donor_pts": 19.165189,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "239": [
+  {
+   "donor": "task391",
+   "sim": 0.541,
+   "donor_pts": 20.179718,
+   "donor_ops": "Sub:5 Min:3 ReduceSumSquare:1 Cast:1 QLinearConv:1 Max:1 Concat:1 Equal:1"
+  },
+  {
+   "donor": "task127",
+   "sim": 0.157,
+   "donor_pts": 19.200907,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task235",
+   "sim": 0.148,
+   "donor_pts": 20.308652,
+   "donor_ops": "Conv:1 Cast:1 Transpose:1 BitwiseAnd:1 ConvInteger:1"
+  }
+ ],
+ "240": [
+  {
+   "donor": "task295",
+   "sim": 0.608,
+   "donor_pts": 19.165189,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task348",
+   "sim": 0.519,
+   "donor_pts": 19.119467,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.479,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "242": [
+  {
+   "donor": "task057",
+   "sim": 0.732,
+   "donor_pts": 18.677435,
+   "donor_ops": "Cast:4 ReduceMin:2 ArgMin:2 Add:2 Gather:2 Slice:1 Equal:1 ReduceMax:1"
+  },
+  {
+   "donor": "task316",
+   "sim": 0.696,
+   "donor_pts": 19.100103,
+   "donor_ops": "Conv:1 Cast:1 Sign:1 ConvInteger:1 ScatterElements:1 Squeeze:1 Gather:1 Equal:1"
+  },
+  {
+   "donor": "task253",
+   "sim": 0.525,
+   "donor_pts": 19.494668,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "243": [
+  {
+   "donor": "task135",
+   "sim": 0.358,
+   "donor_pts": 20.030187,
+   "donor_ops": "Conv:1 Equal:1 Pad:1"
+  },
+  {
+   "donor": "task329",
+   "sim": 0.352,
+   "donor_pts": 19.662462,
+   "donor_ops": "ReduceSum:1 Equal:1 Cast:1 Einsum:1"
+  },
+  {
+   "donor": "task142",
+   "sim": 0.349,
+   "donor_pts": 20.50019,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "244": [
+  {
+   "donor": "task109",
+   "sim": 0.633,
+   "donor_pts": 18.357513,
+   "donor_ops": "Cast:2 Add:2 Concat:2 GatherND:1 ReduceSum:1 Equal:1 Slice:1 Einsum:1"
+  },
+  {
+   "donor": "task033",
+   "sim": 0.39,
+   "donor_pts": 19.409013,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task159",
+   "sim": 0.388,
+   "donor_pts": 18.565453,
+   "donor_ops": "Einsum:6 Cast:6 Mul:3 Sub:3 Concat:3 Div:2 Log:2 Unsqueeze:1"
+  }
+ ],
+ "245": [
+  {
+   "donor": "task342",
+   "sim": 0.522,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task383",
+   "sim": 0.398,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task226",
+   "sim": 0.325,
+   "donor_pts": 18.917781,
+   "donor_ops": "Mul:37 Add:8 Max:4 Slice:2 Cast:2 Split:2 Concat:2 QLinearConv:1"
+  }
+ ],
+ "246": [
+  {
+   "donor": "task186",
+   "sim": 0.504,
+   "donor_pts": 20.709541,
+   "donor_ops": "Einsum:1 Less:1 Where:1 Pad:1"
+  },
+  {
+   "donor": "task272",
+   "sim": 0.42,
+   "donor_pts": 20.002788,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task353",
+   "sim": 0.405,
+   "donor_pts": 19.527729,
+   "donor_ops": "Cast:5 Einsum:4 Concat:3 Sign:2 Add:2 ScatterND:1"
+  }
+ ],
+ "247": [
+  {
+   "donor": "task300",
+   "sim": 0.555,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task121",
+   "sim": 0.525,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.457,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  }
+ ],
+ "248": [
+  {
+   "donor": "task357",
+   "sim": 0.929,
+   "donor_pts": 19.478539,
+   "donor_ops": "Sub:3 Min:2 ReduceSum:1 Cast:1 Div:1 Add:1 Mod:1 ConvInteger:1"
+  },
+  {
+   "donor": "task375",
+   "sim": 0.283,
+   "donor_pts": 20.456705,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task186",
+   "sim": 0.21,
+   "donor_pts": 20.709541,
+   "donor_ops": "Einsum:1 Less:1 Where:1 Pad:1"
+  }
+ ],
+ "249": [
+  {
+   "donor": "task372",
+   "sim": 0.97,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task289",
+   "sim": 0.911,
+   "donor_pts": 18.580005,
+   "donor_ops": "ReduceMax:1 ReduceSum:1 Equal:1 Cast:1 Einsum:1"
+  },
+  {
+   "donor": "task321",
+   "sim": 0.909,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "250": [
+  {
+   "donor": "task310",
+   "sim": 0.323,
+   "donor_pts": 18.614806,
+   "donor_ops": "Einsum:5 TfIdfVectorizer:5 Div:2 Sub:2 Cast:2 Equal:1 Where:1 ArgMin:1"
+  },
+  {
+   "donor": "task159",
+   "sim": 0.315,
+   "donor_pts": 18.565453,
+   "donor_ops": "Einsum:6 Cast:6 Mul:3 Sub:3 Concat:3 Div:2 Log:2 Unsqueeze:1"
+  }
+ ],
+ "251": [
+  {
+   "donor": "task098",
+   "sim": 0.547,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.529,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.513,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "253": [
+  {
+   "donor": "task316",
+   "sim": 0.791,
+   "donor_pts": 19.100103,
+   "donor_ops": "Conv:1 Cast:1 Sign:1 ConvInteger:1 ScatterElements:1 Squeeze:1 Gather:1 Equal:1"
+  },
+  {
+   "donor": "task129",
+   "sim": 0.657,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  },
+  {
+   "donor": "task267",
+   "sim": 0.622,
+   "donor_pts": 19.918596,
+   "donor_ops": "Slice:1 Einsum:1"
+  }
+ ],
+ "254": [
+  {
+   "donor": "task352",
+   "sim": 0.566,
+   "donor_pts": 18.868774,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task362",
+   "sim": 0.441,
+   "donor_pts": 20.355609,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task027",
+   "sim": 0.43,
+   "donor_pts": 18.327967,
+   "donor_ops": "Slice:3 Cast:3 GatherND:3 ReduceSum:2 Greater:1 Where:1 Add:1 Not:1"
+  }
+ ],
+ "255": [
+  {
+   "donor": "task287",
+   "sim": 0.59,
+   "donor_pts": 19.963047,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.527,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.527,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "256": [
+  {
+   "donor": "task295",
+   "sim": 0.688,
+   "donor_pts": 19.165189,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task348",
+   "sim": 0.615,
+   "donor_pts": 19.119467,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.532,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "257": [
+  {
+   "donor": "task180",
+   "sim": 0.997,
+   "donor_pts": 20.263802,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task321",
+   "sim": 0.703,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task227",
+   "sim": 0.685,
+   "donor_pts": 20.456705,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  }
+ ],
+ "258": [
+  {
+   "donor": "task320",
+   "sim": 0.784,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.736,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task095",
+   "sim": 0.724,
+   "donor_pts": 19.818216,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "259": [
+  {
+   "donor": "task177",
+   "sim": 0.899,
+   "donor_pts": 18.52149,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task195",
+   "sim": 0.873,
+   "donor_pts": 19.176954,
+   "donor_ops": "Mul:3 Einsum:2 Log:2 Cast:2 Concat:1 Add:1 Slice:1 QuantizeLinear:1"
+  },
+  {
+   "donor": "task218",
+   "sim": 0.344,
+   "donor_pts": 18.571895,
+   "donor_ops": "Cast:5 Where:4 Conv:3 Squeeze:2 TopK:2 Gather:2 Unsqueeze:1 Min:1"
+  }
+ ],
+ "260": [
+  {
+   "donor": "task327",
+   "sim": 0.453,
+   "donor_pts": 18.945561,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task007",
+   "sim": 0.213,
+   "donor_pts": 20.643291,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task200",
+   "sim": 0.126,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  }
+ ],
+ "261": [
+  {
+   "donor": "task317",
+   "sim": 0.912,
+   "donor_pts": 20.415033,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task210",
+   "sim": 0.896,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task311",
+   "sim": 0.834,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  }
+ ],
+ "263": [
+  {
+   "donor": "task040",
+   "sim": 0.148,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "264": [
+  {
+   "donor": "task316",
+   "sim": 0.704,
+   "donor_pts": 19.100103,
+   "donor_ops": "Conv:1 Cast:1 Sign:1 ConvInteger:1 ScatterElements:1 Squeeze:1 Gather:1 Equal:1"
+  },
+  {
+   "donor": "task235",
+   "sim": 0.57,
+   "donor_pts": 20.308652,
+   "donor_ops": "Conv:1 Cast:1 Transpose:1 BitwiseAnd:1 ConvInteger:1"
+  },
+  {
+   "donor": "task057",
+   "sim": 0.551,
+   "donor_pts": 18.677435,
+   "donor_ops": "Cast:4 ReduceMin:2 ArgMin:2 Add:2 Gather:2 Slice:1 Equal:1 ReduceMax:1"
+  }
+ ],
+ "265": [
+  {
+   "donor": "task303",
+   "sim": 0.317,
+   "donor_pts": 21.011016,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task135",
+   "sim": 0.227,
+   "donor_pts": 20.030187,
+   "donor_ops": "Conv:1 Equal:1 Pad:1"
+  },
+  {
+   "donor": "task142",
+   "sim": 0.225,
+   "donor_pts": 20.50019,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "266": [
+  {
+   "donor": "task225",
+   "sim": 0.766,
+   "donor_pts": 19.105597,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task323",
+   "sim": 0.637,
+   "donor_pts": 19.206986,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task200",
+   "sim": 0.6,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  }
+ ],
+ "267": [
+  {
+   "donor": "task129",
+   "sim": 0.833,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  },
+  {
+   "donor": "task237",
+   "sim": 0.764,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  },
+  {
+   "donor": "task269",
+   "sim": 0.755,
+   "donor_pts": 18.437556,
+   "donor_ops": "Cast:3 Slice:1 Pad:1 Gather:1 ReduceSum:1 Sub:1 Div:1 Unsqueeze:1"
+  }
+ ],
+ "268": [
+  {
+   "donor": "task100",
+   "sim": 0.5,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  },
+  {
+   "donor": "task151",
+   "sim": 0.448,
+   "donor_pts": 19.711733,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task283",
+   "sim": 0.434,
+   "donor_pts": 18.708431,
+   "donor_ops": "Conv:2"
+  }
+ ],
+ "269": [
+  {
+   "donor": "task129",
+   "sim": 0.763,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  },
+  {
+   "donor": "task267",
+   "sim": 0.755,
+   "donor_pts": 19.918596,
+   "donor_ops": "Slice:1 Einsum:1"
+  },
+  {
+   "donor": "task237",
+   "sim": 0.676,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  }
+ ],
+ "270": [
+  {
+   "donor": "task034",
+   "sim": 0.172,
+   "donor_pts": 19.033853,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task217",
+   "sim": 0.171,
+   "donor_pts": 19.701683,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task235",
+   "sim": 0.157,
+   "donor_pts": 20.308652,
+   "donor_ops": "Conv:1 Cast:1 Transpose:1 BitwiseAnd:1 ConvInteger:1"
+  }
+ ],
+ "271": [
+  {
+   "donor": "task149",
+   "sim": 0.809,
+   "donor_pts": 20.087345,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task011",
+   "sim": 0.798,
+   "donor_pts": 19.462666,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task163",
+   "sim": 0.761,
+   "donor_pts": 19.263428,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "272": [
+  {
+   "donor": "task147",
+   "sim": 0.623,
+   "donor_pts": 19.652892,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task210",
+   "sim": 0.589,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task186",
+   "sim": 0.556,
+   "donor_pts": 20.709541,
+   "donor_ops": "Einsum:1 Less:1 Where:1 Pad:1"
+  }
+ ],
+ "273": [
+  {
+   "donor": "task098",
+   "sim": 0.584,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.581,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.538,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  }
+ ],
+ "274": [
+  {
+   "donor": "task371",
+   "sim": 0.281,
+   "donor_pts": 20.044173,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "275": [
+  {
+   "donor": "task195",
+   "sim": 0.209,
+   "donor_pts": 19.176954,
+   "donor_ops": "Mul:3 Einsum:2 Log:2 Cast:2 Concat:1 Add:1 Slice:1 QuantizeLinear:1"
+  },
+  {
+   "donor": "task259",
+   "sim": 0.194,
+   "donor_pts": 18.628388,
+   "donor_ops": "Cast:10 Reshape:4 Concat:4 Add:3 ReduceMax:2 ArgMax:2 GatherElements:2 Unsqueeze:2"
+  },
+  {
+   "donor": "task177",
+   "sim": 0.175,
+   "donor_pts": 18.52149,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "277": [
+  {
+   "donor": "task121",
+   "sim": 0.542,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.494,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.419,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  }
+ ],
+ "278": [
+  {
+   "donor": "task344",
+   "sim": 0.534,
+   "donor_pts": 18.978977,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task188",
+   "sim": 0.365,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:5 Add:2 Where:2 Concat:2 Greater:1 Equal:1 Less:1 And:1"
+  },
+  {
+   "donor": "task287",
+   "sim": 0.33,
+   "donor_pts": 19.963047,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "279": [
+  {
+   "donor": "task383",
+   "sim": 0.593,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task342",
+   "sim": 0.441,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task400",
+   "sim": 0.241,
+   "donor_pts": 18.547951,
+   "donor_ops": "Einsum:8 Cast:6 Sub:4 Where:4 Add:3 Max:3 Div:3 Less:2"
+  }
+ ],
+ "280": [
+  {
+   "donor": "task283",
+   "sim": 0.525,
+   "donor_pts": 18.708431,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.494,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.47,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "281": [
+  {
+   "donor": "task100",
+   "sim": 0.243,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  },
+  {
+   "donor": "task383",
+   "sim": 0.218,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task122",
+   "sim": 0.213,
+   "donor_pts": 18.311645,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "282": [
+  {
+   "donor": "task318",
+   "sim": 0.668,
+   "donor_pts": 20.446123,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task116",
+   "sim": 0.514,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task399",
+   "sim": 0.46,
+   "donor_pts": 20.905655,
+   "donor_ops": "Einsum:1 Greater:1 Equal:1 Pad:1"
+  }
+ ],
+ "283": [
+  {
+   "donor": "task100",
+   "sim": 0.875,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.72,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.706,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "284": [
+  {
+   "donor": "task298",
+   "sim": 0.803,
+   "donor_pts": 20.905655,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task297",
+   "sim": 0.524,
+   "donor_pts": 18.466211,
+   "donor_ops": "Cast:3 Mul:3 Mod:2 Concat:2 Einsum:1 Div:1 Unsqueeze:1 Log:1"
+  },
+  {
+   "donor": "task108",
+   "sim": 0.516,
+   "donor_pts": 19.989365,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "285": [
+  {
+   "donor": "task121",
+   "sim": 0.501,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.427,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task143",
+   "sim": 0.368,
+   "donor_pts": 18.915501,
+   "donor_ops": "Einsum:3 Equal:2 MaxPool:1 Cast:1 Gather:1 Xor:1 Where:1"
+  }
+ ],
+ "286": [
+  {
+   "donor": "task031",
+   "sim": 0.425,
+   "donor_pts": 18.62668,
+   "donor_ops": "Cast:9 Einsum:6 Div:5 Log:4 Add:4 Sub:4 Concat:3 Slice:1"
+  },
+  {
+   "donor": "task048",
+   "sim": 0.176,
+   "donor_pts": 18.463308,
+   "donor_ops": "BitwiseAnd:124 BitwiseOr:119 BitShift:97 Cast:3 Where:3 Greater:2 Equal:2 BitwiseNot:2"
+  },
+  {
+   "donor": "task028",
+   "sim": 0.136,
+   "donor_pts": 20.40488,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "287": [
+  {
+   "donor": "task128",
+   "sim": 0.621,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.609,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task283",
+   "sim": 0.547,
+   "donor_pts": 18.708431,
+   "donor_ops": "Conv:2"
+  }
+ ],
+ "289": [
+  {
+   "donor": "task223",
+   "sim": 0.932,
+   "donor_pts": 23.390562,
+   "donor_ops": "MaxRoiPool:1"
+  },
+  {
+   "donor": "task249",
+   "sim": 0.911,
+   "donor_pts": 19.672124,
+   "donor_ops": "Cast:2 Conv:1 ReduceSum:1 Sub:1 Min:1 Pad:1 Gather:1"
+  },
+  {
+   "donor": "task164",
+   "sim": 0.871,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  }
+ ],
+ "290": [
+  {
+   "donor": "task178",
+   "sim": 0.833,
+   "donor_pts": 18.742332,
+   "donor_ops": "Cast:6 Where:5 Slice:4 Reshape:3 Equal:3 Conv:2 Not:2 And:2"
+  },
+  {
+   "donor": "task293",
+   "sim": 0.575,
+   "donor_pts": 21.311121,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task115",
+   "sim": 0.273,
+   "donor_pts": 19.046757,
+   "donor_ops": "Where:3 Einsum:2 TopK:2 Gather:2 Cast:2 Greater:1 Reshape:1 Equal:1"
+  }
+ ],
+ "294": [
+  {
+   "donor": "task176",
+   "sim": 0.586,
+   "donor_pts": 20.522663,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task320",
+   "sim": 0.436,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.411,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "295": [
+  {
+   "donor": "task348",
+   "sim": 0.785,
+   "donor_pts": 19.119467,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task256",
+   "sim": 0.688,
+   "donor_pts": 19.523536,
+   "donor_ops": "Einsum:3 Div:1 Add:1 Concat:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.671,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "297": [
+  {
+   "donor": "task298",
+   "sim": 0.712,
+   "donor_pts": 20.905655,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task301",
+   "sim": 0.423,
+   "donor_pts": 18.838793,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task127",
+   "sim": 0.221,
+   "donor_pts": 19.200907,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  }
+ ],
+ "300": [
+  {
+   "donor": "task121",
+   "sim": 0.759,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.581,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  },
+  {
+   "donor": "task143",
+   "sim": 0.574,
+   "donor_pts": 18.915501,
+   "donor_ops": "Einsum:3 Equal:2 MaxPool:1 Cast:1 Gather:1 Xor:1 Where:1"
+  }
+ ],
+ "301": [
+  {
+   "donor": "task297",
+   "sim": 0.423,
+   "donor_pts": 18.466211,
+   "donor_ops": "Cast:3 Mul:3 Mod:2 Concat:2 Einsum:1 Div:1 Unsqueeze:1 Log:1"
+  },
+  {
+   "donor": "task115",
+   "sim": 0.376,
+   "donor_pts": 19.046757,
+   "donor_ops": "Where:3 Einsum:2 TopK:2 Gather:2 Cast:2 Greater:1 Reshape:1 Equal:1"
+  },
+  {
+   "donor": "task298",
+   "sim": 0.304,
+   "donor_pts": 20.905655,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "302": [
+  {
+   "donor": "task041",
+   "sim": 0.904,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task320",
+   "sim": 0.798,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task258",
+   "sim": 0.776,
+   "donor_pts": 19.989365,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "303": [
+  {
+   "donor": "task237",
+   "sim": 0.343,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  },
+  {
+   "donor": "task129",
+   "sim": 0.329,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  },
+  {
+   "donor": "task232",
+   "sim": 0.323,
+   "donor_pts": 18.904175,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "304": [
+  {
+   "donor": "task229",
+   "sim": 0.922,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:2 MeanVarianceNormalization:1"
+  },
+  {
+   "donor": "task172",
+   "sim": 0.696,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task214",
+   "sim": 0.676,
+   "donor_pts": 19.620103,
+   "donor_ops": "Mul:3 Gather:2 Conv:1 Cast:1 Transpose:1 Concat:1 QLinearConv:1"
+  }
+ ],
+ "305": [
+  {
+   "donor": "task099",
+   "sim": 0.484,
+   "donor_pts": 18.777424,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task287",
+   "sim": 0.276,
+   "donor_pts": 19.963047,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task329",
+   "sim": 0.249,
+   "donor_pts": 19.662462,
+   "donor_ops": "ReduceSum:1 Equal:1 Cast:1 Einsum:1"
+  }
+ ],
+ "306": [
+  {
+   "donor": "task104",
+   "sim": 0.88,
+   "donor_pts": 20.39483,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task106",
+   "sim": 0.299,
+   "donor_pts": 18.957367,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task155",
+   "sim": 0.294,
+   "donor_pts": 20.072746,
+   "donor_ops": "ReduceL2:1 Cast:1 Add:1 Sub:1 Range:1 Gather:1"
+  }
+ ],
+ "308": [
+  {
+   "donor": "task121",
+   "sim": 0.126,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  }
+ ],
+ "310": [
+  {
+   "donor": "task159",
+   "sim": 0.209,
+   "donor_pts": 18.565453,
+   "donor_ops": "Einsum:6 Cast:6 Mul:3 Sub:3 Concat:3 Div:2 Log:2 Unsqueeze:1"
+  }
+ ],
+ "313": [
+  {
+   "donor": "task156",
+   "sim": 0.433,
+   "donor_pts": 18.868774,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task142",
+   "sim": 0.244,
+   "donor_pts": 20.50019,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task135",
+   "sim": 0.243,
+   "donor_pts": 20.030187,
+   "donor_ops": "Conv:1 Equal:1 Pad:1"
+  }
+ ],
+ "314": [
+  {
+   "donor": "task152",
+   "sim": 0.647,
+   "donor_pts": 20.905655,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task386",
+   "sim": 0.631,
+   "donor_pts": 20.630552,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task249",
+   "sim": 0.63,
+   "donor_pts": 19.672124,
+   "donor_ops": "Cast:2 Conv:1 ReduceSum:1 Sub:1 Min:1 Pad:1 Gather:1"
+  }
+ ],
+ "315": [
+  {
+   "donor": "task129",
+   "sim": 0.547,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  },
+  {
+   "donor": "task267",
+   "sim": 0.534,
+   "donor_pts": 19.918596,
+   "donor_ops": "Slice:1 Einsum:1"
+  },
+  {
+   "donor": "task269",
+   "sim": 0.516,
+   "donor_pts": 18.437556,
+   "donor_ops": "Cast:3 Slice:1 Pad:1 Gather:1 ReduceSum:1 Sub:1 Div:1 Unsqueeze:1"
+  }
+ ],
+ "316": [
+  {
+   "donor": "task057",
+   "sim": 0.794,
+   "donor_pts": 18.677435,
+   "donor_ops": "Cast:4 ReduceMin:2 ArgMin:2 Add:2 Gather:2 Slice:1 Equal:1 ReduceMax:1"
+  },
+  {
+   "donor": "task253",
+   "sim": 0.791,
+   "donor_pts": 19.494668,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task242",
+   "sim": 0.696,
+   "donor_pts": 18.954995,
+   "donor_ops": "Einsum:2 Cast:2 Concat:1 Add:1 Slice:1 Pad:1"
+  }
+ ],
+ "317": [
+  {
+   "donor": "task210",
+   "sim": 0.92,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task261",
+   "sim": 0.912,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task311",
+   "sim": 0.82,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  }
+ ],
+ "318": [
+  {
+   "donor": "task116",
+   "sim": 0.709,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task282",
+   "sim": 0.668,
+   "donor_pts": 18.899681,
+   "donor_ops": "QLinearConv:2 Slice:1 Cast:1"
+  },
+  {
+   "donor": "task347",
+   "sim": 0.527,
+   "donor_pts": 20.037155,
+   "donor_ops": "Slice:2 Greater:1 Where:1 MaxUnpool:1"
+  }
+ ],
+ "319": [
+  {
+   "donor": "task121",
+   "sim": 0.31,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.297,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.228,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  }
+ ],
+ "320": [
+  {
+   "donor": "task258",
+   "sim": 0.784,
+   "donor_pts": 19.989365,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.76,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task095",
+   "sim": 0.746,
+   "donor_pts": 19.818216,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "321": [
+  {
+   "donor": "task227",
+   "sim": 0.973,
+   "donor_pts": 20.456705,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task144",
+   "sim": 0.951,
+   "donor_pts": 20.39483,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task395",
+   "sim": 0.945,
+   "donor_pts": 20.810345,
+   "donor_ops": "Conv:2"
+  }
+ ],
+ "322": [
+  {
+   "donor": "task142",
+   "sim": 0.767,
+   "donor_pts": 20.50019,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task129",
+   "sim": 0.762,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  },
+  {
+   "donor": "task140",
+   "sim": 0.741,
+   "donor_pts": 23.390562,
+   "donor_ops": "RoiAlign:1"
+  }
+ ],
+ "323": [
+  {
+   "donor": "task199",
+   "sim": 0.813,
+   "donor_pts": 19.008535,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task200",
+   "sim": 0.809,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  },
+  {
+   "donor": "task141",
+   "sim": 0.736,
+   "donor_pts": 19.937405,
+   "donor_ops": "Einsum:3"
+  }
+ ],
+ "325": [
+  {
+   "donor": "task121",
+   "sim": 0.857,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.844,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.696,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  }
+ ],
+ "327": [
+  {
+   "donor": "task007",
+   "sim": 0.732,
+   "donor_pts": 20.643291,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task252",
+   "sim": 0.58,
+   "donor_pts": 20.435652,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task129",
+   "sim": 0.379,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  }
+ ],
+ "328": [
+  {
+   "donor": "task217",
+   "sim": 0.252,
+   "donor_pts": 19.701683,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task322",
+   "sim": 0.229,
+   "donor_pts": 20.695935,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task261",
+   "sim": 0.219,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "329": [
+  {
+   "donor": "task135",
+   "sim": 0.948,
+   "donor_pts": 20.030187,
+   "donor_ops": "Conv:1 Equal:1 Pad:1"
+  },
+  {
+   "donor": "task142",
+   "sim": 0.944,
+   "donor_pts": 20.50019,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task028",
+   "sim": 0.831,
+   "donor_pts": 20.40488,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "330": [
+  {
+   "donor": "task300",
+   "sim": 0.778,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task121",
+   "sim": 0.778,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.648,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  }
+ ],
+ "331": [
+  {
+   "donor": "task020",
+   "sim": 0.194,
+   "donor_pts": 18.479379,
+   "donor_ops": "Add:11 Concat:8 Cast:7 Slice:5 ReduceMin:2 ArgMin:2 Conv:2 Reshape:2"
+  },
+  {
+   "donor": "task276",
+   "sim": 0.193,
+   "donor_pts": 22.697415,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task311",
+   "sim": 0.192,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  }
+ ],
+ "333": [
+  {
+   "donor": "task310",
+   "sim": 0.435,
+   "donor_pts": 18.614806,
+   "donor_ops": "Einsum:5 TfIdfVectorizer:5 Div:2 Sub:2 Cast:2 Equal:1 Where:1 ArgMin:1"
+  },
+  {
+   "donor": "task159",
+   "sim": 0.427,
+   "donor_pts": 18.565453,
+   "donor_ops": "Einsum:6 Cast:6 Mul:3 Sub:3 Concat:3 Div:2 Log:2 Unsqueeze:1"
+  },
+  {
+   "donor": "task237",
+   "sim": 0.189,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  }
+ ],
+ "335": [
+  {
+   "donor": "task246",
+   "sim": 0.926,
+   "donor_pts": 19.016064,
+   "donor_ops": "Einsum:5 Pow:4"
+  },
+  {
+   "donor": "task186",
+   "sim": 0.499,
+   "donor_pts": 20.709541,
+   "donor_ops": "Einsum:1 Less:1 Where:1 Pad:1"
+  },
+  {
+   "donor": "task272",
+   "sim": 0.416,
+   "donor_pts": 20.002788,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "336": [
+  {
+   "donor": "task051",
+   "sim": 0.631,
+   "donor_pts": 18.66672,
+   "donor_ops": "Mul:17 Cast:7 Einsum:6 Add:5 Concat:2 Sub:2 Sign:2 ReduceSum:1"
+  },
+  {
+   "donor": "task301",
+   "sim": 0.551,
+   "donor_pts": 18.838793,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task119",
+   "sim": 0.472,
+   "donor_pts": 18.663174,
+   "donor_ops": "Einsum:7 Cast:7 Concat:6 Where:3 Mul:2 Gather:2 Sub:2 GatherND:1"
+  }
+ ],
+ "339": [
+  {
+   "donor": "task380",
+   "sim": 0.834,
+   "donor_pts": 20.467401,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task001",
+   "sim": 0.822,
+   "donor_pts": 19.752976,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task296",
+   "sim": 0.784,
+   "donor_pts": 20.50019,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "341": [
+  {
+   "donor": "task115",
+   "sim": 0.583,
+   "donor_pts": 19.046757,
+   "donor_ops": "Where:3 Einsum:2 TopK:2 Gather:2 Cast:2 Greater:1 Reshape:1 Equal:1"
+  },
+  {
+   "donor": "task290",
+   "sim": 0.528,
+   "donor_pts": 19.354553,
+   "donor_ops": "Sub:4 Mul:3 Concat:3 Einsum:2 Cast:1 ReduceSum:1 Sqrt:1 Shrink:1"
+  },
+  {
+   "donor": "task178",
+   "sim": 0.465,
+   "donor_pts": 18.742332,
+   "donor_ops": "Cast:6 Where:5 Slice:4 Reshape:3 Equal:3 Conv:2 Not:2 And:2"
+  }
+ ],
+ "342": [
+  {
+   "donor": "task383",
+   "sim": 0.75,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task400",
+   "sim": 0.504,
+   "donor_pts": 18.547951,
+   "donor_ops": "Einsum:8 Cast:6 Sub:4 Where:4 Add:3 Max:3 Div:3 Less:2"
+  },
+  {
+   "donor": "task166",
+   "sim": 0.431,
+   "donor_pts": 21.821946,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "343": [
+  {
+   "donor": "task320",
+   "sim": 0.564,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task385",
+   "sim": 0.505,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  },
+  {
+   "donor": "task156",
+   "sim": 0.466,
+   "donor_pts": 18.868774,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "344": [
+  {
+   "donor": "task147",
+   "sim": 0.479,
+   "donor_pts": 19.652892,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task353",
+   "sim": 0.443,
+   "donor_pts": 19.527729,
+   "donor_ops": "Cast:5 Einsum:4 Concat:3 Sign:2 Add:2 ScatterND:1"
+  },
+  {
+   "donor": "task346",
+   "sim": 0.391,
+   "donor_pts": 18.708431,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "345": [
+  {
+   "donor": "task312",
+   "sim": 0.241,
+   "donor_pts": 22.697415,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task122",
+   "sim": 0.197,
+   "donor_pts": 18.311645,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task303",
+   "sim": 0.185,
+   "donor_pts": 21.011016,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "346": [
+  {
+   "donor": "task225",
+   "sim": 0.462,
+   "donor_pts": 19.105597,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task344",
+   "sim": 0.391,
+   "donor_pts": 18.978977,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task266",
+   "sim": 0.347,
+   "donor_pts": 20.016393,
+   "donor_ops": "QLinearConv:2 Slice:1 Cast:1"
+  }
+ ],
+ "347": [
+  {
+   "donor": "task129",
+   "sim": 0.756,
+   "donor_pts": 20.617973,
+   "donor_ops": "GlobalAveragePool:1 Hardmax:1 Einsum:1"
+  },
+  {
+   "donor": "task267",
+   "sim": 0.704,
+   "donor_pts": 19.918596,
+   "donor_ops": "Slice:1 Einsum:1"
+  },
+  {
+   "donor": "task237",
+   "sim": 0.681,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  }
+ ],
+ "348": [
+  {
+   "donor": "task295",
+   "sim": 0.785,
+   "donor_pts": 19.165189,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.622,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task256",
+   "sim": 0.615,
+   "donor_pts": 19.523536,
+   "donor_ops": "Einsum:3 Div:1 Add:1 Concat:1"
+  }
+ ],
+ "351": [
+  {
+   "donor": "task242",
+   "sim": 0.951,
+   "donor_pts": 18.954995,
+   "donor_ops": "Einsum:2 Cast:2 Concat:1 Add:1 Slice:1 Pad:1"
+  },
+  {
+   "donor": "task057",
+   "sim": 0.705,
+   "donor_pts": 18.677435,
+   "donor_ops": "Cast:4 ReduceMin:2 ArgMin:2 Add:2 Gather:2 Slice:1 Equal:1 ReduceMax:1"
+  },
+  {
+   "donor": "task316",
+   "sim": 0.666,
+   "donor_pts": 19.100103,
+   "donor_ops": "Conv:1 Cast:1 Sign:1 ConvInteger:1 ScatterElements:1 Squeeze:1 Gather:1 Equal:1"
+  }
+ ],
+ "352": [
+  {
+   "donor": "task254",
+   "sim": 0.566,
+   "donor_pts": 19.462666,
+   "donor_ops": "Einsum:2 ReduceMax:1 Sub:1"
+  },
+  {
+   "donor": "task094",
+   "sim": 0.376,
+   "donor_pts": 18.472042,
+   "donor_ops": "Cast:10 Concat:6 ArgMax:4 Neg:4 Einsum:3 QLinearConv:2 Equal:2 Not:2"
+  },
+  {
+   "donor": "task237",
+   "sim": 0.358,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  }
+ ],
+ "353": [
+  {
+   "donor": "task147",
+   "sim": 0.623,
+   "donor_pts": 19.652892,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task237",
+   "sim": 0.519,
+   "donor_pts": 18.413828,
+   "donor_ops": "Einsum:2 Conv:1"
+  },
+  {
+   "donor": "task232",
+   "sim": 0.462,
+   "donor_pts": 18.904175,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "354": [
+  {
+   "donor": "task197",
+   "sim": 0.454,
+   "donor_pts": 20.50019,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.39,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.38,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "355": [
+  {
+   "donor": "task226",
+   "sim": 0.407,
+   "donor_pts": 18.917781,
+   "donor_ops": "Mul:37 Add:8 Max:4 Slice:2 Cast:2 Split:2 Concat:2 QLinearConv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.356,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.353,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "356": [
+  {
+   "donor": "task350",
+   "sim": 0.822,
+   "donor_pts": 18.940877,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task261",
+   "sim": 0.668,
+   "donor_pts": 19.701683,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task210",
+   "sim": 0.64,
+   "donor_pts": 21.598803,
+   "donor_ops": "Gather:1"
+  }
+ ],
+ "357": [
+  {
+   "donor": "task248",
+   "sim": 0.929,
+   "donor_pts": 19.98272,
+   "donor_ops": "ReduceSum:1 QuantizeLinear:1 Mod:1 Sub:1 Min:1 Concat:1 Cast:1 ScatterElements:1"
+  },
+  {
+   "donor": "task171",
+   "sim": 0.312,
+   "donor_pts": 20.109651,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task350",
+   "sim": 0.24,
+   "donor_pts": 18.940877,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "358": [
+  {
+   "donor": "task215",
+   "sim": 0.735,
+   "donor_pts": 20.39483,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task362",
+   "sim": 0.716,
+   "donor_pts": 20.355609,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task027",
+   "sim": 0.643,
+   "donor_pts": 18.327967,
+   "donor_ops": "Slice:3 Cast:3 GatherND:3 ReduceSum:2 Greater:1 Where:1 Add:1 Not:1"
+  }
+ ],
+ "359": [
+  {
+   "donor": "task283",
+   "sim": 0.54,
+   "donor_pts": 18.708431,
+   "donor_ops": "Conv:2"
+  },
+  {
+   "donor": "task213",
+   "sim": 0.45,
+   "donor_pts": 18.438969,
+   "donor_ops": "Slice:7 Max:3 Where:3 Einsum:2 Cast:2 Div:2 ReduceMin:1 Greater:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.42,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  }
+ ],
+ "361": [
+  {
+   "donor": "task144",
+   "sim": 0.179,
+   "donor_pts": 20.39483,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task150",
+   "sim": 0.175,
+   "donor_pts": 20.094725,
+   "donor_ops": "Cast:2 Shrink:2 ReduceL2:1 Range:1 Gather:1"
+  },
+  {
+   "donor": "task194",
+   "sim": 0.173,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "362": [
+  {
+   "donor": "task027",
+   "sim": 0.759,
+   "donor_pts": 18.327967,
+   "donor_ops": "Slice:3 Cast:3 GatherND:3 ReduceSum:2 Greater:1 Where:1 Add:1 Not:1"
+  },
+  {
+   "donor": "task231",
+   "sim": 0.618,
+   "donor_pts": 19.876036,
+   "donor_ops": "Where:7 Greater:4 Einsum:1 Concat:1 Gather:1"
+  },
+  {
+   "donor": "task215",
+   "sim": 0.583,
+   "donor_pts": 20.39483,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "363": [
+  {
+   "donor": "task121",
+   "sim": 0.329,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.309,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task143",
+   "sim": 0.245,
+   "donor_pts": 18.915501,
+   "donor_ops": "Einsum:3 Equal:2 MaxPool:1 Cast:1 Gather:1 Xor:1 Where:1"
+  }
+ ],
+ "365": [
+  {
+   "donor": "task098",
+   "sim": 0.766,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.74,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.625,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  }
+ ],
+ "366": [
+  {
+   "donor": "task300",
+   "sim": 0.262,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task121",
+   "sim": 0.226,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.203,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  }
+ ],
+ "367": [
+  {
+   "donor": "task287",
+   "sim": 0.299,
+   "donor_pts": 19.963047,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.297,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task344",
+   "sim": 0.28,
+   "donor_pts": 18.978977,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "368": [
+  {
+   "donor": "task121",
+   "sim": 0.387,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task235",
+   "sim": 0.347,
+   "donor_pts": 20.308652,
+   "donor_ops": "Conv:1 Cast:1 Transpose:1 BitwiseAnd:1 ConvInteger:1"
+  },
+  {
+   "donor": "task389",
+   "sim": 0.345,
+   "donor_pts": 20.992667,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "369": [
+  {
+   "donor": "task389",
+   "sim": 0.49,
+   "donor_pts": 20.992667,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task344",
+   "sim": 0.428,
+   "donor_pts": 18.978977,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task287",
+   "sim": 0.309,
+   "donor_pts": 19.963047,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "370": [
+  {
+   "donor": "task166",
+   "sim": 0.617,
+   "donor_pts": 21.821946,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task342",
+   "sim": 0.396,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task383",
+   "sim": 0.326,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  }
+ ],
+ "371": [
+  {
+   "donor": "task122",
+   "sim": 0.375,
+   "donor_pts": 18.311645,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task151",
+   "sim": 0.355,
+   "donor_pts": 19.711733,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task040",
+   "sim": 0.336,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "372": [
+  {
+   "donor": "task249",
+   "sim": 0.97,
+   "donor_pts": 19.672124,
+   "donor_ops": "Cast:2 Conv:1 ReduceSum:1 Sub:1 Min:1 Pad:1 Gather:1"
+  },
+  {
+   "donor": "task386",
+   "sim": 0.904,
+   "donor_pts": 20.630552,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task321",
+   "sim": 0.902,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "374": [
+  {
+   "donor": "task320",
+   "sim": 0.351,
+   "donor_pts": 20.317869,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task095",
+   "sim": 0.314,
+   "donor_pts": 19.818216,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.299,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "375": [
+  {
+   "donor": "task084",
+   "sim": 0.697,
+   "donor_pts": 19.482547,
+   "donor_ops": "ReduceSum:1 Sqrt:1 Concat:1 Einsum:1"
+  },
+  {
+   "donor": "task135",
+   "sim": 0.613,
+   "donor_pts": 20.030187,
+   "donor_ops": "Conv:1 Equal:1 Pad:1"
+  },
+  {
+   "donor": "task001",
+   "sim": 0.611,
+   "donor_pts": 19.752976,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "377": [
+  {
+   "donor": "task128",
+   "sim": 0.633,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.62,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task226",
+   "sim": 0.54,
+   "donor_pts": 18.917781,
+   "donor_ops": "Mul:37 Add:8 Max:4 Slice:2 Cast:2 Split:2 Concat:2 QLinearConv:1"
+  }
+ ],
+ "378": [
+  {
+   "donor": "task266",
+   "sim": 0.484,
+   "donor_pts": 20.016393,
+   "donor_ops": "QLinearConv:2 Slice:1 Cast:1"
+  },
+  {
+   "donor": "task225",
+   "sim": 0.374,
+   "donor_pts": 19.105597,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task200",
+   "sim": 0.311,
+   "donor_pts": 18.77941,
+   "donor_ops": "Cast:2 Conv:2 ReduceMax:1 Concat:1 Einsum:1"
+  }
+ ],
+ "379": [
+  {
+   "donor": "task024",
+   "sim": 0.321,
+   "donor_pts": 20.974648,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task040",
+   "sim": 0.291,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task122",
+   "sim": 0.27,
+   "donor_pts": 18.311645,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "381": [
+  {
+   "donor": "task098",
+   "sim": 0.396,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.388,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task100",
+   "sim": 0.327,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  }
+ ],
+ "382": [
+  {
+   "donor": "task294",
+   "sim": 0.439,
+   "donor_pts": 18.753893,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task181",
+   "sim": 0.374,
+   "donor_pts": 19.091917,
+   "donor_ops": "Slice:1 GatherND:1 Cast:1 Where:1 Mul:1 ScatterND:1"
+  },
+  {
+   "donor": "task292",
+   "sim": 0.372,
+   "donor_pts": 20.617973,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "383": [
+  {
+   "donor": "task342",
+   "sim": 0.75,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task400",
+   "sim": 0.401,
+   "donor_pts": 18.547951,
+   "donor_ops": "Einsum:8 Cast:6 Sub:4 Where:4 Add:3 Max:3 Div:3 Less:2"
+  },
+  {
+   "donor": "task166",
+   "sim": 0.316,
+   "donor_pts": 21.821946,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "384": [
+  {
+   "donor": "task356",
+   "sim": 0.408,
+   "donor_pts": 18.895207,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task353",
+   "sim": 0.396,
+   "donor_pts": 19.527729,
+   "donor_ops": "Cast:5 Einsum:4 Concat:3 Sign:2 Add:2 ScatterND:1"
+  },
+  {
+   "donor": "task199",
+   "sim": 0.38,
+   "donor_pts": 19.008535,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "386": [
+  {
+   "donor": "task227",
+   "sim": 0.95,
+   "donor_pts": 20.456705,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task144",
+   "sim": 0.936,
+   "donor_pts": 20.39483,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task321",
+   "sim": 0.935,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "387": [
+  {
+   "donor": "task100",
+   "sim": 0.525,
+   "donor_pts": 20.272612,
+   "donor_ops": "Einsum:1 ReduceMax:1 Equal:1 Expand:1 Pad:1"
+  },
+  {
+   "donor": "task231",
+   "sim": 0.503,
+   "donor_pts": 19.876036,
+   "donor_ops": "Where:7 Greater:4 Einsum:1 Concat:1 Gather:1"
+  },
+  {
+   "donor": "task383",
+   "sim": 0.488,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  }
+ ],
+ "388": [
+  {
+   "donor": "task389",
+   "sim": 0.937,
+   "donor_pts": 20.992667,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task001",
+   "sim": 0.823,
+   "donor_pts": 19.752976,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task380",
+   "sim": 0.773,
+   "donor_pts": 20.467401,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "390": [
+  {
+   "donor": "task383",
+   "sim": 0.758,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task342",
+   "sim": 0.733,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task166",
+   "sim": 0.372,
+   "donor_pts": 21.821946,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "391": [
+  {
+   "donor": "task239",
+   "sim": 0.541,
+   "donor_pts": 18.751957,
+   "donor_ops": "Where:3 Cast:2 Less:2 ReduceSum:1 TopK:1 Gather:1 Mul:1 Concat:1"
+  },
+  {
+   "donor": "task326",
+   "sim": 0.331,
+   "donor_pts": 21.598803,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task179",
+   "sim": 0.297,
+   "donor_pts": 25.0,
+   "donor_ops": "Transpose:1"
+  }
+ ],
+ "392": [
+  {
+   "donor": "task093",
+   "sim": 0.512,
+   "donor_pts": 19.53194,
+   "donor_ops": "Slice:1 ReduceMax:1 Sub:1 Concat:1 Einsum:1"
+  },
+  {
+   "donor": "task020",
+   "sim": 0.366,
+   "donor_pts": 18.479379,
+   "donor_ops": "Add:11 Concat:8 Cast:7 Slice:5 ReduceMin:2 ArgMin:2 Conv:2 Reshape:2"
+  },
+  {
+   "donor": "task266",
+   "sim": 0.19,
+   "donor_pts": 20.016393,
+   "donor_ops": "QLinearConv:2 Slice:1 Cast:1"
+  }
+ ],
+ "393": [
+  {
+   "donor": "task121",
+   "sim": 0.668,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.581,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task041",
+   "sim": 0.572,
+   "donor_pts": 18.983843,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "394": [
+  {
+   "donor": "task057",
+   "sim": 0.297,
+   "donor_pts": 18.677435,
+   "donor_ops": "Cast:4 ReduceMin:2 ArgMin:2 Add:2 Gather:2 Slice:1 Equal:1 ReduceMax:1"
+  },
+  {
+   "donor": "task316",
+   "sim": 0.291,
+   "donor_pts": 19.100103,
+   "donor_ops": "Conv:1 Cast:1 Sign:1 ConvInteger:1 ScatterElements:1 Squeeze:1 Gather:1 Equal:1"
+  },
+  {
+   "donor": "task242",
+   "sim": 0.282,
+   "donor_pts": 18.954995,
+   "donor_ops": "Einsum:2 Cast:2 Concat:1 Add:1 Slice:1 Pad:1"
+  }
+ ],
+ "395": [
+  {
+   "donor": "task227",
+   "sim": 0.958,
+   "donor_pts": 20.456705,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  },
+  {
+   "donor": "task321",
+   "sim": 0.945,
+   "donor_pts": 19.807043,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task144",
+   "sim": 0.932,
+   "donor_pts": 20.39483,
+   "donor_ops": "Conv:1"
+  }
+ ],
+ "396": [
+  {
+   "donor": "task300",
+   "sim": 0.668,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  },
+  {
+   "donor": "task098",
+   "sim": 0.528,
+   "donor_pts": 19.401578,
+   "donor_ops": "Conv:1"
+  },
+  {
+   "donor": "task128",
+   "sim": 0.521,
+   "donor_pts": 20.087345,
+   "donor_ops": "Einsum:1"
+  }
+ ],
+ "397": [
+  {
+   "donor": "task121",
+   "sim": 0.645,
+   "donor_pts": 19.379599,
+   "donor_ops": "Cast:10 Add:5 Concat:4 Gather:3 Einsum:2 Slice:2 And:1 Squeeze:1"
+  },
+  {
+   "donor": "task393",
+   "sim": 0.582,
+   "donor_pts": 20.237826,
+   "donor_ops": "Sub:4 ReduceL1:1 Cast:1 Split:1 ReduceMax:1 ReduceMin:1 Add:1 Concat:1"
+  },
+  {
+   "donor": "task300",
+   "sim": 0.582,
+   "donor_pts": 19.102846,
+   "donor_ops": "Cast:5 Einsum:3 Mul:3 Log:2 Div:2 Sub:2 Concat:2 ReduceMax:2"
+  }
+ ],
+ "398": [
+  {
+   "donor": "task140",
+   "sim": 0.708,
+   "donor_pts": 23.390562,
+   "donor_ops": "RoiAlign:1"
+  },
+  {
+   "donor": "task373",
+   "sim": 0.679,
+   "donor_pts": 21.598803,
+   "donor_ops": "Einsum:1"
+  },
+  {
+   "donor": "task127",
+   "sim": 0.587,
+   "donor_pts": 19.200907,
+   "donor_ops": "Conv:1 ConvTranspose:1"
+  }
+ ],
+ "400": [
+  {
+   "donor": "task342",
+   "sim": 0.504,
+   "donor_pts": 18.964519,
+   "donor_ops": "Einsum:4"
+  },
+  {
+   "donor": "task383",
+   "sim": 0.401,
+   "donor_pts": 18.373282,
+   "donor_ops": "Concat:5 Einsum:3 ArgMax:2 ReduceMax:2 Add:2 Slice:2"
+  },
+  {
+   "donor": "task242",
+   "sim": 0.33,
+   "donor_pts": 18.954995,
+   "donor_ops": "Einsum:2 Cast:2 Concat:1 Add:1 Slice:1 Pad:1"
+  }
+ ]
+}

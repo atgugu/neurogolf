@@ -1,0 +1,558 @@
+{
+ "library": "compile_exemplars",
+ "source_bytes": "/workspace/concise_docs/study7300/extracted/7431/",
+ "cost_truth": "rescore_results.jsonl (SHA-verified scorer); delta = points(7431) - points(7384)",
+ "exemplars": [
+  {
+   "task": 293,
+   "file": "task293.md",
+   "mechanisms": [
+    "relational/pairwise-input2"
+   ],
+   "cost": 40,
+   "points": 21.3111,
+   "delta": 3.2098,
+   "terminal_op": "Einsum",
+   "equation": "bpij,akuv,dmih,mx,enlj,ny,ks,zs,ps->bkij",
+   "all_equations": [
+    "bpij,akuv,dmih,mx,enlj,ny,ks,zs,ps->bkij"
+   ],
+   "n_nodes": 1,
+   "params": 40,
+   "memory": 0
+  },
+  {
+   "task": 78,
+   "file": "task078.md",
+   "mechanisms": [
+    "relational/pairwise-input2"
+   ],
+   "cost": 82,
+   "points": 20.5933,
+   "delta": 2.2266,
+   "terminal_op": "Einsum",
+   "equation": "nirc,njsc,po,pi,pi,hj,qj,hq,qr->norc",
+   "all_equations": [
+    "nirc,njsc,po,pi,pi,hj,qj,hq,qr->norc"
+   ],
+   "n_nodes": 1,
+   "params": 82,
+   "memory": 0
+  },
+  {
+   "task": 52,
+   "file": "task052.md",
+   "mechanisms": [
+    "selector-render"
+   ],
+   "cost": 30,
+   "points": 21.5988,
+   "delta": 1.8667,
+   "terminal_op": "Einsum",
+   "equation": "bkhi,sk,blhj,sl,so,bmhc->bohc",
+   "all_equations": [
+    "bkhi,sk,blhj,sl,so,bmhc->bohc"
+   ],
+   "n_nodes": 1,
+   "params": 30,
+   "memory": 0
+  },
+  {
+   "task": 188,
+   "file": "task188.md",
+   "mechanisms": [
+    "boolean-selectors-sentinels"
+   ],
+   "cost": 113,
+   "points": 20.2726,
+   "delta": 1.8006,
+   "terminal_op": "Einsum",
+   "equation": "nkhw,p,ph,q,qw->nkhw",
+   "all_equations": [
+    "nkhw->n",
+    "nkhw,pw,pw->n",
+    "nkhw,ph,ph->n",
+    "nkhw,nkzw,ph->n",
+    "nkhw,p,ph,q,qw->nkhw"
+   ],
+   "n_nodes": 16,
+   "params": 60,
+   "memory": 53
+  },
+  {
+   "task": 310,
+   "file": "task310.md",
+   "mechanisms": [
+    "exotic-op-count",
+    "TfIdfVectorizer"
+   ],
+   "cost": 593,
+   "points": 18.6148,
+   "delta": 1.6078,
+   "terminal_op": "Einsum",
+   "equation": "hd,he,RD,RE,Dgd,Eie,g,i,buhx,bu,R,bchw,bvyw,bv,wk,wl,SK,SL,Knk,Lpl,n,p,S->bcRS",
+   "all_equations": [
+    "bchw->bc",
+    "bc,bc->b",
+    "bchw,bc,h->b",
+    "bchw,bc,w->b",
+    "hd,he,RD,RE,Dgd,Eie,g,i,buhx,bu,R,bchw,bvyw,bv,wk,wl,SK,SL,Knk,Lpl,n,p,S->bcRS"
+   ],
+   "n_nodes": 19,
+   "params": 363,
+   "memory": 230
+  },
+  {
+   "task": 362,
+   "file": "task362.md",
+   "mechanisms": [
+    "dtype+contraction"
+   ],
+   "cost": 121,
+   "points": 20.2042,
+   "delta": 1.4047,
+   "terminal_op": "Einsum",
+   "equation": "bopq,ba,bd,be,bh,ur,vr,wc,xc,aus,dvs,ews,hxs,s,o->borc",
+   "all_equations": [
+    "bkpq,k,xy->bx",
+    "bkpq,k,ap->b",
+    "bkpq,k,aq->b",
+    "bopq,ba,bd,be,bh,ur,vr,wc,xc,aus,dvs,ews,hxs,s,o->borc"
+   ],
+   "n_nodes": 9,
+   "params": 81,
+   "memory": 40
+  },
+  {
+   "task": 99,
+   "file": "task099.md",
+   "mechanisms": [
+    "counting-histogram"
+   ],
+   "cost": 504,
+   "points": 18.7774,
+   "delta": 1.0408,
+   "terminal_op": "Einsum",
+   "equation": "nkij,ts,sok,ta,ai,tb,bj,tp,pr,tq,qc->norc",
+   "all_equations": [
+    "nkij,ts,sok,ta,ai,tb,bj,tp,pr,tq,qc->norc"
+   ],
+   "n_nodes": 1,
+   "params": 504,
+   "memory": 0
+  },
+  {
+   "task": 205,
+   "file": "task205.md",
+   "mechanisms": [
+    "counting-histogram"
+   ],
+   "cost": 2084,
+   "points": 17.358,
+   "delta": 0.5453,
+   "terminal_op": "Einsum",
+   "equation": "bsk,sr,stc->bkrc",
+   "all_equations": [
+    "bkrc->bk",
+    "bkrc,bxk->bxr",
+    "bkrc,bxk->bxc",
+    "bcij->bj",
+    "bcij,bxj->bi",
+    "bcij,bi->bcj",
+    "bsk,sr,stc->bkrc"
+   ],
+   "n_nodes": 73,
+   "params": 34,
+   "memory": 2050
+  },
+  {
+   "task": 304,
+   "file": "task304.md",
+   "mechanisms": [
+    "selector-palette-recolor"
+   ],
+   "cost": 300,
+   "points": 19.2962,
+   "delta": 0.6541,
+   "terminal_op": "Einsum",
+   "equation": "bhmn,mu,nv,bhrs,bhde,tui,tvj,t,oi,pj,bqxy,xg,og,yl,pl,kq->bkop",
+   "all_equations": [
+    "bhmn,mu,nv,bhrs,bhde,tui,tvj,t,oi,pj,bqxy,xg,og,yl,pl,kq->bkop"
+   ],
+   "n_nodes": 1,
+   "params": 300,
+   "memory": 0
+  },
+  {
+   "task": 100,
+   "file": "task100.md",
+   "mechanisms": [
+    "selector-palette-recolor"
+   ],
+   "cost": 183,
+   "points": 19.7905,
+   "delta": 0.6738,
+   "terminal_op": "Pad",
+   "equation": null,
+   "all_equations": [
+    "nchw,ab->ncab",
+    "nchw,nchv,ncuw,ncuv,ab,ab->ncab"
+   ],
+   "n_nodes": 7,
+   "params": 9,
+   "memory": 174
+  },
+  {
+   "task": 73,
+   "file": "task073.md",
+   "mechanisms": [
+    "rank-factor-color"
+   ],
+   "cost": 24,
+   "points": 21.8219,
+   "delta": 0.5108,
+   "terminal_op": "Einsum",
+   "equation": "njab,ncas,ndub,pj,qc,qd,po,pq->noab",
+   "all_equations": [
+    "njab,ncas,ndub,pj,qc,qd,po,pq->noab"
+   ],
+   "n_nodes": 1,
+   "params": 24,
+   "memory": 0
+  },
+  {
+   "task": 321,
+   "file": "task321.md",
+   "mechanisms": [
+    "radix-position-factors"
+   ],
+   "cost": 180,
+   "points": 19.807,
+   "delta": 0.5108,
+   "terminal_op": "Einsum",
+   "equation": "nqrs,fq,as,fk,ac,c->nkrc",
+   "all_equations": [
+    "nqrs,fq,as,fk,ac,c->nkrc"
+   ],
+   "n_nodes": 1,
+   "params": 180,
+   "memory": 0
+  },
+  {
+   "task": 220,
+   "file": "task220.md",
+   "mechanisms": [
+    "radix-position-factors"
+   ],
+   "cost": 437,
+   "points": 18.9201,
+   "delta": 0.7225,
+   "terminal_op": "Einsum",
+   "equation": "nchw,ti,ic,ts,sl,lp,p,la,ah,lb,bh,ld,dw,le,ew,tu,um,mq,q,mf,fh,mg,gh,mj,jw,mk,kw,tv,vr,ry,y,rA,Ah,rB,Bh,rD,Dw,rE,Ew->nthw",
+   "all_equations": [
+    "nchw,ic,i,qh->q",
+    "nchw,ic,i,aw,qa->q",
+    "a,a,k->k",
+    "nchw,ic,i,qh->q",
+    "nchw,ic,i,aw,qa->q",
+    "a,a,k->k",
+    "nchw,ic,i,qh->q",
+    "nchw,ic,i,aw,qa->q",
+    "a,a,k->k",
+    "nchw,ti,ic,ts,sl,lp,p,la,ah,lb,bh,ld,dw,le,ew,tu,um,mq,q,mf,fh,mg,gh,mj,jw,mk,kw,tv,vr,ry,y,rA,Ah,rB,Bh,rD,Dw,rE,Ew->nthw"
+   ],
+   "n_nodes": 19,
+   "params": 305,
+   "memory": 132
+  },
+  {
+   "task": 257,
+   "file": "task257.md",
+   "mechanisms": [
+    "trig/fourier-color"
+   ],
+   "cost": 114,
+   "points": 20.2638,
+   "delta": 1.2553,
+   "terminal_op": "Einsum",
+   "equation": "nihw,ph,pr,qh,sr,qs,th,ur,ut,vw,vc,jw,kc,jk,lw,mc,ml,r,c,ao,ai,bo,xi,bx,do,yi,yd->norc",
+   "all_equations": [
+    "nihw,ph,pr,qh,sr,qs,th,ur,ut,vw,vc,jw,kc,jk,lw,mc,ml,r,c,ao,ai,bo,xi,bx,do,yi,yd->norc"
+   ],
+   "n_nodes": 1,
+   "params": 114,
+   "memory": 0
+  },
+  {
+   "task": 344,
+   "file": "task344.md",
+   "mechanisms": [
+    "factor-geometry"
+   ],
+   "cost": 692,
+   "points": 18.4604,
+   "delta": 0.2739,
+   "terminal_op": "Einsum",
+   "equation": "bnij,iv,jw,pvl,qwl,rp,sq,ok,nk,kl->bors",
+   "all_equations": [
+    "bnij,iv,jw,pvl,qwl,rp,sq,ok,nk,kl->bors"
+   ],
+   "n_nodes": 1,
+   "params": 692,
+   "memory": 0
+  },
+  {
+   "task": 296,
+   "file": "task296.md",
+   "mechanisms": [
+    "factor-geometry"
+   ],
+   "cost": 90,
+   "points": 20.5002,
+   "delta": 1.2496,
+   "terminal_op": "Conv",
+   "equation": null,
+   "all_equations": [],
+   "n_nodes": 1,
+   "params": 90,
+   "memory": 0
+  },
+  {
+   "task": 1,
+   "file": "task001.md",
+   "mechanisms": [
+    "mode-dim-packing"
+   ],
+   "cost": 190,
+   "points": 19.753,
+   "delta": 0.1911,
+   "terminal_op": "Einsum",
+   "equation": "ncab,ndpq,c,d,uri,vpi,usj,wqj->ncrs",
+   "all_equations": [
+    "ncab,ndpq,c,d,uri,vpi,usj,wqj->ncrs"
+   ],
+   "n_nodes": 1,
+   "params": 190,
+   "memory": 0
+  },
+  {
+   "task": 373,
+   "file": "task373.md",
+   "mechanisms": [
+    "factor-reuse"
+   ],
+   "cost": 30,
+   "points": 21.5988,
+   "delta": 0.6931,
+   "terminal_op": "Einsum",
+   "equation": "bchw,bdrv,h,r,s->bcrs",
+   "all_equations": [
+    "bchw,bdrv,h,r,s->bcrs"
+   ],
+   "n_nodes": 1,
+   "params": 30,
+   "memory": 0
+  },
+  {
+   "task": 287,
+   "file": "task287.md",
+   "mechanisms": [
+    "factor-dedup"
+   ],
+   "cost": 190,
+   "points": 19.753,
+   "delta": 0.2744,
+   "terminal_op": "Einsum",
+   "equation": "nkhw,uh,ur,vh,vr,xw,xs,yw,ys,k->nkrs",
+   "all_equations": [
+    "nkhw,uh,ur,vh,vr,xw,xs,yw,ys,k->nkrs"
+   ],
+   "n_nodes": 1,
+   "params": 190,
+   "memory": 0
+  },
+  {
+   "task": 249,
+   "file": "task249.md",
+   "mechanisms": [
+    "arithmetic-replaces-table"
+   ],
+   "cost": 206,
+   "points": 19.6721,
+   "delta": 0.2366,
+   "terminal_op": "Gather",
+   "equation": null,
+   "all_equations": [],
+   "n_nodes": 8,
+   "params": 23,
+   "memory": 183
+  },
+  {
+   "task": 290,
+   "file": "task290.md",
+   "mechanisms": [
+    "arithmetic-replaces-table"
+   ],
+   "cost": 283,
+   "points": 19.3546,
+   "delta": 0.2267,
+   "terminal_op": "Einsum",
+   "equation": "bk,t,bti,btj->bkij",
+   "all_equations": [
+    "bchw,c->bc",
+    "bk,t,bti,btj->bkij"
+   ],
+   "n_nodes": 17,
+   "params": 17,
+   "memory": 266
+  },
+  {
+   "task": 231,
+   "file": "task231.md",
+   "mechanisms": [
+    "arithmetic-replaces-table"
+   ],
+   "cost": 168,
+   "points": 19.876,
+   "delta": 0.1592,
+   "terminal_op": "Gather",
+   "equation": null,
+   "all_equations": [
+    "bchw->"
+   ],
+   "n_nodes": 14,
+   "params": 12,
+   "memory": 156
+  },
+  {
+   "task": 254,
+   "file": "task254.md",
+   "mechanisms": [
+    "crop-placement-attrs"
+   ],
+   "cost": 254,
+   "points": 19.4627,
+   "delta": 0.9473,
+   "terminal_op": "Einsum",
+   "equation": "nchw,aj,bj,tw,uw,vw,sw,jt,ju,jv,js,kc,abkp,po->nohw",
+   "all_equations": [
+    "nchw,kc,mq,th,uh,vh,sh,qt,qu,qv,qs,aw,bw,dw,ew,ja,jb,jd,je->mj",
+    "nchw,aj,bj,tw,uw,vw,sw,jt,ju,jv,js,kc,abkp,po->nohw"
+   ],
+   "n_nodes": 4,
+   "params": 166,
+   "memory": 88
+  },
+  {
+   "task": 72,
+   "file": "task072.md",
+   "mechanisms": [
+    "conv-attr-geometry"
+   ],
+   "cost": 180,
+   "points": 19.807,
+   "delta": 0.6001,
+   "terminal_op": "ConvInteger",
+   "equation": null,
+   "all_equations": [],
+   "n_nodes": 3,
+   "params": 30,
+   "memory": 150
+  },
+  {
+   "task": 6,
+   "file": "task006.md",
+   "mechanisms": [
+    "conv-attr-geometry"
+   ],
+   "cost": 66,
+   "points": 20.8103,
+   "delta": 0.4155,
+   "terminal_op": "Conv",
+   "equation": null,
+   "all_equations": [],
+   "n_nodes": 2,
+   "params": 30,
+   "memory": 36
+  },
+  {
+   "task": 161,
+   "file": "task161.md",
+   "mechanisms": [
+    "compiled-terminal-einsum"
+   ],
+   "cost": 275,
+   "points": 19.3832,
+   "delta": 0.9735,
+   "terminal_op": "Einsum",
+   "equation": "bk,st,sm,bmrx,x,tn,bnyc,y->bkrc",
+   "all_equations": [
+    "bkrc,r,c->bk",
+    "bk,st,sm,bmrx,x,tn,bnyc,y->bkrc"
+   ],
+   "n_nodes": 6,
+   "params": 85,
+   "memory": 190
+  },
+  {
+   "task": 114,
+   "file": "task114.md",
+   "mechanisms": [
+    "compiled-terminal-einsum"
+   ],
+   "cost": 251,
+   "points": 19.4745,
+   "delta": 0.9607,
+   "terminal_op": "Einsum",
+   "equation": "nkij,ai,bj,uxp,pa,vyq,qb,xr,yc,fk,go,tgf,tuv->norc",
+   "all_equations": [
+    "nkij,ai,bj,uxp,pa,vyq,qb,xr,yc,fk,go,tgf,tuv->norc"
+   ],
+   "n_nodes": 1,
+   "params": 251,
+   "memory": 0
+  },
+  {
+   "task": 139,
+   "file": "task139.md",
+   "mechanisms": [
+    "compiled-terminal-einsum"
+   ],
+   "cost": 389,
+   "points": 19.0364,
+   "delta": 0.7396,
+   "terminal_op": "Einsum",
+   "equation": "narc,nxq,lk,ks,sa,ko,bq,blu,ur,blv,vc->norc",
+   "all_equations": [
+    "narc,nxq,lk,ks,sa,ko,bq,blu,ur,blv,vc->norc"
+   ],
+   "n_nodes": 2,
+   "params": 373,
+   "memory": 16
+  },
+  {
+   "task": 272,
+   "file": "task272.md",
+   "mechanisms": [
+    "compiled-terminal-einsum"
+   ],
+   "cost": 148,
+   "points": 20.0028,
+   "delta": 0.9992,
+   "terminal_op": "Einsum",
+   "equation": "njkc,pj,abk,ag,abr,nmrl,qm,del,dh,dec,nirc,xi,xo,xpq->norc",
+   "all_equations": [
+    "njkc,pj,abk,ag,abr,nmrl,qm,del,dh,dec,nirc,xi,xo,xpq->norc"
+   ],
+   "n_nodes": 1,
+   "params": 148,
+   "memory": 0
+  }
+ ],
+ "skipped": [
+  {
+   "task": 267,
+   "reason": "task_comparison MD absent and task absent from rescore_results.jsonl; packs/task267 shows no banked fleet win (local frontier delta +0.000 over pin) and is not referenced by the comparison MDs \u2014 dropped per brief ('use packs if referenced in MDs \u2014 otherwise drop'). 7431 bytes DO exist at extracted/7431/task267.onnx if later needed."
+  }
+ ]
+}

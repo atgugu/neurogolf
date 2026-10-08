@@ -1,0 +1,10 @@
+{
+  "_comment": "Synthetic demo task (NOT competition data) — just drives one forward pass so the scorer can measure memory. Pricing = params + memory is independent of correctness.",
+  "train": [
+    {"input": [[1, 2, 0], [0, 3, 4], [5, 0, 6]], "output": [[1, 2, 0], [0, 3, 4], [5, 0, 6]]}
+  ],
+  "test": [
+    {"input": [[7, 0], [0, 8]], "output": [[7, 0], [0, 8]]}
+  ],
+  "arc-gen": []
+}

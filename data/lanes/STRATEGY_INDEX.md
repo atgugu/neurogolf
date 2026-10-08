@@ -1,0 +1,328 @@
+# STRATEGY INDEX — one tailored line per queued task
+
+- task046 [B] 17.75→cost≤1211: **PLANE-KILL + u8 RELOWER** — 490B (36%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task069 [B] 17.81→cost≤1138: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task213 [G] 18.44→cost≤608: **PLANE-KILL + u8 RELOWER** — 248B (40%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task035 [G] 18.40→cost≤633: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task165 [A] 17.20→cost≤2312: **CROP-NATIVE (certified)** — ~620B of planes exceed the source-certified bound M=20; Slice→compute at native size→Pad
+- task297 [G] 18.47→cost≤592: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task107 [C] 17.36→cost≤1791: **INIT-PACK** — params are 100% of cost (2082) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task096 [C] 17.10→cost≤2328: **EINSUM-COMPRESS** — 3×Einsum — merge contractions, shrink operand tables
+- task378 [A] 17.57→cost≤1597: **CROP-NATIVE (certified)** — ~918B of planes exceed the source-certified bound M=12; Slice→compute at native size→Pad
+- task009 [C] 17.00→cost≤2563: **PLANE-KILL + u8 RELOWER** — 1200B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task110 [B] 17.64→cost≤1350: **PLANE-KILL + u8 RELOWER** — 780B (80%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task340 [B] 17.44→cost≤1657: **PLANE-KILL + u8 RELOWER** — 656B (35%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task398 [B] 17.76→cost≤1194: **INIT-PACK** — params are 100% of cost (1388) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task390 [A] 18.06→cost≤986: **INIT-PACK** — params are 100% of cost (1037) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task086 [B] 17.53→cost≤1515: **PLANE-KILL + u8 RELOWER** — 676B (42%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task387 [B] 17.60→cost≤1403: **PLANE-KILL + u8 RELOWER** — 808B (82%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task091 [A] 17.66→cost≤1469: **PLANE-KILL + u8 RELOWER** — 288B (88%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task265 [B] 17.99→cost≤950: **INIT-PACK** — params are 100% of cost (1104) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task284 [B] 17.81→cost≤1144: **PLANE-KILL + u8 RELOWER** — 920B (96%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task154 [B] 17.92→cost≤1022: **INIT-PACK** — params are 100% of cost (1188) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task370 [D] 16.99→cost≤2581: **CROP-NATIVE (certified)** — ~889B of planes exceed the source-certified bound M=20; Slice→compute at native size→Pad
+- task255 [D] 16.62→cost≤3753: **PLANE-KILL + u8 RELOWER** — 2688B (65%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task343 [H] 19.41→cost≤230: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task185 [B] 18.20→cost≤776: **PLANE-KILL + u8 RELOWER** — 528B (72%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task368 [B] 18.20→cost≤770: **PLANE-KILL + u8 RELOWER** — 400B (47%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task239 [G] 18.75→cost≤444: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task148 [B] 18.17→cost≤792: **PLANE-KILL + u8 RELOWER** — 408B (58%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task015 [G] 18.93→cost≤371: **INIT-PACK** — params are 100% of cost (432) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task004 [C] 18.07→cost≤881: **PLANE-KILL + u8 RELOWER** — 128B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task214 [H] 19.62→cost≤186: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task071 [B] 18.29→cost≤709: **PLANE-KILL + u8 RELOWER** — 376B (48%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task088 [B] 18.17→cost≤794: **PLANE-KILL + u8 RELOWER** — 596B (70%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task137 [B] 18.10→cost≤850: **PLANE-KILL + u8 RELOWER** — 384B (42%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task383 [B] 18.37→cost≤649: **PLANE-KILL + u8 RELOWER** — 608B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task085 [B] 18.19→cost≤783: **PLANE-KILL + u8 RELOWER** — 600B (98%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task354 [A] 18.67→cost≤534: **INIT-PACK** — params are 100% of cost (562) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task094 [B] 18.47→cost≤588: **PLANE-KILL + u8 RELOWER** — 400B (82%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task250 [B] 18.28→cost≤710: **PLANE-KILL + u8 RELOWER** — 192B (43%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task346 [G] 18.71→cost≤464: **INIT-PACK** — params are 100% of cost (540) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task345 [G] 18.76→cost≤439: **INIT-PACK** — params are 100% of cost (511) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task246 [A] 19.02→cost≤377: **PLANE-KILL + u8 RELOWER** — 64B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task030 [B] 18.49→cost≤580: **PLANE-KILL + u8 RELOWER** — 116B (76%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task109 [B] 18.36→cost≤660: **PLANE-KILL + u8 RELOWER** — 68B (70%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task381 [B] 19.14→cost≤301: **INIT-PACK** — params are 100% of cost (350) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task190 [B] 18.37→cost≤654: **PLANE-KILL + u8 RELOWER** — 296B (60%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task301 [B] 18.84→cost≤407: **INIT-PACK** — params are 100% of cost (474) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task036 [G] 18.55→cost≤543: **PLANE-KILL + u8 RELOWER** — 228B (46%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task156 [B] 18.87→cost≤395: **INIT-PACK** — params are 100% of cost (460) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task233 [D] 14.65→cost≤26868: **PLANE-KILL + u8 RELOWER** — 14310B (47%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task366 [D] 14.77→cost≤23873: **LUT-REFINE** — 45×Gather — fewer/smaller tables, index arithmetic
+- task286 [D] 14.95→cost≤19902: **COMPRESSED SCHEDULE** — 2941 bitwise nodes — fewer propagation rounds / packed state; NEVER more unroll
+- task018 [C] 15.05→cost≤18030: **PLANE-KILL + u8 RELOWER** — 7414B (36%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task285 [D] 15.26→cost≤14622: **PLANE-KILL + u8 RELOWER** — 7602B (45%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task133 [D] 15.46→cost≤12005: **PLANE-KILL + u8 RELOWER** — 5592B (40%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task101 [D] 15.64→cost≤10041: **PLANE-KILL + u8 RELOWER** — 6104B (54%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task187 [D] 15.68→cost≤9560: **COMPRESSED SCHEDULE** — 57 bitwise nodes — fewer propagation rounds / packed state; NEVER more unroll
+- task367 [C] 15.72→cost≤9256: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task002 [D] 15.89→cost≤7762: **COMPRESSED SCHEDULE** — 78 bitwise nodes — fewer propagation rounds / packed state; NEVER more unroll
+- task138 [D] 15.78→cost≤8696: **EINSUM-COMPRESS** — 2×Einsum — merge contractions, shrink operand tables
+- task118 [D] 15.93→cost≤7487: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task243 [D] 16.00→cost≤6991: **COMPRESSED SCHEDULE** — 1201 bitwise nodes — fewer propagation rounds / packed state; NEVER more unroll
+- task023 [C] 16.11→cost≤6234: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task025 [D] 16.34→cost≤4974: **PLANE-KILL + u8 RELOWER** — 5228B (92%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task182 [C] 16.36→cost≤4861: **PLANE-KILL + u8 RELOWER** — 2496B (44%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task066 [D] 16.43→cost≤4522: **LUT-REFINE** — 9×Gather — fewer/smaller tables, index arithmetic
+- task279 [C] 16.47→cost≤4355: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task328 [C] 16.55→cost≤4024: **PLANE-KILL + u8 RELOWER** — 1476B (39%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task029 [C] 16.59→cost≤3871: **TERMINAL-RENDERER FIX** — the final GridSample's input is 3600B but the output tensor is FREE — restructure so the LAST op does the full
+- task319 [C] 16.65→cost≤3627: **COMPRESSED SCHEDULE** — 28 bitwise nodes — fewer propagation rounds / packed state; NEVER more unroll
+- task005 [C] 16.67→cost≤3577: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task379 [C] 16.67→cost≤3571: **PLANE-KILL + u8 RELOWER** — 1358B (41%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task196 [C] 16.68→cost≤3529: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task157 [D] 16.70→cost≤3476: **LUT-REFINE** — 29×Gather — fewer/smaller tables, index arithmetic
+- task208 [C] 16.74→cost≤3333: **PLANE-KILL + u8 RELOWER** — 1684B (44%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task131 [C] 16.92→cost≤2792: **TERMINAL-RENDERER FIX** — the final ScatterND's input is 1600B but the output tensor is FREE — restructure so the LAST op does the full 
+- task278 [C] 16.81→cost≤3101: **PLANE-KILL + u8 RELOWER** — 1296B (37%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task382 [C] 16.83→cost≤3034: **PLANE-KILL + u8 RELOWER** — 1162B (43%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task089 [C] 16.83→cost≤3027: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task162 [C] 16.84→cost≤3011: **PLANE-KILL + u8 RELOWER** — 1296B (39%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task192 [C] 16.90→cost≤2829: **EINSUM-COMPRESS** — 3×Einsum — merge contractions, shrink operand tables
+- task361 [C] 16.91→cost≤2800: **PLANE-KILL + u8 RELOWER** — 1106B (38%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task280 [C] 16.94→cost≤2711: **PLANE-KILL + u8 RELOWER** — 1368B (58%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task044 [C] 16.99→cost≤2593: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task201 [B] 17.05→cost≤2445: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task117 [C] 17.06→cost≤2409: **PLANE-KILL + u8 RELOWER** — 488B (57%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task277 [B] 17.08→cost≤2360: **MORPHOLOGY ROUND-CAP** — 7×MaxPool/0×Conv iteration chain — cap rounds via certified diameter (M=10), or one big-kernel dilation where 
+- task125 [B] 17.12→cost≤2275: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task222 [B] 17.12→cost≤2273: **PLANE-KILL + u8 RELOWER** — 1224B (48%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task014 [B] 17.16→cost≤2187: **PLANE-KILL + u8 RELOWER** — 612B (36%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task251 [A] 17.16→cost≤2407: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task092 [B] 17.19→cost≤2125: **PLANE-KILL + u8 RELOWER** — 1412B (60%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task090 [B] 17.20→cost≤2105: **PLANE-KILL + u8 RELOWER** — 968B (46%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task359 [B] 17.49→cost≤1571: **EINSUM-COMPRESS** — 6×Einsum — merge contractions, shrink operand tables
+- task008 [B] 17.25→cost≤2000: **PLANE-KILL + u8 RELOWER** — 1104B (48%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task234 [B] 17.29→cost≤1927: **PLANE-KILL + u8 RELOWER** — 1064B (49%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task102 [B] 17.30→cost≤1905: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task358 [B] 17.32→cost≤1871: **PLANE-KILL + u8 RELOWER** — 876B (44%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task268 [B] 17.48→cost≤1584: **CROP-NATIVE (certified)** — ~800B of planes exceed the source-certified bound M=10; Slice→compute at native size→Pad
+- task363 [B] 17.33→cost≤1841: **PLANE-KILL + u8 RELOWER** — 832B (45%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task174 [B] 17.34→cost≤1823: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task365 [B] 17.36→cost≤1797: **EINSUM-COMPRESS** — 2×Einsum — merge contractions, shrink operand tables
+- task205 [D] 17.37→cost≤1779: **PLANE-KILL + u8 RELOWER** — 1664B (81%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task396 [B] 17.40→cost≤1725: **EINSUM-COMPRESS** — 2×Einsum — merge contractions, shrink operand tables
+- task264 [B] 17.42→cost≤1692: **INIT-PACK** — params are 75% of cost (1484) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task330 [B] 17.48→cost≤1590: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task062 [B] 17.48→cost≤1588: **PLANE-KILL + u8 RELOWER** — 568B (37%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task397 [B] 17.53→cost≤1510: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task333 [B] 17.53→cost≤1507: **EINSUM-COMPRESS** — 3×Einsum — merge contractions, shrink operand tables
+- task170 [B] 17.56→cost≤1459: **PLANE-KILL + u8 RELOWER** — 1056B (66%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task198 [D] 17.57→cost≤1456: **PLANE-KILL + u8 RELOWER** — 28B (93%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task177 [B] 18.52→cost≤560: **INIT-PACK** — params are 100% of cost (651) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task377 [B] 17.58→cost≤1442: **PLANE-KILL + u8 RELOWER** — 830B (68%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task224 [A] 17.70→cost≤1401: **PLANE-KILL + u8 RELOWER** — 752B (65%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task168 [B] 17.66→cost≤1322: **PLANE-KILL + u8 RELOWER** — 536B (38%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task270 [B] 17.67→cost≤1318: **PLANE-KILL + u8 RELOWER** — 912B (77%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task238 [B] 17.68→cost≤1297: **EINSUM-COMPRESS** — 7×Einsum — merge contractions, shrink operand tables
+- task105 [B] 17.71→cost≤1262: **PLANE-KILL + u8 RELOWER** — 1140B (90%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task169 [B] 17.71→cost≤1256: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task112 [B] 17.73→cost≤1238: **EINSUM-COMPRESS** — 2×Einsum — merge contractions, shrink operand tables
+- task374 [B] 17.73→cost≤1235: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task184 [B] 17.77→cost≤1186: **PLANE-KILL + u8 RELOWER** — 1200B (95%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task245 [B] 17.83→cost≤1116: **EINSUM-COMPRESS** — 4×Einsum — merge contractions, shrink operand tables
+- task042 [B] 18.02→cost≤922: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task308 [B] 17.92→cost≤1023: **PLANE-KILL + u8 RELOWER** — 558B (52%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task055 [B] 17.93→cost≤1015: **PLANE-KILL + u8 RELOWER** — 752B (75%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task302 [B] 17.96→cost≤981: **INIT-PACK** — params are 100% of cost (1140) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task124 [B] 18.14→cost≤820: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task206 [B] 17.99→cost≤951: **PLANE-KILL + u8 RELOWER** — 792B (79%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task341 [G] 18.01→cost≤938: **PLANE-KILL + u8 RELOWER** — 616B (78%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task175 [B] 18.04→cost≤905: **PLANE-KILL + u8 RELOWER** — 360B (70%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task037 [B] 18.06→cost≤888: **INIT-PACK** — params are 100% of cost (1032) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task335 [G] 18.08→cost≤869: **PLANE-KILL + u8 RELOWER** — 512B (54%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task132 [B] 18.09→cost≤860: **INIT-PACK** — params are 100% of cost (1000) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task160 [G] 18.09→cost≤859: **PLANE-KILL + u8 RELOWER** — 400B (44%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task013 [G] 18.10→cost≤857: **EINSUM-COMPRESS** — 8×Einsum — merge contractions, shrink operand tables
+- task281 [G] 18.10→cost≤856: **EINSUM-COMPRESS** — 7×Einsum — merge contractions, shrink operand tables
+- task351 [G] 18.10→cost≤856: **PLANE-KILL + u8 RELOWER** — 908B (96%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task388 [G] 18.27→cost≤723: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task336 [G] 18.13→cost≤829: **PLANE-KILL + u8 RELOWER** — 400B (50%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task228 [G] 18.16→cost≤804: **PLANE-KILL + u8 RELOWER** — 624B (70%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task019 [G] 18.18→cost≤787: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task193 [G] 18.19→cost≤783: **INIT-PACK** — params are 100% of cost (910) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task097 [G] 18.19→cost≤783: **INIT-PACK** — params are 100% of cost (910) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task120 [G] 18.19→cost≤783: **INIT-PACK** — params are 100% of cost (910) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task012 [G] 18.20→cost≤774: **PLANE-KILL + u8 RELOWER** — 304B (37%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task260 [G] 18.22→cost≤755: **PLANE-KILL + u8 RELOWER** — 396B (56%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task325 [B] 18.23→cost≤753: **INIT-PACK** — params are 96% of cost (838) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task369 [G] 18.23→cost≤750: **PLANE-KILL + u8 RELOWER** — 400B (50%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task047 [G] 18.24→cost≤741: **PLANE-KILL + u8 RELOWER** — 312B (37%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task063 [G] 18.25→cost≤737: **PLANE-KILL + u8 RELOWER** — 724B (92%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task134 [G] 18.25→cost≤734: **PLANE-KILL + u8 RELOWER** — 464B (67%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task392 [G] 18.29→cost≤705: **PLANE-KILL + u8 RELOWER** — 314B (54%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task122 [G] 18.31→cost≤691: **INIT-PACK** — params are 100% of cost (803) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task027 [G] 18.33→cost≤679: **PLANE-KILL + u8 RELOWER** — 356B (69%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task061 [G] 18.34→cost≤670: **PLANE-KILL + u8 RELOWER** — 296B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task079 [G] 18.37→cost≤652: **PLANE-KILL + u8 RELOWER** — 368B (54%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task136 [G] 18.39→cost≤638: **EINSUM-COMPRESS** — 2×Einsum — merge contractions, shrink operand tables
+- task237 [G] 18.41→cost≤624: **PLANE-KILL + u8 RELOWER** — 108B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task269 [G] 18.44→cost≤609: **PLANE-KILL + u8 RELOWER** — 414B (61%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task048 [G] 18.46→cost≤593: **COMPRESSED SCHEDULE** — 342 bitwise nodes — fewer propagation rounds / packed state; NEVER more unroll
+- task020 [G] 18.48→cost≤584: **PLANE-KILL + u8 RELOWER** — 476B (76%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task189 [G] 18.53→cost≤555: **PLANE-KILL + u8 RELOWER** — 24B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task305 [G] 18.54→cost≤547: **INIT-PACK** — params are 53% of cost (340) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task400 [G] 18.55→cost≤545: **PLANE-KILL + u8 RELOWER** — 180B (41%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task288 [G] 18.56→cost≤541: **PLANE-KILL + u8 RELOWER** — 448B (78%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task159 [G] 18.57→cost≤536: **PLANE-KILL + u8 RELOWER** — 272B (86%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task218 [G] 18.57→cost≤532: **PLANE-KILL + u8 RELOWER** — 340B (61%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task289 [G] 18.58→cost≤528: **PLANE-KILL + u8 RELOWER** — 64B (92%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task310 [H] 18.61→cost≤510: **PLANE-KILL + u8 RELOWER** — 212B (92%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task031 [H] 18.63→cost≤504: **PLANE-KILL + u8 RELOWER** — 96B (42%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task259 [G] 18.63→cost≤503: **PLANE-KILL + u8 RELOWER** — 372B (70%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task273 [B] 18.64→cost≤499: **INIT-PACK** — params are 100% of cost (580) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task153 [H] 18.64→cost≤498: **PLANE-KILL + u8 RELOWER** — 216B (43%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task119 [B] 18.66→cost≤486: **PLANE-KILL + u8 RELOWER** — 236B (96%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task051 [B] 18.67→cost≤484: **PLANE-KILL + u8 RELOWER** — 246B (89%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task075 [H] 18.67→cost≤481: **INIT-PACK** — params are 100% of cost (559) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task057 [G] 18.68→cost≤479: **PLANE-KILL + u8 RELOWER** — 264B (59%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task183 [G] 18.68→cost≤477: **INIT-PACK** — params are 100% of cost (555) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task226 [G] 18.92→cost≤376: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task283 [G] 18.71→cost≤464: **PLANE-KILL + u8 RELOWER** — 400B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task065 [H] 18.73→cost≤454: **EINSUM-COMPRESS** — 4×Einsum — merge contractions, shrink operand tables
+- task275 [G] 18.74→cost≤451: **PLANE-KILL + u8 RELOWER** — 20B (95%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task178 [H] 18.74→cost≤449: **PLANE-KILL + u8 RELOWER** — 212B (45%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task394 [H] 18.75→cost≤446: **PLANE-KILL + u8 RELOWER** — 408B (94%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task294 [H] 18.75→cost≤444: **INIT-PACK** — params are 100% of cost (516) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task099 [H] 18.78→cost≤433: **INIT-PACK** — params are 100% of cost (504) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task200 [G] 18.78→cost≤432: **PLANE-KILL + u8 RELOWER** — 360B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task331 [H] 18.79→cost≤430: **PLANE-KILL + u8 RELOWER** — 400B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task384 [H] 18.82→cost≤414: **PLANE-KILL + u8 RELOWER** — 252B (58%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task271 [H] 18.83→cost≤411: **PLANE-KILL + u8 RELOWER** — 244B (67%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task081 [H] 18.86→cost≤399: **PLANE-KILL + u8 RELOWER** — 196B (50%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task247 [H] 18.87→cost≤396: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task352 [H] 18.87→cost≤395: **INIT-PACK** — params are 100% of cost (460) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task244 [H] 18.89→cost≤389: **PLANE-KILL + u8 RELOWER** — 28B (62%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task123 [H] 18.89→cost≤386: **PLANE-KILL + u8 RELOWER** — 12B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task356 [B] 18.90→cost≤385: **INIT-PACK** — params are 100% of cost (448) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task282 [H] 18.90→cost≤383: **PLANE-KILL + u8 RELOWER** — 196B (48%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task232 [G] 18.90→cost≤382: **INIT-PACK** — params are 100% of cost (444) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task143 [G] 18.92→cost≤377: **PLANE-KILL + u8 RELOWER** — 128B (79%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task220 [H] 18.92→cost≤376: **PLANE-KILL + u8 RELOWER** — 132B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task022 [G] 18.92→cost≤375: **INIT-PACK** — params are 100% of cost (436) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task263 [H] 18.92→cost≤375: **PLANE-KILL + u8 RELOWER** — 120B (38%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task327 [G] 18.95→cost≤366: **INIT-PACK** — params are 100% of cost (426) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task242 [H] 18.95→cost≤363: **PLANE-KILL + u8 RELOWER** — 332B (91%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task106 [G] 18.96→cost≤362: **INIT-PACK** — params are 100% of cost (421) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task342 [G] 18.96→cost≤359: **PLANE-KILL + u8 RELOWER** — 216B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task344 [G] 18.98→cost≤354: **INIT-PACK** — params are 100% of cost (412) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task212 [B] 18.98→cost≤354: **INIT-PACK** — params are 100% of cost (412) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task041 [H] 18.98→cost≤352: **INIT-PACK** — params are 100% of cost (410) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task050 [C] 19.22→cost≤279: **INIT-PACK** — params are 100% of cost (325) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task017 [A] 19.16→cost≤326: **PLANE-KILL + u8 RELOWER** — 80B (80%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task295 [H] 19.17→cost≤294: **INIT-PACK** — params are 100% of cost (342) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task199 [G] 19.01→cost≤344: **INIT-PACK** — params are 100% of cost (400) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task221 [G] 18.95→cost≤364: **PLANE-KILL + u8 RELOWER** — 40B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task115 [G] 19.05→cost≤331: **PLANE-KILL + u8 RELOWER** — 240B (81%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task126 [H] 19.12→cost≤308: **INIT-PACK** — params are 100% of cost (358) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task034 [B] 19.03→cost≤335: **INIT-PACK** — params are 100% of cost (390) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task348 [G] 19.12→cost≤308: **INIT-PACK** — params are 100% of cost (358) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task093 [B] 19.53→cost≤203: **PLANE-KILL + u8 RELOWER** — 24B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task323 [G] 19.21→cost≤282: **INIT-PACK** — params are 100% of cost (328) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task068 [G] 19.14→cost≤300: **PLANE-KILL + u8 RELOWER** — 88B (89%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task194 [H] 19.81→cost≤154: **INIT-PACK** — params are 100% of cost (180) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task316 [H] 19.10→cost≤314: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task195 [H] 19.18→cost≤290: **EINSUM-COMPRESS** — 2×Einsum — merge contractions, shrink operand tables
+- task197 [H] 20.50→cost≤77: **INIT-PACK** — params are 100% of cost (90) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task121 [H] 19.38→cost≤237: **PLANE-KILL + u8 RELOWER** — 84B (40%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task146 [H] 19.62→cost≤185: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task203 [H] 19.62→cost≤185: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task256 [B] 19.52→cost≤205: **PLANE-KILL + u8 RELOWER** — 28B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task249 [H] 19.67→cost≤177: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task357 [H] 19.48→cost≤215: **INIT-PACK** — params are 41% of cost (102) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task231 [H] 19.88→cost≤144: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task376 [H] 19.92→cost≤138: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task240 [H] 19.22→cost≤278: **INIT-PACK** — params are 100% of cost (324) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task151 [G] 19.71→cost≤170: **INIT-PACK** — params are 100% of cost (198) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task248 [H] 19.98→cost≤129: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task059 [H] 19.34→cost≤246: **PLANE-KILL + u8 RELOWER** — 76B (89%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task329 [H] 19.66→cost≤179: **PLANE-KILL + u8 RELOWER** — 16B (80%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task253 [H] 19.49→cost≤211: **INIT-PACK** — params are 100% of cost (246) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task021 [H] 20.01→cost≤126: **PLANE-KILL + u8 RELOWER** — 40B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task274 [H] 20.59→cost≤70: **PLANE-KILL + u8 RELOWER** — 52B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task320 [G] 20.32→cost≤92: **INIT-PACK** — params are 100% of cost (108) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task300 [H] 19.10→cost≤313: **PLANE-KILL + u8 RELOWER** — 160B (56%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task147 [H] 19.65→cost≤180: **INIT-PACK** — params are 100% of cost (210) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task371 [H] 20.04→cost≤122: **INIT-PACK** — params are 100% of cost (142) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task039 [H] 19.31→cost≤255: **PLANE-KILL + u8 RELOWER** — 52B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task171 [H] 20.11→cost≤114: **INIT-PACK** — params are 100% of cost (133) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task043 [G] 20.94→cost≤49: **INIT-PACK** — params are 100% of cost (58) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task225 [G] 19.11→cost≤312: **INIT-PACK** — params are 100% of cost (363) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task139 [H] 19.89→cost≤142: **INIT-PACK** — params are 100% of cost (166) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task304 [H] 19.30→cost≤258: **INIT-PACK** — params are 100% of cost (300) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task254 [H] 19.46→cost≤218: **PLANE-KILL + u8 RELOWER** — 88B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task114 [H] 19.47→cost≤216: **INIT-PACK** — params are 100% of cost (251) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task267 [H] 19.92→cost≤138: **PLANE-KILL + u8 RELOWER** — 36B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task303 [H] 21.01→cost≤46: **INIT-PACK** — params are 100% of cost (54) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task188 [H] 20.27→cost≤97: **PLANE-KILL + u8 RELOWER** — 48B (90%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task322 [H] 20.70→cost≤63: **INIT-PACK** — params are 100% of cost (74) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task033 [G] 19.41→cost≤230: **INIT-PACK** — params are 100% of cost (268) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task141 [H] 19.94→cost≤135: **PLANE-KILL + u8 RELOWER** — 16B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task161 [H] 19.38→cost≤236: **PLANE-KILL + u8 RELOWER** — 160B (84%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task098 [H] 19.40→cost≤232: **INIT-PACK** — params are 100% of cost (270) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task127 [H] 19.20→cost≤284: **PLANE-KILL + u8 RELOWER** — 120B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task070 [H] 19.81→cost≤154: **PLANE-KILL + u8 RELOWER** — 32B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task032 [H] 19.30→cost≤258: **INIT-PACK** — params are 100% of cost (300) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task181 [H] 19.09→cost≤316: **PLANE-KILL + u8 RELOWER** — 200B (99%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task010 [H] 19.46→cost≤218: **PLANE-KILL + u8 RELOWER** — 48B (52%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task049 [H] 19.37→cost≤240: **PLANE-KILL + u8 RELOWER** — 94B (45%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task360 [H] 19.35→cost≤244: **INIT-PACK** — params are 100% of cost (284) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task011 [H] 19.46→cost≤218: **INIT-PACK** — params are 100% of cost (254) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task111 [H] 19.38→cost≤238: **EINSUM-COMPRESS** — 4×Einsum — merge contractions, shrink operand tables
+- task108 [H] 19.99→cost≤129: **INIT-PACK** — params are 100% of cost (150) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task306 [H] 19.61→cost≤189: **INIT-PACK** — params are 100% of cost (220) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task290 [H] 19.35→cost≤243: **PLANE-KILL + u8 RELOWER** — 266B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task355 [H] 19.39→cost≤235: **PLANE-KILL + u8 RELOWER** — 244B (92%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task211 [H] 20.38→cost≤87: **INIT-PACK** — params are 100% of cost (102) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task353 [H] 19.53→cost≤204: **PLANE-KILL + u8 RELOWER** — 144B (81%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task315 [H] 19.88→cost≤144: **INIT-PACK** — params are 100% of cost (168) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task215 [H] 20.39→cost≤86: **INIT-PACK** — params are 100% of cost (100) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task038 [H] 19.64→cost≤183: **PLANE-KILL + u8 RELOWER** — 148B (90%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task058 [H] 19.90→cost≤141: **PLANE-KILL + u8 RELOWER** — 24B (92%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task386 [H] 20.63→cost≤67: **PLANE-KILL + u8 RELOWER** — 48B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task083 [H] 20.23→cost≤101: **INIT-PACK** — params are 100% of cost (118) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task180 [H] 20.26→cost≤98: **INIT-PACK** — params are 100% of cost (114) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task095 [H] 19.82→cost≤153: **INIT-PACK** — params are 100% of cost (178) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task026 [H] 20.49→cost≤78: **PLANE-KILL + u8 RELOWER** — 60B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task217 [H] 19.70→cost≤172: **INIT-PACK** — params are 100% of cost (200) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task261 [H] 19.70→cost≤172: **INIT-PACK** — params are 100% of cost (200) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task372 [H] 19.70→cost≤172: **INIT-PACK** — params are 100% of cost (200) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task001 [H] 19.75→cost≤163: **INIT-PACK** — params are 100% of cost (190) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task082 [H] 19.75→cost≤163: **INIT-PACK** — params are 100% of cost (190) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task287 [H] 19.96→cost≤132: **INIT-PACK** — params are 100% of cost (154) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task100 [H] 20.27→cost≤97: **PLANE-KILL + u8 RELOWER** — 44B (46%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task072 [H] 19.81→cost≤154: **PLANE-KILL + u8 RELOWER** — 120B (80%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task229 [H] 19.81→cost≤154: **PLANE-KILL + u8 RELOWER** — 80B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task321 [H] 19.81→cost≤154: **INIT-PACK** — params are 100% of cost (180) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task266 [H] 20.02→cost≤125: **PLANE-KILL + u8 RELOWER** — 60B (57%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task313 [H] 19.84→cost≤149: **INIT-PACK** — params are 100% of cost (174) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task375 [H] 20.46→cost≤80: **INIT-PACK** — params are 100% of cost (94) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task176 [H] 20.52→cost≤75: **INIT-PACK** — params are 100% of cost (88) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task391 [H] 20.18→cost≤106: **PLANE-KILL + u8 RELOWER** — 40B (39%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task395 [H] 20.81→cost≤56: **PLANE-KILL + u8 RELOWER** — 36B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task258 [H] 19.99→cost≤129: **INIT-PACK** — params are 100% of cost (150) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task272 [H] 20.00→cost≤127: **INIT-PACK** — params are 100% of cost (148) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task317 [H] 20.42→cost≤84: **INIT-PACK** — params are 100% of cost (98) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task135 [H] 20.03→cost≤123: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task347 [H] 20.04→cost≤123: **PLANE-KILL + u8 RELOWER** — 108B (92%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task339 [H] 20.52→cost≤75: **INIT-PACK** — params are 100% of cost (88) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task003 [H] 20.07→cost≤119: **PLANE-KILL + u8 RELOWER** — 48B (41%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task155 [H] 20.07→cost≤118: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task149 [H] 20.09→cost≤117: **PLANE-KILL + u8 RELOWER** — 36B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task150 [H] 20.09→cost≤116: **REBUILD-FROM-RULE** — no dominant structural weakness — rebuild from the rule with a terminal renderer and u8 working set
+- task060 [H] 20.29→cost≤95: **INIT-PACK** — params are 100% of cost (111) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task235 [H] 20.31→cost≤93: **PLANE-KILL + u8 RELOWER** — 12B (36%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task236 [H] 20.30→cost≤94: **PLANE-KILL + u8 RELOWER** — 64B (80%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task362 [H] 20.36→cost≤89: **INIT-PACK** — params are 100% of cost (104) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task104 [H] 20.39→cost≤86: **INIT-PACK** — params are 100% of cost (100) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task393 [H] 20.24→cost≤100: **PLANE-KILL + u8 RELOWER** — 40B (38%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task207 [H] 20.26→cost≤98: **INIT-PACK** — params are 100% of cost (114) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task257 [H] 20.26→cost≤98: **INIT-PACK** — params are 100% of cost (114) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task186 [H] 20.71→cost≤62: **INIT-PACK** — params are 45% of cost (33) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task227 [H] 20.46→cost≤80: **PLANE-KILL + u8 RELOWER** — 64B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task314 [H] 20.39→cost≤86: **INIT-PACK** — params are 100% of cost (100) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task318 [H] 20.45→cost≤81: **PLANE-KILL + u8 RELOWER** — 64B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task202 [H] 19.08→cost≤321: **PLANE-KILL + u8 RELOWER** — 16B (76%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
+- task163 [G] 19.26→cost≤266: **INIT-PACK** — params are 100% of cost (310) — pack tables into int64 (64 bits/unit), factorize/dedupe initializers
+- task084 [H] 19.48→cost≤214: **PLANE-KILL + u8 RELOWER** — 16B (100%) sits in fp32/f16/i64 tensors — value-exact relower to uint8/bool, compose in u8
